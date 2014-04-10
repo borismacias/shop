@@ -9,6 +9,10 @@
 	font-style: normal;
 }
 
+.footer-chico{
+	font-size: 13px;
+}
+
 .icon-angle-left, .icon-angle-right, .icon-angle-up, .icon-angle-down, .icon-twitter, .icon-heart, .icon-envelop, .icon-tag, .icon-star, .icon-star-2, .icon-star-3, .icon-facebook, .icon-feed, .icon-close, .icon-checkmark, .icon-menu, .icon-plus, .icon-minus, .icon-instagram, .icon-google-plus, .icon-pinterest, .icon-search, .icon-skype, .icon-dribbble, .icon-users, .icon-certificate, .icon-expand, .icon-linkedin, .icon-map-pin-fill, .icon-pen-alt-fill, .icon-youtube, .icon-flickr, .icon-clock, .icon-inner {
 	font-family: 'icomoon'!important;
 	speak: none!important;

@@ -310,6 +310,9 @@ if (strpos($flatsome_opt['header_bg'],'#fff') !== false || $flatsome_opt['nav_po
 	<?php  if(function_exists('wc_print_notices')) {wc_print_notices();} else {woocommerce_show_messages();} ?>
 <?php } ?>	
 
+<!-- Headers personalizados!!! -->
+
+
 <?php if(is_page(array('carro','lista-de-favoritos','mi-cuenta'))){?>
 	<?php if(in_array( 'nextend-facebook-connect/nextend-facebook-connect.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) && $flatsome_opt['facebook_login'] && get_option('woocommerce_enable_myaccount_registration')=='yes' && !is_user_logged_in())  { ?> 
 	<div id="facebook-login" class="ux_banner dark" style="height:180px">
@@ -323,3 +326,4 @@ if (strpos($flatsome_opt['header_bg'],'#fff') !== false || $flatsome_opt['nav_po
 	</div>
 	<?php } ?>	
 <?php }?>
+
