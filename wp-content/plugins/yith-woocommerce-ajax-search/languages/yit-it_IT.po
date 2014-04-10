@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Ajax Search v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-29 18:44+0100\n"
+"PO-Revision-Date: 2014-03-18 02:03:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes"
+
+#: class.yith-wcas-admin.php:124
+#@ yit
+msgid "Ajax Search"
+msgstr "Ajax Search"
+
+#: class.yith-wcas-admin.php:173
+#: class.yith-wcas-admin.php:213
+#@ yit
+msgid "General Settings"
+msgstr "Impostazioni Generali"
+
+#: class.yith-wcas-admin.php:220
+#@ yit
+msgid "Search input label"
+msgstr "Etichetta campo di ricerca"
+
+#: class.yith-wcas-admin.php:221
+#@ yit
+msgid "Label for Search input field."
+msgstr "Etichetta per il campo di ricerca"
+
+#: class.yith-wcas-admin.php:223
+#: class.yith-wcas-admin.php:224
+#@ yit
+msgid "Search for products"
+msgstr "Cerca prodotto"
+
+#: class.yith-wcas-admin.php:230
+#@ yit
+msgid "Search submit label"
+msgstr "Etichetta campo di submit"
+
+#: class.yith-wcas-admin.php:231
+#@ yit
+msgid "Label for Search submit field."
+msgstr "Etichetta per il campo di submit"
+
+#: class.yith-wcas-admin.php:233
+#: class.yith-wcas-admin.php:234
+#@ yit
+msgid "Search"
+msgstr "Cerca"
+
+#: class.yith-wcas-admin.php:240
+#@ yit
+msgid "Minimum number of characters"
+msgstr "Numero minimo di caratteri"
+
+#: class.yith-wcas-admin.php:241
+#@ yit
+msgid "Minimum number of characters required to trigger autosuggest."
+msgstr "Numero minimo di caratteri richiesti per avviare la ricerca"
+
+#: class.yith-wcas-admin.php:256
+#@ yit
+msgid "Maximum number of results"
+msgstr "Numero massimo  di risultati"
+
+#: class.yith-wcas-admin.php:257
+#@ yit
+msgid "Maximum number of results showed within the autosuggest box."
+msgstr "Numero massimo di risultati mostrati nel box di ricerca"
+
+#: class.yith-wcas-admin.php:449
+#@ yit
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: class.yith-wcas-admin.php:450
+#@ yit
+msgid "Docs"
+msgstr "Documentazione"
+
+#: class.yith-wcas.php:139
+#@ yit
+msgid "No results"
+msgstr "Nessun risultato"
+
+#: templates/yith-woocommerce-ajax-search.php:20
+#@ yit
+msgid "Search for:"
+msgstr "Cerca:"
+
+#: widgets/class.yith-wcas-ajax-search.php:29
+#@ yit
+msgid "An Ajax Search box for products only."
+msgstr "Un filtro di ricerca Ajax per i prodotti di WooCommmerce."
+
+#: widgets/class.yith-wcas-ajax-search.php:31
+#@ yit
+msgid "YITH WooCommerce Ajax Product Search"
+msgstr "YITH WooCommerce Ajax Product Search"
+
+#: widgets/class.yith-wcas-ajax-search.php:90
+#@ woocommerce
+msgid "Title:"
+msgstr "Titolo:"
+
+#: yit-common/yith-panel.php:406
+#@ yit
+msgid "Select a date"
+msgstr "Seleziona una data"
+
+#: yit-common/yith-panel.php:407
+#@ yit
+msgid "Hours"
+msgstr "Ore"
+
+#: yit-common/yith-panel.php:408
+#: yit-common/yith-panel.php:409
+#@ yit
+msgid "Minutes"
+msgstr "Minuti"
+
+#: yit-common/yith-panel.php:417
+#@ yit
+msgid "Upload"
+msgstr "Upload"
+
+#: yit-common/yith-panel.php:444
+#@ yit
+msgid "px"
+msgstr "px"
+
+#: yit-common/yith-panel.php:445
+#@ yit
+msgid "em"
+msgstr "em"
+
+#: yit-common/yith-panel.php:446
+#@ yit
+msgid "pt"
+msgstr "pt"
+
+#: yit-common/yith-panel.php:447
+#@ yit
+msgid "rem"
+msgstr "rem"
+
+#: yit-common/yith-panel.php:457
+#@ yit
+msgid "Select a font family"
+msgstr "Seleziona un font"
+
+#: yit-common/yith-panel.php:465
+#@ yit
+msgid "Regular"
+msgstr "Regular"
+
+#: yit-common/yith-panel.php:466
+#@ yit
+msgid "Bold"
+msgstr "Bold"
+
+#: yit-common/yith-panel.php:467
+#@ yit
+msgid "Extra bold"
+msgstr "Extra bold"
+
+#: yit-common/yith-panel.php:468
+#@ yit
+msgid "Italic"
+msgstr "Italic"
+
+#: yit-common/yith-panel.php:469
+#@ yit
+msgid "Italic bold"
+msgstr "Italic bold"
+
+#: yit-common/yith-panel.php:481
+#@ yit
+msgid "Click to preview"
+msgstr "Clicca per anteprima"
+
+#. translators: plugin header field 'Name'
+#: init.php:0
+#@ yit
+msgid "YITH WooCommerce Ajax Search"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: init.php:0
+#@ yit
+msgid "http://yithemes.com/"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: init.php:0
+#@ yit
+msgid "YITH WooCommerce Ajax Search allows your users to search products in real time."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: init.php:0
+#@ yit
+msgid "Your Inspiration Themes"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: init.php:0
+#@ yit
+msgid "1.1.1"
+msgstr ""
+
