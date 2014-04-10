@@ -1197,7 +1197,7 @@ msgstr ""
 #: woocommerce/content-product-pinterest-style.php:32
 #: woocommerce/content-product.php:52
 msgid "Quick View"
-msgstr ""
+msgstr "Vista r&aacute;pida"
 
 # @ woocommerce
 #: woocommerce/content-product.php:54

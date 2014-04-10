@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: flatsome\n"
 "POT-Creation-Date: 2013-10-01 12:13+0100\n"
-"PO-Revision-Date: 2014-04-10 12:16-0400\n"
+"PO-Revision-Date: 2014-04-10 16:07-0400\n"
 "Last-Translator: bgonzalez <bgonzalez@ing.uchile.cl>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -636,23 +636,23 @@ msgstr ""
 
 #: ../inc/shortcodes/share_follow.php:22
 msgid "Share on Facebook"
-msgstr ""
+msgstr "Compartir en Facebook"
 
 #: ../inc/shortcodes/share_follow.php:25
 msgid "Share on Twitter"
-msgstr ""
+msgstr "Compartir en Twitter"
 
 #: ../inc/shortcodes/share_follow.php:28
 msgid "Email to a Friend"
-msgstr ""
+msgstr "Enviar a un amigo"
 
 #: ../inc/shortcodes/share_follow.php:31
 msgid "Pin on Pinterest"
-msgstr ""
+msgstr "Colgar en Pinterest"
 
 #: ../inc/shortcodes/share_follow.php:34
 msgid "Share on Google+"
-msgstr ""
+msgstr "Compartir en Google+"
 
 #: ../inc/shortcodes/share_follow.php:70
 msgid "Follow us on Facebook"
@@ -706,7 +706,7 @@ msgstr ""
 #: ../woocommerce/content-product-pinterest-style.php:33
 #: ../woocommerce/content-product.php:73
 msgid "Quick View"
-msgstr ""
+msgstr "Vista r&aacute;pida"
 
 #: ../woocommerce/single-product-reviews.php:34
 #: ../woocommerce/single-product-reviews.php:40
