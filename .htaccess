@@ -1,7 +1,7 @@
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
-Options FollowSymLinks
+Options FollowSymlinks
 RewriteEngine On
 RewriteBase /shop/
 RewriteRule ^index\.php$ - [L]

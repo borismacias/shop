@@ -22,7 +22,6 @@ if (!is_user_logged_in() && $current_url != $myaccount_page && $wishlist_url != 
 
 get_header(); 
 ?>
-
 <div class="page-header">
 <?php if( has_excerpt() ) the_excerpt();?>
 </div>
