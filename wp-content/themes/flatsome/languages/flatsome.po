@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: flatsome\n"
 "POT-Creation-Date: 2013-10-01 12:13+0100\n"
-"PO-Revision-Date: 2014-04-09 13:32-0400\n"
+"PO-Revision-Date: 2014-04-10 12:16-0400\n"
 "Last-Translator: bgonzalez <bgonzalez@ing.uchile.cl>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -313,7 +313,7 @@ msgstr ""
 
 #: ../page-my-account.php:30
 msgid "Login / Register with <strong>Facebook</strong>"
-msgstr ""
+msgstr "Ingresa / Reg&iacute;strate con <strong>Facebook</strong>"
 
 #: ../search.php:16
 #, php-format

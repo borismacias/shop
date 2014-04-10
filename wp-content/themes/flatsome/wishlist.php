@@ -14,7 +14,9 @@ if( isset( $_GET['user_id'] ) && !empty( $_GET['user_id'] ) ) {
 } elseif( is_user_logged_in() ) {
     $user_id = get_current_user_id();
 }
+?>
 
+<?php 
 $current_page = 1;
 $limit_sql = '';
 
