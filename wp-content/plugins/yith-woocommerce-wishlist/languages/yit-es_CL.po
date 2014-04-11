@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YITH WCWL\n"
 "POT-Creation-Date: 2014-03-21 17:01+0100\n"
-"PO-Revision-Date: 2014-04-09 15:44-0400\n"
+"PO-Revision-Date: 2014-04-11 10:49-0400\n"
 "Last-Translator: bgonzalez <bgonzalez@ing.uchile.cl>\n"
 "Language-Team: Your Inspiration Themes <support@yithemes.com>\n"
 "Language: en\n"
@@ -354,7 +354,7 @@ msgstr ""
 #: ../class.yith-wcwl.php:377 ../yith-wcwl-ajax.php:37
 #: ../templates/wishlist.php:158
 msgid "No products were added to the wishlist"
-msgstr ""
+msgstr "No se han agregado productos a Mi lista de favoritos"
 
 #: ../templates/wishlist.php:80
 msgid "Product Name"

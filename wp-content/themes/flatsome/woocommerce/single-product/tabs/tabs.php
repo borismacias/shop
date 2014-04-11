@@ -23,7 +23,7 @@ if ($flatsome_opt['product_display'] == 'tabs' && !empty( $tabs ) )  : ?>
 	<div class="tabbed-content woocommerce-tabs">
 		<ul class="tabs">
 			<?php foreach ( $tabs as $key => $tab ) : ?>
-				<li class="<?php echo $key ?>_tab">
+				<li class="<?php echo $key ?>_tab" data="<?php echo $tab.'-'.$key;?>">
 					<a href="#tab-<?php echo $key ?>"><?php echo apply_filters( 'woocommerce_product_' . $key . '_tab_title', $tab['title'], $key ) ?></a>
 				</li>
 			<?php endforeach; ?>
@@ -123,9 +123,18 @@ if ($flatsome_opt['product_display'] == 'tabs' && !empty( $tabs ) )  : ?>
 		<div class="row collapse vertical-tabs shortcode_tabgroup_vertical">
 			<div class="large-3 columns">	
 				<ul class="tabs-nav">
-					<?php $first = true; foreach ( $tabs as $key => $tab ) : ?>
-						<li class="tab <?php if($first) { echo 'current-menu-item'; $first = false; } ?>"><a href="#panel<?php echo $key ?>"><?php echo apply_filters( 'woocommerce_product_' . $key . '_tab_title', $tab['title'], $key ) ?></a></li>
-					<?php endforeach; ?>
+					<?php $first = true;$i=0;$numtabs=count($tabs);$tabreviews = null; 
+						foreach ( $tabs as $key => $tab ) {?>
+					<?php   
+							if($key=='reviews'){
+								$tabreviews = $tab;
+							}
+							else{
+					?>
+								<li class="tab <?php if($first) { echo 'current-menu-item'; $first = false; } ?>"><a href="#panel<?php echo $key ?>"><?php echo apply_filters( 'woocommerce_product_' . $key . '_tab_title', $tab['title'], $key ) ?></a></li>
+					<?php   }
+						} 
+						?>
 
 					<?php 
 					// add additional global tab title
@@ -135,6 +144,7 @@ if ($flatsome_opt['product_display'] == 'tabs' && !empty( $tabs ) )  : ?>
 							<a href="#tab-additional"><?php echo $flatsome_opt['tab_title']?></a>
 						</li>
 					<?php } ?>
+					<li class="tab"><a href="#panelreviews"><?php echo apply_filters( 'woocommerce_product_reviews_tab_title', $tabreviews['title'], 'reviews' ) ?></a></li></a></li>
 				</ul>
 			</div><!-- large-3 -->
 
