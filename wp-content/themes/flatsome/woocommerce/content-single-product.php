@@ -16,7 +16,6 @@
     // Get category permalink
     $permalinks     = get_option( 'woocommerce_permalinks' );
     $category_slug  = empty( $permalinks['category_base'] ) ? _x( 'product-category', 'slug', 'woocommerce' ) : $permalinks['category_base'];
- 
 ?>
 
 <div itemscope itemtype="http://schema.org/Product" id="product-<?php the_ID(); ?>" <?php post_class(); ?>> 
@@ -111,6 +110,7 @@
              */
 
             do_action( 'woocommerce_after_single_product_summary' );
+            echo do_shortcode('[ux_custom_products cat="'.get_the_terms($post->ID,'product_cat')['109']->slug.'" products="5" columns="5" title="M&aacute;s de esta marca"]' );
 
         ?>
     </div><!-- related products -->

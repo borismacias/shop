@@ -26,7 +26,8 @@ get_header('shop'); ?>
 		do_action('woocommerce_before_main_content');
 	?>
 
-		<?php while ( have_posts() ) : the_post(); ?>
+		<?php while ( have_posts() ) : the_post(); print_r($the_post());exit();?>
+
 
 		<?php 
 		if($flatsome_opt['product_sidebar'] == "right_sidebar") {
@@ -47,7 +48,9 @@ get_header('shop'); ?>
 		 * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
 		 */
 		do_action('woocommerce_after_main_content');
+		echo do_shortcode('[ux_custom_products cat="-club-tacones" products="8" columns="4" title="Custom products"]');
 	?>
+
 
 
 </div><!-- end large-12 -->
