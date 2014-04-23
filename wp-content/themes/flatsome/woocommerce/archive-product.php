@@ -27,13 +27,14 @@ if(function_exists('get_term_meta')){
 		if(isset($content[0]['cat_header']) && $content[0]['cat_header']!=''){
 			echo do_shortcode($content[0]['cat_header']);
 		}
-		if($cat->name == "Diseño Nacional"){
+		else if($cat->name == "Diseño Nacional"){
 			echo do_shortcode('[ux_banner bg="http://leandoers.com/clubtacones/wp-content/uploads/2014/04/banner-nacional.jpg" height="250px" animation="flipInX" text_align="center" text_pos="center" text_color="light" text_width="80%" parallax="1"]
 <h3>'.$cat->name.'<h3>
 
 [/ux_banner]');
 		}
 		else{
+			echo "en else";
 			echo do_shortcode('[ux_banner bg="http://leandoers.com/clubtacones/wp-content/uploads/2014/04/banner-'.$cat->name.'.jpg" height="250px" animation="flipInX" text_align="center" text_pos="center" text_color="light" text_width="80%" parallax="1"]
 <h3>'.$cat->name.'<h3>
 
