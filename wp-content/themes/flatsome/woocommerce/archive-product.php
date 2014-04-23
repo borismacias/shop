@@ -20,11 +20,14 @@ get_header('shop'); ?>
 <?php 
 // GET CUSTOM HEADER CONTENT FOR CATEGORY
 if(function_exists('get_term_meta')){
+	print_r($content);
 	$queried_object = get_queried_object();
 	if (isset($queried_object->term_id)){
+
 		$term_id = $queried_object->term_id;  
 		$content = get_term_meta($term_id, 'cat_meta');
 		if(isset($content[0]['cat_header']) && $content[0]['cat_header']!=''){
+			
 			echo do_shortcode($content[0]['cat_header']);
 		}
 		else if($cat->name == "Diseño Nacional"){
@@ -34,6 +37,10 @@ if(function_exists('get_term_meta')){
 [/ux_banner]');
 		}
 		else{
+<<<<<<< HEAD
+=======
+			
+>>>>>>> 29d3619382522ad1756fc2728473e1d563d93ad3
 			echo do_shortcode('[ux_banner bg="http://leandoers.com/clubtacones/wp-content/uploads/2014/04/banner-'.$cat->slug.'.jpg" height="250px" animation="flipInX" text_align="center" text_pos="center" text_color="light" text_width="80%" parallax="1"]
 <h3>'.$cat->name.'<h3>
 
