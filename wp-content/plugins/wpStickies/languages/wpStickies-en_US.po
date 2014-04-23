@@ -1,0 +1,774 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in echo
+#: settings.php:373
+msgid "(ms) You stickies not animating at the same time, there is a little delay between each of them. You can set the delay time here in millisecs. You can set 0 to disable this behaviour."
+msgstr ""
+
+#. Text in echo
+#: settings.php:464
+#: settings.php:583
+msgid "Actions"
+msgstr ""
+
+#. Text in echo
+#: settings.php:193
+msgid "Add sticky to the pending list for re-confirmation"
+msgstr ""
+
+#. Text in echo
+#: settings.php:190
+msgid "After a modification"
+msgstr ""
+
+#. Text in echo
+#: settings.php:109
+msgid "Allow non-administrator users to change plugin settings."
+msgstr ""
+
+#. Text in echo
+#: settings.php:107
+msgid "Allow plugin settings changes"
+msgstr ""
+
+#. Text in echo
+#: settings.php:195
+msgid "Always ignore pendig list, accept them automatically"
+msgstr ""
+
+#. Text in echo
+#: settings.php:381
+msgid "Always visible"
+msgstr ""
+
+#. Text in function
+#: wpstickies.php:1
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#. Text in function
+#: wpstickies.php:1
+msgid "An unknown error occurred"
+msgstr ""
+
+#. Text in echo
+#: settings.php:207
+msgid "Appearance"
+msgstr ""
+
+#. Text in echo
+#: settings.php:679
+msgid "Area drag message"
+msgstr ""
+
+#. Text in echo
+#: settings.php:413
+msgid "Area minimum height"
+msgstr ""
+
+#. Text in echo
+#: settings.php:408
+msgid "Area minimum width"
+msgstr ""
+
+#. Text in echo
+#: settings.php:62
+msgid "Auto-Update"
+msgstr ""
+
+#. Text in echo
+#: settings.php:147
+msgid "Auto-accept pending stickies"
+msgstr ""
+
+#. Text in echo
+#: settings.php:748
+msgid "Auto-updates"
+msgstr ""
+
+#. Text in echo
+#: settings.php:391
+msgid "Bottom"
+msgstr ""
+
+#. Text in echo
+#: settings.php:325
+msgid "Bubble animation"
+msgstr ""
+
+#. Text in echo
+#: settings.php:166
+msgid "By default, your pending stickies won't show up on your front-end site until an administrator approve them. Here you can set the visiblity of pending stickies. You can make visible pending stickies while they are still on your pending list and you can always remove them if necessary."
+msgstr ""
+
+#. Text in echo
+#: settings.php:398
+msgid "Change bubble direction automatically"
+msgstr ""
+
+#. Text in echo
+#: settings.php:695
+msgid "Color button message"
+msgstr ""
+
+#. Text in echo
+#: settings.php:580
+msgid "Content"
+msgstr ""
+
+#. Text in echo
+#: settings.php:723
+msgid "Create error message"
+msgstr ""
+
+#. Text in echo
+#: settings.php:463
+msgid "Created"
+msgstr ""
+
+#. Text in echo
+#: settings.php:141
+#: settings.php:177
+msgid "Custom"
+msgstr ""
+
+#. Text in echo
+#: settings.php:102
+msgid "Custom capability"
+msgstr ""
+
+#. Text in echo
+#: settings.php:152
+msgid "Custom roles for sticky creation"
+msgstr ""
+
+#. Text in echo
+#: settings.php:183
+msgid "Custom roles for sticky modification"
+msgstr ""
+
+#. Text in echo
+#: settings.php:639
+msgid "Default caption text"
+msgstr ""
+
+#. Text in echo
+#: settings.php:647
+msgid "Default spot content"
+msgstr ""
+
+#. Text in echo
+#: settings.php:643
+msgid "Default spot title"
+msgstr ""
+
+#. Text in echo
+#: settings.php:371
+msgid "Delay"
+msgstr ""
+
+#. Text in echo
+#: settings.php:218
+msgid "Direction"
+msgstr ""
+
+#. Text in echo
+#: settings.php:711
+msgid "Disable message"
+msgstr ""
+
+#. Text in function
+#: settings.php:712
+msgid "Disable wpStickies on this image"
+msgstr ""
+
+#. Text in echo
+#: settings.php:383
+msgid "Disabling this option will result that your stickies only will be visible when your users moves their mouse cursor over an image."
+msgstr ""
+
+#. Text in echo
+#: settings.php:63
+msgid "Documentation"
+msgstr ""
+
+#. Text in echo
+#: settings.php:220
+msgid "Duration"
+msgstr ""
+
+#. Text in echo
+#: settings.php:219
+msgid "Easing"
+msgstr ""
+
+#. Text in echo
+#: settings.php:140
+#: settings.php:176
+msgid "Everyone"
+msgstr ""
+
+#. Text in function
+#: settings.php:668
+msgid "Facebook"
+msgstr ""
+
+#. Text in echo
+#: settings.php:667
+msgid "Facebook button"
+msgstr ""
+
+#. Text in echo
+#: settings.php:84
+msgid "General"
+msgstr ""
+
+#. Text in echo
+#: settings.php:59
+#: settings.php:76
+msgid "Global Settings"
+msgstr ""
+
+#. Text in function
+#: settings.php:652
+msgid "Google"
+msgstr ""
+
+#. Text in echo
+#: settings.php:651
+msgid "Google button"
+msgstr ""
+
+#. Text in echo
+#: settings.php:671
+msgid "Hover message"
+msgstr ""
+
+#. Text in echo
+#: settings.php:186
+msgid "If you selected \"Custom\" for the previous option, here you can specify your custom roles for users who can modify their own stickies."
+msgstr ""
+
+#. Text in echo
+#: settings.php:155
+msgid "If you selected \"Custom\" for users who can create new stickies, here you can specify your custom roles."
+msgstr ""
+
+#. Text in echo
+#: settings.php:163
+msgid "Invisible"
+msgstr ""
+
+#. Text in echo
+#: settings.php:61
+#: settings.php:635
+msgid "Language"
+msgstr ""
+
+#. Text in echo
+#: settings.php:447
+msgid "Latest"
+msgstr ""
+
+#. Text in echo
+#: settings.php:519
+msgid "Latest stickies"
+msgstr ""
+
+#. Text in echo
+#: settings.php:392
+msgid "Left"
+msgstr ""
+
+#. Text in echo
+#: settings.php:117
+msgid "Minimum imaeg height"
+msgstr ""
+
+#. Text in echo
+#: settings.php:112
+msgid "Minimum image width"
+msgstr ""
+
+#. Text in echo
+#: settings.php:582
+msgid "Modified"
+msgstr ""
+
+#. Text in echo
+#: settings.php:727
+msgid "Modify error message"
+msgstr ""
+
+#. Text in echo
+#: settings.php:223
+msgid "Mouse enter animation"
+msgstr ""
+
+#. Text in echo
+#: settings.php:274
+msgid "Mouse out animation"
+msgstr ""
+
+#. Text in echo
+#: settings.php:604
+msgid "No content"
+msgstr ""
+
+#. Text in echo
+#: settings.php:565
+msgid "No stickes yet."
+msgstr ""
+
+#. Text in echo
+#: settings.php:137
+#: settings.php:173
+msgid "Only administrators"
+msgstr ""
+
+#. Text in echo
+#: settings.php:446
+msgid "Pending"
+msgstr ""
+
+#. Text in echo
+#: settings.php:159
+msgid "Pending stickes displayed as"
+msgstr ""
+
+#. Text in echo
+#: settings.php:455
+msgid "Pending stickies"
+msgstr ""
+
+#. Text in echo
+#: settings.php:128
+msgid "Permissions"
+msgstr ""
+
+#. Text in echo
+#: settings.php:578
+msgid "Preview"
+msgstr ""
+
+#. Text in echo
+#: settings.php:735
+msgid "Publish"
+msgstr ""
+
+#. Text in echo
+#: settings.php:752
+msgid "Purchase code"
+msgstr ""
+
+#. Text in echo
+#: settings.php:687
+msgid "Remove button message"
+msgstr ""
+
+#. Text in echo
+#: settings.php:715
+msgid "Remove confirmation message"
+msgstr ""
+
+#. Text in echo
+#: settings.php:719
+msgid "Remove error message"
+msgstr ""
+
+#. Text in echo
+#: settings.php:707
+msgid "Remove message"
+msgstr ""
+
+#. Text in echo
+#: settings.php:691
+msgid "Reposition button message"
+msgstr ""
+
+#. Text in echo
+#: settings.php:448
+msgid "Restore"
+msgstr ""
+
+#. Text in echo
+#: settings.php:574
+msgid "Restore removed stickies"
+msgstr ""
+
+#. Text in echo
+#: settings.php:390
+msgid "Right"
+msgstr ""
+
+#. Text in function
+#: settings.php:644
+msgid "Sample Title"
+msgstr ""
+
+#. Text in echo
+#: settings.php:683
+msgid "Save button message"
+msgstr ""
+
+#. Text in echo
+#: settings.php:737
+#: settings.php:762
+msgid "Save changes"
+msgstr ""
+
+#. Text in echo
+#: settings.php:703
+msgid "Save message"
+msgstr ""
+
+#. Text in echo
+#: settings.php:90
+msgid "Selectors"
+msgstr ""
+
+#. Text in echo
+#: settings.php:376
+msgid "Show messages"
+msgstr ""
+
+#. Text in echo
+#: settings.php:699
+msgid "Size button message"
+msgstr ""
+
+#. Text in echo
+#: settings.php:386
+msgid "Spot bubble direction"
+msgstr ""
+
+#. Text in echo
+#: settings.php:403
+msgid "Spot bubble distance"
+msgstr ""
+
+#. Text in echo
+#: settings.php:418
+msgid "Spot buttons position"
+msgstr ""
+
+#. Text in echo
+#: settings.php:675
+msgid "Spot drag message"
+msgstr ""
+
+#. Text in echo
+#: settings.php:60
+msgid "Stickies"
+msgstr ""
+
+#. Text in echo
+#: settings.php:139
+#: settings.php:175
+msgid "Subscribers"
+msgstr ""
+
+#. Text in echo
+#: settings.php:764
+#: wpstickies.php:1
+msgid "Thank you for purchasing wpStickies. You successfully validated your purchase code for auto-updates."
+msgstr ""
+
+#. Text in echo
+#: settings.php:405
+msgid "The distance (in pixels) of the spot bubble from the spot."
+msgstr ""
+
+#. Text in echo
+#: settings.php:415
+msgid "The minimum height of an area in pixels. You can create an area just by drawing a retangle. You can set here what has to be the minimum size of an area. If the users draw a really small area, it will be converted a spot automatically."
+msgstr ""
+
+#. Text in echo
+#: settings.php:410
+msgid "The minimum width of an area in pixels. You can create an area just by drawing a rectangle. You can set here what has to be the minimum size of an area. If the users draw a really small area, it will be converted a spot automatically."
+msgstr ""
+
+#. Text in echo
+#: settings.php:428
+msgid "The spot buttons alignment. Possible values: left, center, right."
+msgstr ""
+
+#. Text in echo
+#: settings.php:510
+msgid "There are no pending stickies at the moment."
+msgstr ""
+
+#. Text in echo
+#: settings.php:623
+msgid "There are no removed stickies yet."
+msgstr ""
+
+#. Text in echo
+#: settings.php:378
+msgid "There is a built-in message system which will show explanatory messages to help new wpStickies users."
+msgstr ""
+
+#. Text in echo
+#: settings.php:579
+msgid "Title / Caption"
+msgstr ""
+
+#. Text in echo
+#: settings.php:755
+msgid "To receive auto-updates, you need to enter your item purchase code. You can find it on your CodeCanyon downloads page, just click on the \"Licence Certificate\" button of the corresponding item. This will download a text file which contains your purchase code."
+msgstr ""
+
+#. Text in echo
+#: settings.php:389
+msgid "Top"
+msgstr ""
+
+#. Text in echo
+#: settings.php:194
+msgid "Treat as confirmed sticky if it was previously accepted"
+msgstr ""
+
+#. Text in echo
+#: settings.php:492
+msgid "Unregistered"
+msgstr ""
+
+#. Text in echo
+#: settings.php:97
+msgid "Use relative URLs"
+msgstr ""
+
+#. Text in echo
+#: settings.php:581
+msgid "User"
+msgstr ""
+
+#. Text in echo
+#: settings.php:134
+msgid "Users who can create new stickies"
+msgstr ""
+
+#. Text in echo
+#: settings.php:170
+msgid "Users who can modify their own stickies"
+msgstr ""
+
+#. Text in function
+#: settings.php:660
+msgid "Vimeo"
+msgstr ""
+
+#. Text in echo
+#: settings.php:659
+msgid "Vimeo button"
+msgstr ""
+
+#. Text in echo
+#: settings.php:162
+msgid "Visible"
+msgstr ""
+
+#. Text in function
+#: settings.php:664
+msgid "Wikipedia"
+msgstr ""
+
+#. Text in echo
+#: settings.php:663
+msgid "Wikipedia button"
+msgstr ""
+
+#. Text in echo
+#: settings.php:149
+msgid "With this setting you can bypass the pending list and all the stickies will be accepted automatically."
+msgstr ""
+
+#. Text in echo
+#: settings.php:104
+msgid "You can allow non-administrator users to acccess wpStickies settings page."
+msgstr ""
+
+#. Text in echo
+#: settings.php:93
+msgid "You can apply wpStickies on any content, even on DIVs with background with the right selector. Please read the documentation for more information about selectors."
+msgstr ""
+
+#. Text in echo
+#: settings.php:144
+msgid "You can control here who can create new sticikes. The \"wpStickies admins\" group created by the plugin with subscriber permissions."
+msgstr ""
+
+#. Text in echo
+#: settings.php:180
+msgid "You can control here who can modify stickies. Non-administrator users can only edit their own stickies."
+msgstr ""
+
+#. Text in echo
+#: settings.php:395
+msgid "You can set here the spot bubble default position. Possible values: top, right, bottom, left."
+msgstr ""
+
+#. Text in echo
+#: settings.php:198
+msgid "You can set here what action you want after a modification. You can force modified stickies to be pending stickies, so you can review the changes and be sure that no one inserted an unwanted content. You can also set that previously approved stickies remains approved after a modification. Or if only trusted members can create / modify stickies, you can ignore pending list and every modified sticky will be accepted and shown on your front-end site automatically."
+msgstr ""
+
+#. Text in function
+#: settings.php:648
+msgid "You can write here text and you can also use HTML code. For example you can simply include an image or a link."
+msgstr ""
+
+#. Text in function
+#: settings.php:656
+msgid "YouTube"
+msgstr ""
+
+#. Text in echo
+#: settings.php:764
+#: wpstickies.php:1
+msgid "Your purchase code doesn't appear to be valid. Please make sure that you entered your purchase code correctly."
+msgstr ""
+
+#. Text in echo
+#: settings.php:655
+msgid "Youtube button"
+msgstr ""
+
+#. Text in function
+#: settings.php:640
+msgid "add a name or caption"
+msgstr ""
+
+#. Text in echo
+#: settings.php:229
+#: settings.php:280
+#: settings.php:424
+msgid "bottom"
+msgstr ""
+
+#. Text in echo
+#: settings.php:227
+#: settings.php:278
+msgid "fade"
+msgstr ""
+
+#. Text in echo
+#: settings.php:230
+#: settings.php:281
+#: settings.php:425
+msgid "left"
+msgstr ""
+
+#. Text in echo
+#: settings.php:231
+#: settings.php:282
+#: settings.php:423
+msgid "right"
+msgstr ""
+
+#. Text in echo
+#: settings.php:228
+#: settings.php:279
+#: settings.php:422
+msgid "top"
+msgstr ""
+
+#. Text in echo
+#: settings.php:55
+msgid "wpStickies"
+msgstr ""
+
+#. Text in echo
+#: settings.php:138
+#: settings.php:174
+msgid "wpStickies admins"
+msgstr ""
+
+#. Text in echo
+#: settings.php:400
+msgid "wpStickies is smart and can detect when there is no enough free space for a bubble. In this case, wpStickies will change the position of the bubble unless you want to force its position."
+msgstr ""
+
+#. Text in echo
+#: settings.php:99
+msgid "wpStickies will ignore the domain and only use the relative path for identifying images. This helps you if you want to move your site to another server. Please note that this option can cause problems for images linked from 3rd party server/domain."
+msgstr ""
+
+#. Text in echo
+#: settings.php:119
+msgid "wpStickies won't be applied on images which has less size what you specify here in pixels. With this option you can prevent wpStickies applying on small and unwanted images."
+msgstr ""
+
+#. Text in function
+#: settings.php:696
+msgid "wpStickies: CHANGE THE COLOR OF THE BUBBLE"
+msgstr ""
+
+#. Text in function
+#: settings.php:692
+msgid "wpStickies: CHANGE THE DIRECTION OF THE BUBBLE"
+msgstr ""
+
+#. Text in function
+#: settings.php:700
+msgid "wpStickies: CHANGE THE WIDTH OF THE BUBBLE"
+msgstr ""
+
+#. Text in function
+#: settings.php:672
+msgid "wpStickies: Click on the image to create a new spot or draw an area to tag faces."
+msgstr ""
+
+#. Text in function
+#: settings.php:688
+msgid "wpStickies: REMOVE THIS STICKY"
+msgstr ""
+
+#. Text in function
+#: settings.php:684
+msgid "wpStickies: SAVE CHANGES"
+msgstr ""
+
+#. Text in function
+#: settings.php:708
+msgid "wpStickies: STICKY REMOVED"
+msgstr ""
+
+#. Text in function
+#: settings.php:704
+msgid "wpStickies: STICKY SAVED"
+msgstr ""
+
+#. Text in function
+#: settings.php:720
+msgid "wpStickies: The following error occurred during remove: You don't have permission to remove this sticky!"
+msgstr ""
+
+#. Text in function
+#: settings.php:724
+msgid "wpStickies: The following error occurred during save: You don't have permission to create new stickies!"
+msgstr ""
+
+#. Text in function
+#: settings.php:728
+msgid "wpStickies: The following error occurred during save: You don't have permission to modify this sticky!"
+msgstr ""
+
+#. Text in function
+#: settings.php:680
+msgid "wpStickies: You can drag this sticky anywhere over the image by taking and moving the area."
+msgstr ""
+
+#. Text in function
+#: settings.php:676
+msgid "wpStickies: You can drag this sticky anywhere over the image by taking and moving the spot."
+msgstr ""
+
+#. Text in function
+#: settings.php:716
+msgid "wpStickies: You clicked to remove this sticky. If you confirm, it will be permanently removed from the database. Are you sure?"
+msgstr ""

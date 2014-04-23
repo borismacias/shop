@@ -1,0 +1,63 @@
+.fl {float:left;}
+.fr {float:right;}
+
+.supercarousel_wrapper .supercarousel p {padding:0px;}
+
+.supercrsl 				{position:relative;}
+.supercrsl a.prev 		{left:0px;}
+.supercrsl a.next 		{right:0px;}
+.supercrsl a.prev, 
+.supercrsl a.next 		{cursor:pointer; display:block; width:45px; height:50px; position:absolute; text-indent:-9999px; top:35%;}
+
+.supercarousel_wrapper 	{overflow:hidden; position:relative; width:100%; height:200px;}
+
+.supercarousel 			{display:none;margin:0px; padding:0px; height:auto; top:0px; left:0px; position:absolute;}
+.supercarousel div 		{height:auto; position:absolute; top:0px; background-color:transparent; display: block;}
+.supercarousel div div	{position:relative;}
+
+.imgslide {max-width:none;}
+
+.supercaption 			{background:none repeat scroll 0 0 rgba(0, 0, 0, 0.5) !important; bottom:0; top:auto !important; color:#FFFFFF; font-size:16px; font-weight:bold; left:0; padding:10px 0; position:absolute !important; text-align:center; text-shadow:1px 1px 1px #333333; width:100%;}
+
+a.prev, a.next 		{background:url(../images/miscellaneous_sprite.png) no-repeat transparent; width:45px; height:50px; display:none; position:relative; cursor:pointer; z-index:999;}
+a.prev 				{background-position:0 0; }
+a.prev:hover 		{background-position:0 -49px; }
+a.prev.disabled 	{background-position:0 -100px !important;  }
+a.next 				{background-position:-46px 0; }
+a.next:hover 		{background-position:-46px -49px; }
+a.next.disabled 	{background-position:-46px -100px !important;  }
+a.prev.disabled, 
+a.next.disabled 	{cursor:default;}
+
+a.prev span, 
+a.next span 		{display:none;}
+
+.supercrsl .pagination 			{text-align:center;}
+.supercrsl .pagination a 			{background:url(../images/miscellaneous_sprite.png) 0 -300px no-repeat transparent; width:15px; height:15px; margin:0 5px 0 0; display:inline-block; cursor:pointer;}
+.supercrsl .pagination a.selected 	{background-position:-25px -300px; cursor:default;}
+.supercrsl .pagination a span 		{display:none;}
+
+a.prev.small, 
+a.next.small 			{background: url(../images/miscellaneous_sprite.png) no-repeat transparent;width: 30px;height: 28px;display: block;position: absolute;top: 25%;cursor: pointer;}
+a.prev.small 			{left:-12px; background-position: -7px -167px;}
+a.prev.small:hover		{background-position: -7px -197px;}
+a.prev.small.disabled	{background-position:-7px -227px !important;}
+a.next.small 			{right:-12px; background-position: -38px -167px;}
+a.next.small:hover 		{background-position:-38px -197px;}
+a.next.small.disabled 	{background-position:-38px -227px !important;}
+a.prev.small.disabled, 
+a.next.small.disabled 	{cursor: default;}
+a.prev.small span, 
+a.next.small span 		{display: none;}
+/*
+.clearfix 				{float:none; clear:both;}
+*/
+a.blk					{display:block;}
+
+@media (max-width:480px){
+.supercaption	{font-size:12px;}
+}
+
+@media (min-width:480px) and (max-width:800px){
+.supercaption	{font-size:14px;}
+}

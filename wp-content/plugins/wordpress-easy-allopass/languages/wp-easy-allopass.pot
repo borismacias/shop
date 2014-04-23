@@ -1,0 +1,212 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-easy-allopass\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Thu Nov 21 2013 10:58:52 GMT+0300\n"
+"POT-Revision-Date: Thu Nov 21 2013 10:59:26 GMT+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/"
+
+msgid "-- Start unlocked content --"
+msgstr ""
+
+msgid "-- End unlocked content --"
+msgstr ""
+
+msgid "-- Warning! Invalid code entered --"
+msgstr ""
+
+msgid "-- End message --"
+msgstr ""
+
+msgid "-- Warning! Access code expired or invalid ... --"
+msgstr ""
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+msgid "Product added! Ref:"
+msgstr ""
+
+msgid "Please enter a valid Product Id!"
+msgstr ""
+
+msgid "Product Info updated! Ref :"
+msgstr ""
+
+msgid "Product Ref :"
+msgstr ""
+
+msgid "deleted!"
+msgstr ""
+
+msgid "Please enter here the text description of your paid content"
+msgstr ""
+
+msgid "Add the product"
+msgstr ""
+
+msgid "Add product"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Edit product"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Return to setup"
+msgstr ""
+
+msgid "Delete product"
+msgstr ""
+
+msgid "WP Easy Allopass"
+msgstr ""
+
+msgid "Choisir votre langue"
+msgstr ""
+
+msgid "Your product Id"
+msgstr ""
+
+msgid "Id Product available on"
+msgstr ""
+
+msgid "your allopass account"
+msgstr ""
+
+msgid "Example "
+msgstr ""
+
+msgid "Need Help?"
+msgstr ""
+
+msgid "No allopass account?"
+msgstr ""
+
+msgid "Click here"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid ""
+"Default text that will be displayed at the left of the allopass button "
+"describing your protected content."
+msgstr ""
+
+msgid ""
+"<b>Note</b>: When you add new product on your allopass account, always set as "
+"return URL"
+msgstr ""
+
+msgid ""
+"After purchase, the WEA plugin will automatically redirect the user to the page "
+"that he was visiting before."
+msgstr ""
+
+msgid "Product Sales Statistics"
+msgstr ""
+
+msgid "Ref "
+msgstr ""
+
+msgid "N&deg;"
+msgstr ""
+
+msgid "Allopass code"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Post Id"
+msgstr ""
+
+msgid "Status (O=Ok)"
+msgstr ""
+
+msgid "There are currently no sales for this product"
+msgstr ""
+
+msgid "Your products list"
+msgstr ""
+
+msgid "id"
+msgstr ""
+
+msgid "Product Id"
+msgstr ""
+
+msgid "Last update"
+msgstr ""
+
+msgid "Sales"
+msgstr ""
+
+msgid "Shortcode"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Statistics"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "You have not yet added product"
+msgstr ""
+
+msgid "To protect paid content on one of your posts/pages, insert the following code:"
+msgstr ""
+
+msgid "Free content"
+msgstr ""
+
+msgid "Protected content"
+msgstr ""
+
+msgid "Notes:"
+msgstr ""
+
+msgid ""
+"The parameter <strong>Id</strong> (<strong>X</strong> = numeric value) "
+"represents the id of your product. (See column &quot;shortcode&quot; in the "
+"above table).<br>This parameter is required."
+msgstr ""
+
+msgid "You can insert <strong>several shortcodes</strong> in a single post or page."
+msgstr ""
+
+msgid "If the parameter <strong>id</strong> is not defined or no product at"
+msgstr ""
+
+msgid ""
+"corresponds to your <strong>&quot;Product Id&quot;,</strong> WordPress will "
+"display an error code..."
+msgstr ""
+
+msgid "This plugin is free for use. But you can also download the "
+msgstr ""
+
+msgid "(The PRO Version allows you to increase your profits and enjoy other benefits and FREE support.)"
+msgstr ""
+
+msgid "Settings"
+msgstr ""

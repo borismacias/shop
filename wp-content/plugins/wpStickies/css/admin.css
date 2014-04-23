@@ -1,0 +1,434 @@
+/*********/
+/* BASIC */
+/*********/
+
+.clear {
+	clear: both;
+	float: none !important;
+}
+
+.wpstickies-icon {
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin: 9px 8px 0px 0px;
+	background: transparent url(../img/icon_32x32.png) 0px 0px no-repeat;
+}
+
+/*****************/
+/* MAIN MANU BAR */
+/*****************/
+
+#wps-main-nav-bar {
+	height: 38px;
+	border: 1px solid #dfdfdf;
+	border-radius: 3px;
+	margin: 10px 0px;
+
+	background: #f9f9f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f9f9f9 0%, #ececec 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#ececec)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f9f9f9 0%,#ececec 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f9f9f9 0%,#ececec 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f9f9f9 0%,#ececec 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f9f9f9 0%,#ececec 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ececec',GradientType=0 ); /* IE6-9 */
+
+}
+
+#wps-main-nav-bar a {
+	display: block;
+	height: 38px;
+	margin: 0px;
+	padding: 0px 10px 0px 34px;
+	float: left;
+
+	font: normal normal normal 13px/38px Arial, serif;
+	color: #2175a7;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #fff;
+}
+
+#wps-main-nav-bar a:last-child {
+	display: none;
+}
+
+#wps-main-nav-bar a.support {
+	float: right;
+}
+
+
+#wps-main-nav-bar a.active {
+	font: normal normal bold 12px/38px Arial, serif;
+	color: #464646;
+}
+
+#wps-main-nav-bar a.settings {
+	border-right: 1px solid #dfdfdf;
+	background: transparent url(../img/sprite.png) 10px 10px no-repeat;
+}
+
+#wps-main-nav-bar a.stickies {
+	border-left: 1px solid #fff;
+	border-right: 1px solid #dfdfdf;
+	background: transparent url(../img/sprite.png) 10px -18px no-repeat;
+}
+
+#wps-main-nav-bar a.language {
+	border-left: 1px solid #fff;
+	border-right: 1px solid #dfdfdf;
+	background: transparent url(../img/sprite.png) 10px -46px no-repeat;
+}
+
+#wps-main-nav-bar a.updates {
+	border-left: 1px solid #fff;
+	background: transparent url(../img/sprite.png) 10px -380px no-repeat;
+}
+
+#wps-main-nav-bar a.support {
+	background: transparent url(../img/sprite.png) 10px -74px no-repeat;
+}
+
+.wps-page {
+	display: none;
+}
+
+.wps-page.active{
+	display: block;
+}
+
+/*****************/
+/* SETTING BOXES */
+/*****************/
+
+.wps-box {
+	border: 1px solid #dfdfdf;
+	border-radius: 3px;
+	margin-bottom: 15px;
+}
+
+.wps-box .header, .wps-box thead {
+	height: 29px;
+	margin: 0px;
+	padding: 0px 10px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #dfdfdf;
+	font: normal normal bold 12px/29px Arial, serif;
+	color: #333;
+	text-shadow: 0px 1px 0px #fff;
+
+	background: #f9f9f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f9f9f9 0%, #ededed 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f9f9f9 0%,#ededed 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+
+.wps-box .header.noborder, .wps-box thead.noborder {
+	border-top: 0px;
+}
+
+.wps-box .header {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.wps-box .inner {
+	padding: 10px;
+}
+
+.wps-box table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+.wps-box thead td {
+	border-bottom: 1px solid #dfdfdf;
+	background: #f9f9f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f9f9f9 0%, #ededed 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f9f9f9 0%,#ededed 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f9f9f9 0%,#ededed 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+}
+
+.wps-box tbody td {
+	height: 30px;
+	padding: 4px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #e3e3e3;
+	font: normal normal normal 13px/16px Arial, serif;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #fbfbfb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#fbfbfb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#fbfbfb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fbfbfb',GradientType=0 ); /* IE6-9 */
+}
+
+.wps-box tfoot td {
+	padding: 10px;
+}
+
+.wps-box table.removestyle {
+	width: auto;
+}
+
+.wps-box table.removestyle tbody td {
+	height: auto !important;
+	border: 0px !important;
+	background: none !important;
+	text-align: left;
+}
+
+.wps-box table.removestyle tbody td:first-child {
+	text-align: right;
+}
+
+
+.wps-box table.removestyle th {
+	font-weight: normal;
+	text-align: center;
+}
+
+.wps-box a {
+	text-decoration: none;
+}
+
+.wps-box h4 {
+	margin: 0px;
+}
+
+.wps-box td.desc {
+	margin: 0px;
+	color: #9d9daa;
+	font-size: 11px;
+}
+
+.wps-box td div.reset-parent {
+	position: relative;
+}
+
+.wps-box .input, .wps-box select {
+	width: 150px;
+}
+
+.wps-settings tbody td:first-child {
+	width: 200px;
+	text-align: right;
+	font-size: 11px;
+}
+
+.wps-checkbox {
+	display: inline-block;
+	width: 35px;
+	height: 16px;
+	margin: 5px 0px 0px 2px;
+	position: relative;
+	background: transparent url(../img/sprite.png) 0px -196px no-repeat;
+}
+
+.wps-checkbox span {
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	top: -2px;
+	left: 17px;
+	background: transparent url(../img/sprite.png) 0px -248px no-repeat;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.wps-checkbox.on {
+	background: transparent url(../img/sprite.png) 0px -222px no-repeat;
+}
+
+.wps-checkbox.on span {
+	left: -2px;
+}
+
+#wps-stickies-tabs {
+	position: relative;
+	top: 1px;
+	z-index: 1;
+}
+
+#wps-stickies-tabs a {
+	display: block !important;
+	position: relative;
+	width: 78px;
+	height: 30px;
+	padding: 0px 10px;
+	border: 1px solid #dfdfdf;
+	color: #c7c7c7;
+	background-color: #f9f9f9;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	text-decoration: none;
+	font: normal normal bold 13px/30px Arial, serif;
+	float: left;
+	margin: 3px 3px 0px 0px;
+}
+
+#wps-stickies-tabs a.active {
+	color: #333;
+	border-bottom: 1px solid #f9f9f9;
+	background: #f9f9f9; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f2f2f2 0%, #f9f9f9 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(100%,#f9f9f9)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f2f2f2 0%,#f9f9f9 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f2f2f2 0%,#f9f9f9 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f2f2f2 0%,#f9f9f9 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f2f2f2 0%,#f9f9f9 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#f9f9f9',GradientType=0 ); /* IE6-9 */
+}
+
+.wps-stickies-box {
+	display: none;
+}
+
+.wps-stickies-box.active {
+	display: block;
+}
+
+
+/*******************/
+/* Global Settings */
+/*******************/
+
+#wps-icon-settings-general {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 6px 8px 0px 10px;
+	background: transparent url(../img/sprite.png) 0px -112px no-repeat;
+}
+
+#wps-icon-settings-permissions {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 6px 8px 0px 10px;
+	background: transparent url(../img/sprite.png) 0px -140px no-repeat;
+}
+
+#wps-icon-settings-appearance {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 6px 8px 0px 10px;
+	background: transparent url(../img/sprite.png) 0px -168px no-repeat;
+}
+
+/************/
+/* STICKIES */
+/************/
+
+.wps-stickies-table .empty{
+	text-align: center;
+}
+
+.wps-stickies-table img {
+	width: 50px;
+	height: 50px;
+}
+
+.wps-stickies-table .image{
+	width: 50px;
+}
+
+.wps-stickies-table .title{
+	width: 150px;
+}
+
+
+.wps-stickies-table .user{
+	width: 100px;
+	text-align: center;
+}
+
+.wps-stickies-table .modified, .wps-stickies-table .created{
+	width: 150px;
+	text-align: center;
+}
+
+
+.wps-stickies-table .action{
+	width: 60px;
+}
+
+.wpstickies-actions .accept{
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 0px 5px;
+	background: transparent url(../img/sprite.png) 0px -279px no-repeat;
+}
+
+.wpstickies-actions .reject, .wpstickies-actions .remove {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 0px 5px;
+	background: transparent url(../img/sprite.png) 0px -307px no-repeat;
+}
+
+.wpstickies-actions .restore{
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 0px 5px;
+	background: transparent url(../img/sprite.png) 0px -335px no-repeat;
+}
+
+.wpstickies-actions .delete {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: left;
+	margin: 0px 5px;
+	background: transparent url(../img/sprite.png) 0px -363px no-repeat;
+}
+
+/************/
+/* LANGUAGE */
+/************/
+
+.wps-language td {
+	padding-right: 7px !important;
+}
+
+.wps-language input {
+	width: 100%;
+}
+
+/****************/
+/* AUTO-UPDATES */
+/****************/
+
+.wps-auto-update input {
+	width: 300px;
+	font: normal normal normal 13px/15px Arial, sans-serif;
+	color: #333;
+}
+
+.wps-auto-update tfoot span {
+	margin-left: 10px;
+}

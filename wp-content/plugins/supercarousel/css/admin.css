@@ -1,0 +1,68 @@
+.fl {float: left;}
+
+.fr {float: right;}
+
+.clr {clear: both;}
+
+.pad5 {padding: 5px;}
+
+.pad12 {padding:5px;}
+
+.slider_images > div{ border: 3px solid #ccc; line-height: 200%;background-color: #fff; margin: 2px;}
+
+.thumbimg {cursor: move;}
+
+.slider_images label {display: block;width: 100px;float:left;}
+
+.ip1{width:354px;}
+
+.sel1{width:70px;}
+
+.deleteslide{background:#EEE; color:#C00; cursor:pointer; float:left; font-size:10px; font-weight:bold; padding:2px 5px; position:absolute; right:0; text-transform:uppercase; top:0;}
+
+.smallip {width: 50px;}
+
+.bigtxt {font-size: 16px; font-weight: bold; margin:2px; color:#999; text-align:center;}
+
+.note {font-size: 11px;}
+
+ul.sprcrsl-admin			{overflow:hidden; margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #ccc;}
+ul.sprcrsl-admin li			{float:left; padding:2px;}
+ul.sprcrsl-admin li.w1		{width:9%;}
+ul.sprcrsl-admin li.w15		{width:14%;}
+ul.sprcrsl-admin li.w2		{width:19%;}
+ul.sprcrsl-admin li.w3		{width:29%;}
+ul.sprcrsl-admin li.w4		{width:39%;}
+ul.sprcrsl-admin li.w5		{width:49%;}
+ul.sprcrsl-admin li.w6		{width:59%;}
+ul.sprcrsl-admin li.w7		{width:69%;}
+ul.sprcrsl-admin li.w8		{width:79%;}
+ul.sprcrsl-admin li.w9		{width:89%;}
+ul.sprcrsl-admin li.w10		{width:99%;}
+
+ul.sprcrsl-admin li.satitle	{overflow:hidden; clear:both; color:#000}
+ul.sprcrsl-admin li.satitle span	{color:#666;}
+ul.sprcrsl-admin li.clearL	{clear:left;}
+
+ul.sprcrsl-admin li.sainput	{padding-top:3px;}
+ul.sprcrsl-admin li.sainput .ck	{width:15px;}
+
+.txt-right			{text-align:right}
+.txt-center			{text-align:center}
+.no-brdr			{border:0px !important;}
+.clr				{overflow:hidden; clear:both;}
+.mrg10T				{margin-top:10px;}
+
+center a.button		{height:34px !important; line-height:32px !important; font-size:14px !important;}
+
+ul.img-panel		{border:1px solid #ccc; padding-bottom:0px; margin-bottom:20px; background:#fff; position:relative;}
+ul.img-panel li.w8 p{overflow:hidden; padding-top:10px; margin:0px;}
+
+ul.img-panel li.txt-center div	{position:relative; overflow:hidden;}
+ul.img-panel li.txt-center div span	{width:90%; position:absolute; left:0px; bottom:0px; text-align:center; background-color:rgba(255,255,255,0.8);}
+
+.w30pc				{width:29%;}
+.w50pc				{width:49%;}
+.w40pc				{width:39%;}
+.w70pc				{width:69%;}
+.w90pc				{width:89%;}

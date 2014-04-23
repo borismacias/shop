@@ -1,0 +1,249 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-easy-allopass\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Thu Nov 21 2013 10:58:52 GMT+0300\n"
+"PO-Revision-Date: 2013-11-22 11:27+0300\n"
+"Last-Translator: Hasiniaina Ragaby <hragaby@hotmail.com>\n"
+"Language-Team: \n"
+"Language: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Loco-Target-Locale: fr_FR\n"
+
+msgid "-- Start unlocked content --"
+msgstr "-- D&eacute;but contenu d&eacute;verrouill&eacute; --"
+
+msgid "-- End unlocked content --"
+msgstr "-- Fin contenu d&eacute;verrouill&eacute; --"
+
+msgid "-- Warning! Invalid code entered --"
+msgstr "-- Attention ! Erreur de saisie de(s) code(s)... --"
+
+msgid "-- End message --"
+msgstr "-- Fin message --"
+
+msgid "-- Warning! Access code expired or invalid ... --"
+msgstr "-- Attention ! Code d'acc&egrave;s expir&eacute; ou invalide... --"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."
+
+msgid "Product added! Ref:"
+msgstr "Produit ajout&eacute; ! R&eacute;f :"
+
+msgid "Please enter a valid Product Id!"
+msgstr "Veuillez entrer un id Allopass valide !"
+
+msgid "Product Info updated! Ref :"
+msgstr "Produit mis &agrave; jour ! R&eacute;f :"
+
+msgid "Product Ref :"
+msgstr "Produit R&eacute;f :"
+
+msgid "deleted!"
+msgstr "supprim&eacute; !"
+
+msgid "Please enter here the text description of your paid content"
+msgstr "Veuillez entrer ici le texte d&eacute;crivant vos contenus payants"
+
+msgid "Add the product"
+msgstr "Ajouter le produit"
+
+msgid "Add product"
+msgstr "Ajouter produit"
+
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+msgid "Edit product"
+msgstr "Modification"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "Return to setup"
+msgstr "Retour au param&eacute;trage"
+
+msgid "Delete product"
+msgstr "Supprimer le produit"
+
+msgid "WP Easy Allopass"
+msgstr "WP Easy Allopass"
+
+msgid "Choisir votre langue"
+msgstr "Choose your language"
+
+msgid "Your product Id"
+msgstr "Votre id Produit "
+
+msgid "Id Product available on"
+msgstr "Id Produit disponible sur"
+
+msgid "your allopass account"
+msgstr "votre compte allopass"
+
+msgid "Example "
+msgstr "Exemple "
+
+msgid "Need Help?"
+msgstr "Besoin d'aide ?"
+
+msgid "No allopass account?"
+msgstr "Pas encore de compte Allopass ?"
+
+msgid "Click here"
+msgstr "Cliquez-ici"
+
+msgid "Description"
+msgstr "Description "
+
+msgid ""
+"Default text that will be displayed at the left of the allopass button "
+"describing your protected content."
+msgstr ""
+"Texte &quot;par d&eacute;faut&quot; qui s'affichera &agrave; gauche du "
+"bouton allopass d&eacute;crivant vos contenus prot&eacute;g&eacute;s."
+
+msgid ""
+"<b>Note</b>: When you add new product on your allopass account, always set "
+"as return URL"
+msgstr ""
+"<b>Remarque</b> : Lorsque vous ajoutez un produit sur le site allopass, "
+"mettez toujours comme url de retour "
+
+msgid ""
+"After purchase, the WEA plugin will automatically redirect the user to the "
+"page that he was visiting before."
+msgstr ""
+"Le plugin redirigera automatiquement votre client vers la page o&ugrave; il "
+"visitait avant l'achat."
+
+msgid "Product Sales Statistics"
+msgstr "Statistiques vente produit"
+
+msgid "Ref "
+msgstr "R&eacute;f "
+
+msgid "N&deg;"
+msgstr "N&deg;"
+
+msgid "Allopass code"
+msgstr "Code Allopass"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Post Id"
+msgstr "Id Article"
+
+msgid "Status (O=Ok)"
+msgstr "Statuts (O=Ok)"
+
+msgid "There are currently no sales for this product"
+msgstr "Pas encore de vente pour ce produit"
+
+msgid "Your products list"
+msgstr "Liste de vos produits"
+
+msgid "id"
+msgstr "id"
+
+msgid "Product Id"
+msgstr "Id Produit"
+
+msgid "Last update"
+msgstr "Mis-&agrave;-jour"
+
+msgid "Sales"
+msgstr "Vente"
+
+msgid "Shortcode"
+msgstr "Shortcode"
+
+msgid "Edit"
+msgstr "Modifier"
+
+msgid "Statistics"
+msgstr "Statistiques"
+
+msgid "Delete"
+msgstr "Supprimer"
+
+msgid "You have not yet added product"
+msgstr "Pas encore de produit"
+
+msgid ""
+"To protect paid content on one of your posts/pages, insert the following "
+"code:"
+msgstr ""
+"Pour prot&eacute;ger un contenu sur un de vos articles/pages, veuillez y "
+"ins&eacute;rer le code suivant :"
+
+msgid "Free content"
+msgstr "Contenu libre"
+
+msgid "Protected content"
+msgstr "Contenu prot&eacute;g&eacute;"
+
+msgid "Notes:"
+msgstr "Remarques :"
+
+msgid ""
+"The parameter <strong>Id</strong> (<strong>X</strong> = numeric value) "
+"represents the id of your product. (See column &quot;shortcode&quot; in the "
+"above table).<br>This parameter is required."
+msgstr ""
+"Le param&egrave;tre <strong>id</strong> (<strong>X</strong> = valeur "
+"num&eacute;rique) repr&eacute;sente l'id de votre produit. (Voir colonne "
+"&quot;Shortcode&quot; du tableau ci-dessus).<br>Ce param&egrave;tre est "
+"obligatoire."
+
+msgid ""
+"You can insert <strong>several shortcodes</strong> in a single post or page."
+msgstr ""
+"Vous pouvez ins&eacute;rer <strong>plusieurs shortcode </strong> dans un "
+"m&ecirc;me article ou page."
+
+msgid "If the parameter <strong>id</strong> is not defined or no product at"
+msgstr ""
+"Si le param&egrave;tre <strong>id</strong> n'est pas d&eacute;fini ou si "
+"aucun produit sur le site"
+
+msgid ""
+"corresponds to your <strong>&quot;Product Id&quot;,</strong> WordPress will "
+"display an error code..."
+msgstr ""
+"ne correspond &agrave; votre <strong>&quot;id Produit&quot;,</strong> "
+"Wordpress affichera un message d'erreur..."
+
+msgid "This plugin is free for use. But you can also download the "
+msgstr ""
+"Ce plugin est gratuit. Mais vous pouvez aussi t&eacute;l&eacute;charger la "
+
+msgid ""
+"(The PRO Version allows you to increase your profits and enjoy other "
+"benefits and FREE support.)"
+msgstr ""
+"(Cette version PRO vous permettra de recevoir plus de gain et de b&eacute;"
+"n&eacute;ficier d'autres avantages et supports)"
+
+msgid "Settings"
+msgstr "R&eacute;glages"
+
+#~ msgid ""
+#~ "This plugin is free for use. But you can also download the <a href=&quot;"
+#~ "http://www.gasy.prod.bz/wea-wp-easy-allopass-download/&quot; target=&quot;"
+#~ "_blank&quot;>Pro version</a>.<br>(The PRO version allows you to increase "
+#~ "your profits and enjoy other benefits and FREE support.)"
+#~ msgstr ""
+#~ "Ce plugin est gratuit. Mais vous pouvez aussi t&eacute;l&eacute;charger "
+#~ "la <a href=&quot;http://www.gays.prod.bz/wea-wp-easy-allopass-download/"
+#~ "&quot; target=&quot;_blank&quot;>Version PRO</a>.<br>(Cette version PRO "
+#~ "vous permettra de recevoir plus de gain et de b&eacute;n&eacute;ficier "
+#~ "d'autres avantages et supports)"
