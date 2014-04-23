@@ -110,6 +110,15 @@
              */
 
             do_action( 'woocommerce_after_single_product_summary' );
+
+            $tags_lookbook = $product->get_tags();
+            // echo do_shortcode('[ux_custom_products cat="'.$slug.'" products="5" columns="5" title="M&aacute;s de esta marca"]' );
+            $id=0;
+            if(strpos($tags_lookbook,'anna')!=-1){
+                $id = 1281;
+            }
+            echo do_shortcode('[supercarousel id='.$id.']');
+
             $terms = get_the_terms($post->ID,'product_cat');
             $cat = $terms['109'];
             $slug = $cat->slug;
