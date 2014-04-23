@@ -45,13 +45,16 @@ class WC_Shortcode_Cart {
 					$postcode = wc_format_postcode( $postcode, $country );
 				}
 
-				if ( $country ) {
+				if ( true ) {
 					WC()->customer->set_location( $country, $state, $postcode, $city );
 					WC()->customer->set_shipping_location( $country, $state, $postcode, $city );
-				} else {
-					WC()->customer->set_to_base();
-					WC()->customer->set_shipping_to_base();
-				}
+				} 
+
+				//CUSTOM FIX !!! BORIS!!!
+				// else {
+				// 	WC()->customer->set_to_base();
+				// 	WC()->customer->set_shipping_to_base();
+				// }
 
 				WC()->customer->calculated_shipping( true );
 

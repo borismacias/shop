@@ -107,4 +107,20 @@ global $woocommerce, $product, $post;
 
 </form>
 
+<?php 
+	$modals = array("zapatos"=>"1","accesorios"=>"2","ropa"=>"3");
+	$slug_categories = array("zapatos","accesorios","ropa");
+	$post_categories = get_the_terms($post->ID,'product_cat');
+	$modal = "";
+	foreach ($post_categories as $key => $value) {
+		if(in_array($value->slug,$slug_categories)){
+			$modal = $value->slug;
+			break;
+		}
+	}
+?>
+
+<a style="position:relative;top:-14px;"href="#" class="eModal-<?php echo $modals[$modal]?>"> Ver guía de tallas</a>
+<a style="position:relative;top:-14px;"href="#" class="eModal-3">Ver guía de tallas (Ropa)</a>
+
 <?php do_action( 'woocommerce_after_add_to_cart_form' ); ?>

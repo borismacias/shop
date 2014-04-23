@@ -33,7 +33,7 @@ global $flatsome_opt;
 <!-- FOOTER 2 -->
 <?php if ( is_active_sidebar( 'sidebar-footer-2' ) ) : ?>
 <div class="footer footer-2 <?php echo $flatsome_opt['footer_2_color']; ?>" style="background-color:<?php echo $flatsome_opt['footer_2_bg_color']?>;">
-	<div class="row" style="height:200px!important;">
+	<div class="row" style="height:270px!important;">
 
    		<?php dynamic_sidebar('sidebar-footer-2'); ?>        
 	</div><!-- end row -->

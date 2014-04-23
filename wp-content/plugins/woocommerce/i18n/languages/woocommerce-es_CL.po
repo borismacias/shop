@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce v2.1.5\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2014-03-03 14:47:31+00:00\n"
-"PO-Revision-Date: 2014-04-09 14:50-0400\n"
+"PO-Revision-Date: 2014-04-15 17:09-0400\n"
 "Last-Translator: bgonzalez <bgonzalez@ing.uchile.cl>\n"
 "Language-Team: Spanish (Chile) (http://www.transifex.com/projects/p/"
 "woocommerce/language/es_CL/)\n"
@@ -9025,7 +9025,7 @@ msgstr "Actualizar país"
 #: includes/wc-template-functions.php:1690
 #: templates/cart/shipping-calculator.php:52
 msgid "Select a state&hellip;"
-msgstr "Selecciona un estado/província&hellip;"
+msgstr "Selecciona una regi&oacute:n"
 
 # @ woocommerce
 #: includes/wc-template-functions.php:1803
@@ -10144,7 +10144,7 @@ msgstr "Orden predeterminado"
 # @ woocommerce
 #: templates/loop/orderby.php:22
 msgid "Sort by popularity"
-msgstr "Ordenar por popularidad"
+msgstr "Los m&aacute;s vendidos"
 
 # @ woocommerce
 #: templates/loop/orderby.php:23

@@ -76,7 +76,7 @@ if ( get_option( 'woocommerce_enable_shipping_calc' ) === 'no' || ! WC()->cart->
 
 		<?php endif; ?>
 
-		<?php if ( apply_filters( 'woocommerce_shipping_calculator_enable_postcode', true ) ) : ?>
+		<?php if ( apply_filters( 'woocommerce_shipping_calculator_enable_postcode', false ) ) : ?>
 
 			<p class="form-row form-row-wide">
 				<input type="text" class="input-text" value="<?php echo esc_attr( WC()->customer->get_shipping_postcode() ); ?>" placeholder="<?php _e( 'Postcode / Zip', 'woocommerce' ); ?>" name="calc_shipping_postcode" id="calc_shipping_postcode" />

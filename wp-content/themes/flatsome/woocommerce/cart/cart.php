@@ -119,8 +119,6 @@ global $woocommerce;
 	</tbody>
 </table>
 
-
-
 <?php do_action('woocommerce_cart_collaterals'); ?>
 
 

@@ -10,7 +10,25 @@
  * @package flatsome
  */
 
-get_header(); ?>
+get_header(); 
+
+global $wp_query;
+$cat = $wp_query->get_queried_object();
+?>
+
+<div class="cat-header">
+
+<?php 
+// GET CUSTOM HEADER CONTENT FOR CATEGORY
+if($cat->post_title=='Lookbooks'){
+	echo do_shortcode('[ux_banner bg="http://uxthemes.wpengine.com/wp-content/uploads/sites/2/2013/08/for_men.jpg" height="250px" animation="flipInX" text_align="center" text_pos="center" text_color="light" text_width="80%" parallax="1"]
+<h3>Lookbooks<h3>
+
+[/ux_banner]');
+}
+
+?>
+</div>
 
 <div class="page-header">
 <?php if( has_excerpt() ) the_excerpt();?>

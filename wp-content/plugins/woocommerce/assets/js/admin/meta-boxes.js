@@ -904,7 +904,7 @@ jQuery( function($){
 				type: 'POST',
 				success: function( response ) {
 					var info = response;
-
+					console.log(response);
 					if (info) {
 						$('input#_shipping_first_name').val( info.shipping_first_name );
 						$('input#_shipping_last_name').val( info.shipping_last_name );
