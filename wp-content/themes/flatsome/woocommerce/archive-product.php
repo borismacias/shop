@@ -20,13 +20,14 @@ get_header('shop'); ?>
 <?php 
 // GET CUSTOM HEADER CONTENT FOR CATEGORY
 if(function_exists('get_term_meta')){
+	print_r($content);
 	$queried_object = get_queried_object();
 	if (isset($queried_object->term_id)){
 
 		$term_id = $queried_object->term_id;  
 		$content = get_term_meta($term_id, 'cat_meta');
 		if(isset($content[0]['cat_header']) && $content[0]['cat_header']!=''){
-			print_r($content);
+			
 			echo do_shortcode($content[0]['cat_header']);
 		}
 		else if($cat->name == "Diseño Nacional"){
