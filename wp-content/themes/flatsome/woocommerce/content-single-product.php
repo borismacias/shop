@@ -112,7 +112,7 @@
             do_action( 'woocommerce_after_single_product_summary' );
 
             $name = get_query_var('name');
-            echo do_shortcode('[block id="'.$name.'"]');
+            echo do_shortcode('[block id="look-'.$name.'"]');
             $terms = get_the_terms($post->ID,'product_cat');
             $cat = $terms['109'];
             $slug = $cat->slug;
