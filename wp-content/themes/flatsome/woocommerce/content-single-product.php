@@ -112,8 +112,9 @@
             do_action( 'woocommerce_after_single_product_summary' );
 
             $name = get_query_var('name');
-            echo "<h3 class='section-title'><span>C&oacute;mo lo uso?</span></h3>";
+            echo "<div class='row'><h3 class='section-title'><span>C&oacute;mo lo uso?</span></h3>";
             echo do_shortcode('[block id="look-'.$name.'"]');
+            echo "</div>"
             $terms = get_the_terms($post->ID,'product_cat');
             $cat = $terms['109'];
             $slug = $cat->slug;
