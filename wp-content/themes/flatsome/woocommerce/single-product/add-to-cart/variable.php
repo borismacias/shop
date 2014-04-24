@@ -121,6 +121,6 @@ global $woocommerce, $product, $post;
 ?>
 
 <a style="position:relative;top:-14px;"href="#" class="eModal-<?php echo $modals[$modal]?>"> Ver guía de tallas</a>
-<a style="position:relative;top:-14px;"href="#" class="eModal-3">Ver guía de tallas (Ropa)</a>
+<!-- <a style="position:relative;top:-14px;"href="#" class="eModal-3">Ver guía de tallas (Ropa)</a> -->
 
 <?php do_action( 'woocommerce_after_add_to_cart_form' ); ?>
