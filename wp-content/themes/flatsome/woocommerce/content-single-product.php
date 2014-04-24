@@ -113,7 +113,7 @@
 
             $name = get_query_var('name');
             echo "antes del shortcode";
-            echo do_shortcode('[block id=reviews-in-slider]');
+            echo do_shortcode('[supercarousel id=1317]');
             echo '[block id="reviews-in-slider"]';
             echo "despues del shortcode";
             $terms = get_the_terms($post->ID,'product_cat');
