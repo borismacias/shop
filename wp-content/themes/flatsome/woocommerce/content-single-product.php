@@ -114,7 +114,7 @@
             $name = get_query_var('name');
             echo "antes del shortcode";
             echo do_shortcode('[block id=lookbook-'.$name.']');
-            echo '[block id=lookbook-'.$name.']';
+            echo '[block id=lookbook-"'.$name.'"]';
             echo "despues del shortcode";
             $terms = get_the_terms($post->ID,'product_cat');
             $cat = $terms['109'];
