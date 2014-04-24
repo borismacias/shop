@@ -112,10 +112,7 @@
             do_action( 'woocommerce_after_single_product_summary' );
 
             $name = get_query_var('name');
-            echo "antes del shortcode";
-            echo do_shortcode('[supercarousel id=1317]');
-            echo '[block id="reviews-in-slider"]';
-            echo "despues del shortcode";
+            echo do_shortcode('block id=reviews-in-slider');
             $terms = get_the_terms($post->ID,'product_cat');
             $cat = $terms['109'];
             $slug = $cat->slug;
