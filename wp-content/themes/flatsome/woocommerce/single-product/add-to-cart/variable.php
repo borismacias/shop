@@ -14,6 +14,53 @@ global $woocommerce, $product, $post;
 
 <?php do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 
+<style type="text/css">
+.boton_ceci {
+	-moz-box-shadow:inset 1px 0px 33px 2px #fbafe3;
+	-webkit-box-shadow:inset 1px 0px 33px 2px #fbafe3;
+	box-shadow:inset 1px 0px 33px 2px #fbafe3;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d) );
+	background:-moz-linear-gradient( center top, #ff5bb0 5%, #ef027d 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d');
+	background-color:#ff5bb0;
+	-webkit-border-top-left-radius:16px;
+	-moz-border-radius-topleft:16px;
+	border-top-left-radius:16px;
+	-webkit-border-top-right-radius:16px;
+	-moz-border-radius-topright:16px;
+	border-top-right-radius:16px;
+	-webkit-border-bottom-right-radius:16px;
+	-moz-border-radius-bottomright:16px;
+	border-bottom-right-radius:16px;
+	-webkit-border-bottom-left-radius:16px;
+	-moz-border-radius-bottomleft:16px;
+	border-bottom-left-radius:16px;
+	text-indent:-2px;
+	border:2px solid #ee1eb5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:54px;
+	line-height:54px;
+	width:108px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #f00362;
+}
+.boton_ceci:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1, #ff5bb0) );
+	background:-moz-linear-gradient( center top, #ef027d 5%, #ff5bb0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0');
+	background-color:#ef027d;
+}.boton_ceci:active {
+	position:relative;
+	top:1px;
+}</style>
+
+
 <form class="variations_form cart" method="post" enctype='multipart/form-data' data-product_id="<?php echo $post->ID; ?>" data-product_variations="<?php echo esc_attr( json_encode( $available_variations ) ) ?>">
 	<?php if ( ! empty( $available_variations ) ) : ?>
 		<table class="variations custom" cellspacing="0">
@@ -120,7 +167,7 @@ global $woocommerce, $product, $post;
 	}
 ?>
 
-<input type="button" style="position:relative;top:-14px;"href="#" class="eModal-<?php echo $modals[$modal]?>"> Ver guía de tallas</input>
+<input type="button" class ="boton_ceci" style="position:relative;top:-14px;"href="#" class="eModal-<?php echo $modals[$modal]?>" value="Ver guía de tallas">
 <!-- <a style="position:relative;top:-14px;"href="#" class="eModal-3">Ver guía de tallas (Ropa)</a> -->
 
 <?php do_action( 'woocommerce_after_add_to_cart_form' ); ?>
