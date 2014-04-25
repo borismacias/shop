@@ -149,7 +149,8 @@ global $woocommerce, $product, $post;
 ?>
 
 <input type="button" style="position:relative;top:-14px;"href="#" class="boton_ceci eModal-<?php echo $modals[$modal]?>" value="Ver guía de tallas">
-<input type="button" class ="boton_ceci" style="position:relative;top:-14px;"href="#" value="Horma">
+<input type="button" class ="boton_ceci tooltip" style="position:relative;top:-14px;"href="#" value="Horma">
+<?php do_shortcode("[block id='1394-2']");?>
 <!-- <a style="position:relative;top:-14px;"href="#" class="eModal-3">Ver guía de tallas (Ropa)</a> -->
 
 <?php do_action( 'woocommerce_after_add_to_cart_form' ); ?>
