@@ -16,26 +16,28 @@ global $woocommerce, $product, $post;
 
 <style type="text/css">
 .boton_ceci{ 
-    height: 25px; 
-    width: 138px; 
-    padding: 18px; 
-    text-align: center; 
-    color: #FFFFFF; 
-    font-family: 'Arial'; 
-    font-size: 18px; 
-    background: #EE2A5C; 
-    background: -moz-linear-gradient(top, #EE2A5C 0%, #EE2A5C 100%); 
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EE2A5C), color-stop(100%,#EE2A5C)); 
-    background: -webkit-linear-gradient(top, #EE2A5C 0%,#EE2A5C 100%); 
-    background: -o-linear-gradient(top, #EE2A5C 0%,#EE2A5C 100%); 
-    background: -ms-linear-gradient(top, #EE2A5C 0%,#EE2A5C 100%); 
-    background: linear-gradient(to bottom, #EE2A5C 0%,#EE2A5C 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EE2A5C',  endColorstr='#EE2A5C', GradientType=0 ); 
-    border-width: 2px; 
-    border-style: outsetOutset; 
-    border-color: #E0DDDC; 
-    border-radius: 44px; 
-    box-shadow: 0px 1px 0px 0px #7A8EB9; 
+    height: 25px;
+	width: 159px;
+	padding: 18px;
+	padding-top: 1px;
+	padding-left: 8px;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'Arial';
+	font-size: 18px;
+	background: #EE2A5C;
+	background: -moz-linear-gradient(top, #EE2A5C 0%, #EE2A5C 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EE2A5C), color-stop(100%,#EE2A5C));
+	background: -webkit-linear-gradient(top, #EE2A5C 0%,#EE2A5C 100%);
+	background: -o-linear-gradient(top, #EE2A5C 0%,#EE2A5C 100%);
+	background: -ms-linear-gradient(top, #EE2A5C 0%,#EE2A5C 100%);
+	background: linear-gradient(to bottom, #EE2A5C 0%,#EE2A5C 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EE2A5C', endColorstr='#EE2A5C', GradientType=0 );
+	border-width: 2px;
+	border-style: outsetOutset;
+	border-color: #E0DDDC;
+	border-radius: 44px;
+	box-shadow: 0px 1px 0px 0px #7A8EB9;
 }
 </style>
 
