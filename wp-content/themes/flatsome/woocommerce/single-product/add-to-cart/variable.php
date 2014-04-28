@@ -204,7 +204,7 @@ global $woocommerce, $product, $post;
 
 <script type="text/javascript">
 	$(function() {
-		$("#horma").attr('title',$(".shop_attributes td")[5].innerHTML);
+		$("#horma").attr('title',$(".shop_attributes td")[5].innerText);
 	    $( document ).tooltip({
 	      position: {
 	        my: "center bottom-20",
