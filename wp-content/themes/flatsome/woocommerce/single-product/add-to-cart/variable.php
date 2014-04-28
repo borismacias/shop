@@ -43,40 +43,10 @@ border-color: #ccc;
 	padding-top: 5px!important;
 }
 
-.boton_ceci:hover{
+.boton_ceci:hover,.boton_ceci:active{
 	background-color: #EE2A5C!important;
 }
-.tooltips[title]:hover:after {
-  content: attr(title);
-  padding: 4px 8px;
-  color: #333;
-  position: absolute;
-  left: 0;
-  top: 100%;
-  margin-top: 10px;
-  max-width: 300px;
-	display: inline-block;
-	margin-bottom: 0;
-	font-weight: 400;
-	text-align: center;
-	vertical-align: middle;
-	cursor: pointer;
-	background-image: none;
-	border: 1px solid transparent;
-	white-space: nowrap;
-	padding: 6px 12px;
-	font-size: 14px;
-	line-height: 1.42857143;
-	border-radius: 4px;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	color: #333;
-	background-color: #fff;
-	border-color: #ccc;
 
-}
 </style>
 
 <form class="variations_form cart" method="post" enctype='multipart/form-data' data-product_id="<?php echo $post->ID; ?>" data-product_variations="<?php echo esc_attr( json_encode( $available_variations ) ) ?>">
