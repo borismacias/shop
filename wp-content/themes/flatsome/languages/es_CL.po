@@ -401,12 +401,12 @@ msgstr ""
 # @ flatsome
 #: header.php:205 inc/template-tags.php:246
 msgid "Cart"
-msgstr "Carrito"
+msgstr "Bolsa"
 
 # @ woocommerce
 #: header.php:224 inc/template-tags.php:304
 msgid "No products in the cart."
-msgstr "No hay productos en el Carrito"
+msgstr "No hay productos en la Bolsa"
 
 # @ flatsome
 #: image.php:25
@@ -907,12 +907,12 @@ msgstr "Cantidad"
 # @ woocommerce
 #: inc/template-tags.php:296
 msgid "Cart Subtotal"
-msgstr "Subtotal del Carrito"
+msgstr "Subtotal de la Bolsa"
 
 # @ flatsome
 #: inc/template-tags.php:299
 msgid "View Cart"
-msgstr "Ver Carrito"
+msgstr "Ver Bolsa"
 
 # @ flatsome
 #: inc/template-tags.php:301
