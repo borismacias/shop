@@ -61,7 +61,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 			</div>
 		<?php endif;
 
-		$title_reply = __( 'Add a Review', 'woocommerce' ).' &ldquo;'.$post->post_title.'&rdquo;';
+		$title_reply = __( 'Add a review', 'woocommerce' ).' &ldquo;'.$post->post_title.'&rdquo;';
 
 	else :
 

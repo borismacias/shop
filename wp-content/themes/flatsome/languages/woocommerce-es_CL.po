@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce v2.1.5\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2014-03-03 14:47:31+00:00\n"
-"PO-Revision-Date: 2014-04-27 22:04-0400\n"
+"PO-Revision-Date: 2014-04-27 23:59-0400\n"
 "Last-Translator: bgonzalez <bgonzalez@ing.uchile.cl>\n"
 "Language-Team: Spanish (Chile) (http://www.transifex.com/projects/p/"
 "woocommerce/language/es_CL/)\n"
@@ -10614,7 +10614,7 @@ msgstr "No hay reseñas todavía."
 # @ woocommerce
 #: templates/single-product-reviews.php:57
 msgid "Add a review"
-msgstr "Añadir un comentario"
+msgstr "Añadir una opinión para"
 
 # @ woocommerce
 #: templates/single-product-reviews.php:57
@@ -12927,7 +12927,7 @@ msgstr ""
 # @ woocommerce
 #: includes/admin/post-types/class-wc-admin-meta-boxes.php:120
 msgid "Rating"
-msgstr ""
+msgstr "Puntuación"
 
 # @ woocommerce
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-coupon-data.php:37
