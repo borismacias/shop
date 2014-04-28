@@ -25,7 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 			echo '<div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">';
 
-			echo '<h2>'.sprintf( _n('<strong>%s review</strong> for %s', '<strong>%s reviews</strong> for %s', $count, 'woocommerce'), '<span itemprop="ratingCount" class="count">'.$count.'</span>', wptexturize($post->post_title) ).'</h2>';
+			echo '<h2>'.sprintf( _n('%s review for %s', '%s reviews for %s', $count, 'woocommerce'), '<span itemprop="ratingCount" class="count">'.$count.'</span>', wptexturize($post->post_title) ).'</h2>';
 
 			echo '</div>';
 
