@@ -90,7 +90,29 @@ global $woocommerce, $product, $post;
 <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-  
+  <script type="text/javascript">
+	$(document).ready(function() {
+		window.setTimeout(function(){
+			console.log("en timeout");
+			$("#horma").attr('title',$(".shop_attributes td")[5].innerText);
+		    $( document ).tooltip({
+		      position: {
+		        my: "center bottom-20",
+		        at: "center top",
+		        using: function( position, feedback ) {
+		          $( this ).css( position );
+		          $( "<div>" )
+		            .addClass( "arrow" )
+		            .addClass( feedback.vertical )
+		            .addClass( feedback.horizontal )
+		            .appendTo( this );
+		        }
+		      }
+		    });
+
+		},100);
+	  });
+</script>
 
 
 <form class="variations_form cart" method="post" enctype='multipart/form-data' data-product_id="<?php echo $post->ID; ?>" data-product_variations="<?php echo esc_attr( json_encode( $available_variations ) ) ?>">
@@ -202,25 +224,7 @@ global $woocommerce, $product, $post;
 <input type="button" style="position:relative;top:-14px;"href="#" class="boton_ceci eModal-<?php echo $modals[$modal]?>" value="Ver guía de tallas">
 <input id="horma" type="button" style="position:relative;top:-14px;"href="#" class="boton_ceci " value="Horma">
 
-<script type="text/javascript">
-	$(function() {
-		$("#horma").attr('title',$(".shop_attributes td")[5].innerText);
-	    $( document ).tooltip({
-	      position: {
-	        my: "center bottom-20",
-	        at: "center top",
-	        using: function( position, feedback ) {
-	          $( this ).css( position );
-	          $( "<div>" )
-	            .addClass( "arrow" )
-	            .addClass( feedback.vertical )
-	            .addClass( feedback.horizontal )
-	            .appendTo( this );
-	        }
-	      }
-	    });
-	  });
-</script>
+
 
 
 <?php do_action( 'woocommerce_after_add_to_cart_form' ); ?>
