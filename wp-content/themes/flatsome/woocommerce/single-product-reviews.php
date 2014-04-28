@@ -91,7 +91,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 			'email'  => '<p class="comment-form-email"><label for="email">' . __( 'Email', 'woocommerce' ) . '</label> ' . '<span class="required">*</span>' .
 			            '<input id="email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30" aria-required="true" /></p>',
 		),
-		'label_submit' => __( 'Submit Review', 'woocommerce' ),
+		'label_submit' => __( 'Submit Review', 'flatsome' ),
 		'logged_in_as' => '',
 		'comment_field' => ''
 	);

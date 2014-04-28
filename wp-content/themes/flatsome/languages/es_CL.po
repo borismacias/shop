@@ -1434,7 +1434,7 @@ msgstr ""
 # @ woocommerce
 #: woocommerce/single-product-reviews.php:94
 msgid "Submit Review"
-msgstr ""
+msgstr "Enviar opinion"
 
 # @ woocommerce
 #: woocommerce/single-product-reviews.php:101

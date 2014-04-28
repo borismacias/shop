@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: es_CL\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: \n"
-"Last-Translator: \n"
+"Last-Translator: bgonzalez <bgonzalez@ing.uchile.cl>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
@@ -1434,7 +1434,7 @@ msgstr ""
 # @ woocommerce
 #: woocommerce/single-product-reviews.php:94
 msgid "Submit Review"
-msgstr ""
+msgstr "Enviar opinion"
 
 # @ woocommerce
 #: woocommerce/single-product-reviews.php:101
