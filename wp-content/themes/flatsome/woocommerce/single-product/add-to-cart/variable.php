@@ -149,6 +149,6 @@ global $woocommerce, $product, $post;
 ?>
 
 <input type="button" style="position:relative;top:-14px;"href="#" class="boton_ceci eModal-<?php echo $modals[$modal]?>" value="Ver guía de tallas">
-<!-- <a style="position:relative;top:-14px;"href="#" class="eModal-3">Ver guía de tallas (Ropa)</a> -->
+<input type="button" style="position:relative;top:-14px;"href="#" class="boton_ceci " value="Horma">
 
 <?php do_action( 'woocommerce_after_add_to_cart_form' ); ?>
