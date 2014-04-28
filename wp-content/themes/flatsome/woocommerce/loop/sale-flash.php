@@ -15,7 +15,7 @@ global $post, $product;
 
 	 <div class="callout">
             <div class="inner">
-              <div class="inner-text"><?php echo apply_filters('woocommerce_sale_flash','Sale!', $post, $product); ?></div>
+              <div class="inner-text"><?php echo apply_filters('woocommerce_sale_flash',__( 'Sale!', 'woocommerce' ), $post, $product); ?></div>
             </div>
      </div><!-- end callout -->
 

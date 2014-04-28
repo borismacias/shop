@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WooCommerce v2.1.5\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
 "POT-Creation-Date: 2014-03-03 14:47:31+00:00\n"
-"PO-Revision-Date: 2014-04-15 17:09-0400\n"
+"PO-Revision-Date: 2014-04-27 22:04-0400\n"
 "Last-Translator: bgonzalez <bgonzalez@ing.uchile.cl>\n"
 "Language-Team: Spanish (Chile) (http://www.transifex.com/projects/p/"
 "woocommerce/language/es_CL/)\n"
@@ -27,7 +27,7 @@ msgstr "Insertar shortcode"
 # @ woocommerce
 #: assets/js/admin/editor_plugin_lang.php:6
 msgid "Product price/cart button"
-msgstr "Botón de Precio de Producto / Carrito"
+msgstr "Botón de Precio de Producto / Bolsa"
 
 # @ woocommerce
 #: assets/js/admin/editor_plugin_lang.php:7
@@ -3861,7 +3861,7 @@ msgstr "Código de Tarjeta"
 #: includes/class-wc-product-simple.php:48
 #: includes/class-wc-product-variation.php:211
 msgid "Add to cart"
-msgstr "Añadir al carro"
+msgstr "Añadir a la bolsa"
 
 # @ woocommerce
 #: includes/abstracts/abstract-wc-product.php:465
@@ -4319,13 +4319,13 @@ msgid ""
 "%s has been removed from your cart because it can no longer be purchased. "
 "Please contact us if you need assistance."
 msgstr ""
-"%s ha sido eliminado de tu carrito ya que no está disponible para la venta. "
+"%s ha sido eliminado de tu bolsa ya que no está disponible para la venta. "
 "Por favor, póngase en contacto con nosotros si necesita ayuda."
 
 # @ woocommerce
 #: includes/class-wc-cart.php:363
 msgid "An item which is no longer available was removed from your cart."
-msgstr "Un artículo que ya no está disponible fue eliminado de tu carrito."
+msgstr "Un artículo que ya no está disponible fue eliminado de tu bolsa."
 
 # @ woocommerce
 #: includes/class-wc-cart.php:397 includes/class-wc-cart.php:416
@@ -4337,7 +4337,7 @@ msgid ""
 "inconvenience caused."
 msgstr ""
 "Lo sentimos, no tenemos suficientes \"%s\" en existencia para completar tu "
-"pedido (%s en stock). Por favor, edita tu carrito y vuelve a intentarlo. Nos "
+"pedido (%s en stock). Por favor, edita tu bolsa y vuelve a intentarlo. Nos "
 "disculpamos por cualquier inconveniente causado."
 
 # @ woocommerce
@@ -4349,8 +4349,8 @@ msgid ""
 "apologise for any inconvenience caused."
 msgstr ""
 "Lo sentimos, no tenemos suficientes \"%s\" en existencia para completar tu "
-"pedido ahora. Por favor inténtalo de nuevo en %d minutos o edite su carrito "
-"e inténtalo de nuevo. Nos disculpamos por cualquier inconveniente causado."
+"pedido ahora. Por favor inténtalo de nuevo en %d minutos o edite su bolsa e "
+"inténtalo de nuevo. Nos disculpamos por cualquier inconveniente causado."
 
 # @ woocommerce
 #: includes/class-wc-cart.php:470
@@ -4359,7 +4359,7 @@ msgid ""
 "Sorry, \"%s\" is not in stock. Please edit your cart and try again. We "
 "apologise for any inconvenience caused."
 msgstr ""
-"Lo sentimos, \"%s\"  no está en existencia. Por favor, edita tu carrito y "
+"Lo sentimos, \"%s\"  no está en existencia. Por favor, edita tu bolsa y "
 "vuelve a intentarlo. Nos disculpamos por cualquier inconveniente causado."
 
 # @ woocommerce
@@ -4375,7 +4375,7 @@ msgid ""
 "You cannot add &quot;%s&quot; to the cart because the product is out of "
 "stock."
 msgstr ""
-"No se puede agregar &quot;%s&quot; al carrito de compras porque este "
+"No se puede agregar &quot;%s&quot; a la bolsa de compras porque este "
 "producto está agotado."
 
 # @ woocommerce
@@ -4385,7 +4385,7 @@ msgid ""
 "You cannot add that amount of &quot;%s&quot; to the cart because there is "
 "not enough stock (%s remaining)."
 msgstr ""
-"No se puede agragar esa cantidad de &quot;%s&quot; al carrito por que no hay "
+"No se puede agravar esa cantidad de &quot;%s&quot; a la bolsa por que no hay "
 "suficientes en stock (%s restantes). "
 
 # @ woocommerce
@@ -4393,13 +4393,13 @@ msgstr ""
 #: includes/class-wc-cart.php:856 includes/class-wc-frontend-scripts.php:157
 #: includes/wc-cart-functions.php:98 templates/cart/mini-cart.php:64
 msgid "View Cart"
-msgstr "Ver Carro"
+msgstr "Ver Bolsa"
 
 # @ woocommerce
 #: includes/class-wc-cart.php:825
 #, php-format
 msgid "You cannot add another &quot;%s&quot; to your cart."
-msgstr "No puedes añadir otro &quot;%s&quot; a tu carrito."
+msgstr "No puedes añadir otro &quot;%s&quot; a tu bolsa."
 
 # @ woocommerce
 #: includes/class-wc-cart.php:844 includes/class-wc-cart.php:857
@@ -4408,7 +4408,7 @@ msgid ""
 "You cannot add that amount to the cart &mdash; we have %s in stock and you "
 "already have %s in your cart."
 msgstr ""
-"No puedes añadir esa cantidad al carrito &mdash; disponemos de %s en stock y "
+"No puedes añadir esa cantidad a la bolsa &mdash; disponemos de %s en stock y "
 "has añadido %s en tu carro."
 
 # @ woocommerce
@@ -6012,7 +6012,7 @@ msgstr "El monto mínimo para comprar con este cupón es %s."
 # @ woocommerce
 #: includes/class-wc-coupon.php:626
 msgid "Sorry, this coupon is not applicable to your cart contents."
-msgstr "Lo sentimos, este cupón no es aplicable al contenido de tu carro."
+msgstr "Lo sentimos, este cupón no es aplicable al contenido de tu bolsa."
 
 # @ woocommerce
 #: includes/class-wc-coupon.php:629
@@ -6199,18 +6199,18 @@ msgstr "Método de pago añadido."
 #: includes/class-wc-form-handler.php:367
 #: includes/class-wc-form-handler.php:426
 msgid "Cart updated."
-msgstr "Carrito actualizado."
+msgstr "Bolsa actualizada."
 
 # @ woocommerce
 #: includes/class-wc-form-handler.php:402
 #, php-format
 msgid "You can only have 1 %s in your cart."
-msgstr "Solo puede tener 1 %s en su carrito."
+msgstr "Solo puede tener 1 %s en su bolsa."
 
 # @ woocommerce
 #: includes/class-wc-form-handler.php:494
 msgid "The cart has been filled with the items from your previous order."
-msgstr "El carrito ha sido llenado con artículos de tus pedidos anteriores."
+msgstr "La bolsa ha sido llenada con artículos de tus pedidos anteriores."
 
 # @ woocommerce
 #: includes/class-wc-form-handler.php:517
@@ -6242,13 +6242,13 @@ msgstr "Por favor, elija las opciones del producto&hellip;"
 msgid ""
 "Please choose the quantity of items you wish to add to your cart&hellip;"
 msgstr ""
-"Por favor escoge la cantidad de articulos que deseas agregar a tu "
-"carrito&hellip;"
+"Por favor escoge la cantidad de artículos que deseas agregar a tu "
+"bolsa&hellip;"
 
 # @ woocommerce
 #: includes/class-wc-form-handler.php:666
 msgid "Please choose a product to add to your cart&hellip;"
-msgstr "Por favor, elija un producto para agregar a su carrito&hellip;"
+msgstr "Por favor, elija un producto para agregar a su bolsa&hellip;"
 
 # @ woocommerce
 #: includes/class-wc-form-handler.php:726
@@ -6345,13 +6345,13 @@ msgstr "Tienda"
 #: includes/class-wc-install.php:222
 msgctxt "Page slug"
 msgid "cart"
-msgstr "carro"
+msgstr "bolsa"
 
 # @ woocommerce
 #: includes/class-wc-install.php:223
 msgctxt "Page title"
 msgid "Cart"
-msgstr "Carro"
+msgstr "Bolsa"
 
 # @ woocommerce
 #: includes/class-wc-install.php:227
@@ -6408,12 +6408,12 @@ msgstr "&nbsp;<small>%svia %s</small>"
 # @ woocommerce
 #: includes/class-wc-order.php:896
 msgid "Cart Subtotal:"
-msgstr "Subtotal del Carro:"
+msgstr "Subtotal de la Bolsa:"
 
 # @ woocommerce
 #: includes/class-wc-order.php:903
 msgid "Cart Discount:"
-msgstr "Descuento en el carrito:"
+msgstr "Descuento en la bolsa:"
 
 # @ woocommerce
 #: includes/class-wc-order.php:910
@@ -7912,7 +7912,7 @@ msgstr "Pagar a través de PayPal"
 # @ woocommerce
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:491
 msgid "Cancel order &amp; restore cart"
-msgstr "Cancelar pedido &amp; restablecer carrito"
+msgstr "Cancelar pedido &amp; restablecer bolsa"
 
 # @ woocommerce
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:546
@@ -8425,7 +8425,7 @@ msgstr "Monto fijo"
 # @ woocommerce
 #: includes/shipping/local-delivery/class-wc-shipping-local-delivery.php:115
 msgid "Percentage of cart total"
-msgstr "Porcentaje del total del carrito"
+msgstr "Porcentaje del total de la bolsa"
 
 # @ woocommerce
 #: includes/shipping/local-delivery/class-wc-shipping-local-delivery.php:116
@@ -8636,7 +8636,7 @@ msgstr "Este producto está protegido y no puede ser comprado."
 #: includes/wc-cart-functions.php:83
 #, php-format
 msgid "Added &quot;%s&quot; to your cart."
-msgstr "Se agregó &quot;%s&quot; a tu carrito."
+msgstr "Se agregó &quot;%s&quot; a tu bolsa."
 
 # @ woocommerce
 #: includes/wc-cart-functions.php:83
@@ -8647,7 +8647,7 @@ msgstr "&quot; y &quot;"
 #: includes/wc-cart-functions.php:86
 #, php-format
 msgid "&quot;%s&quot; was successfully added to your cart."
-msgstr "&quot;%s&quot; fue añadido a su carrito con éxito."
+msgstr "&quot;%s&quot; fue añadido a su bolsa con éxito."
 
 # @ woocommerce
 #: includes/wc-cart-functions.php:94
@@ -8873,12 +8873,12 @@ msgstr "Dong Vietnamita"
 # @ woocommerce
 #: includes/wc-coupon-functions.php:22
 msgid "Cart Discount"
-msgstr "Descuento de Carrito"
+msgstr "Descuento de Bolsa"
 
 # @ woocommerce
 #: includes/wc-coupon-functions.php:23
 msgid "Cart % Discount"
-msgstr "Descuento % Carrito"
+msgstr "Descuento % Bolsa"
 
 # @ woocommerce
 #: includes/wc-coupon-functions.php:24
@@ -9058,23 +9058,23 @@ msgstr "Sin categorizar"
 # @ woocommerce
 #: includes/widgets/class-wc-widget-cart.php:23
 msgid "Display the user's Cart in the sidebar."
-msgstr "Mostrar el carrito del usuario en la barra lateral (sidebar)."
+msgstr "Mostrar la bolsa del usuario en la barra lateral (sidebar)."
 
 # @ woocommerce
 #: includes/widgets/class-wc-widget-cart.php:25
 msgid "WooCommerce Cart"
-msgstr "Carrito WooCommerce"
+msgstr "Bolsa WooCommerce"
 
 # @ woocommerce
 #: includes/widgets/class-wc-widget-cart.php:29
 #: includes/widgets/class-wc-widget-cart.php:56
 msgid "Cart"
-msgstr "Carro"
+msgstr "Bolsa"
 
 # @ woocommerce
 #: includes/widgets/class-wc-widget-cart.php:35
 msgid "Hide if cart is empty"
-msgstr "Ocultar si el carrito está vacío"
+msgstr "Ocultar si la bolsa está vacía"
 
 # @ woocommerce
 #: includes/widgets/class-wc-widget-layered-nav-filters.php:21
@@ -9443,7 +9443,7 @@ msgstr "Productos Mejor Valorados"
 # @ woocommerce
 #: templates/cart/cart-empty.php:16
 msgid "Your cart is currently empty."
-msgstr "Tu carrito esta vacío."
+msgstr "Tu bolsa esta vacía."
 
 # @ woocommerce
 #: templates/cart/cart-empty.php:20
@@ -9497,12 +9497,12 @@ msgstr "Envío"
 # @ woocommerce
 #: templates/cart/cart-totals.php:16
 msgid "Cart Totals"
-msgstr "Total del Carrito"
+msgstr "Total de la Bolsa"
 
 # @ woocommerce
 #: templates/cart/cart-totals.php:21 templates/checkout/review-order.php:25
 msgid "Cart Subtotal"
-msgstr "Subtotal del carrito"
+msgstr "Subtotal de la bolsa"
 
 # @ woocommerce
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-order-totals.php:120
@@ -9566,7 +9566,7 @@ msgstr "Aplicar cupón"
 # @ woocommerce
 #: templates/cart/cart.php:125
 msgid "Update Cart"
-msgstr "Actualizar carrito"
+msgstr "Actualizar bolsa"
 
 # @ woocommerce
 #: templates/cart/cart.php:125
@@ -9581,7 +9581,7 @@ msgstr "Usted puede estar interesado en&hellip;"
 # @ woocommerce
 #: templates/cart/mini-cart.php:51
 msgid "No products in the cart."
-msgstr "No hay productos en el carrito."
+msgstr "No hay productos en la bolsa."
 
 # @ woocommerce
 #: includes/admin/post-types/meta-boxes/views/html-order-item.php:169
@@ -9628,14 +9628,14 @@ msgid ""
 "There are some issues with the items in your cart (shown above). Please go "
 "back to the cart page and resolve these issues before checking out."
 msgstr ""
-"Hay algunos inconvenientes con los artículos en su carrito (mostrados "
-"arriba). Por favor regrese al carrito y resuelva los inconvenientes antes de "
-"pasar a pagar."
+"Hay algunos inconvenientes con los artículos en su bolsa (mostrados arriba). "
+"Por favor regrese a la bolsa y resuelva los inconvenientes antes de pasar a "
+"pagar."
 
 # @ woocommerce
 #: templates/checkout/cart-errors.php:20
 msgid "Return To Cart"
-msgstr "Volver al carrito"
+msgstr "Volver a la bolsa"
 
 # @ woocommerce
 #: templates/checkout/form-billing.php:15
