@@ -110,7 +110,7 @@ global $woocommerce, $product, $post;
 		      }
 		    });
 
-		},100);
+		},1000);
 	  });
 </script>
 
