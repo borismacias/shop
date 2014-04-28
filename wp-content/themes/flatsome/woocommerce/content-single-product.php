@@ -12,8 +12,8 @@
 
  
     global $post, $product, $flatsome_opt;
-
     // Get category permalink
+
     $permalinks     = get_option( 'woocommerce_permalinks' );
     $category_slug  = empty( $permalinks['category_base'] ) ? _x( 'product-category', 'slug', 'woocommerce' ) : $permalinks['category_base'];
 ?>

@@ -10,6 +10,9 @@
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 global $woocommerce, $product, $post;
+
+ $product_attrs = $product->get_attributes();
+ $horma = $product_attrs['horma']['value'];
 ?>
 
 <?php do_action( 'woocommerce_before_add_to_cart_form' ); ?>
@@ -156,7 +159,7 @@ border-color: #ccc;
 ?>
 
 <button href="#" class="boton_ceci eModal-<?php echo $modals[$modal]?>">Ver guía de tallas</button>
-<button class="boton_ceci tooltips" title ="Hola, soy el tooltip de la horma :D asdasdasdasdasdasdasdasdasdasdasd">Horma</button>
+<button class="boton_ceci tooltips" title ="<?php echo $horma;?>">Horma</button>
 
 
 
