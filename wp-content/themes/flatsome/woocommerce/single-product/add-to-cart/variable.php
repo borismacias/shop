@@ -185,7 +185,7 @@ border-color: #ccc;
 	}
 ?>
 
-<button style="position:relative;top:-14px;"href="#" class="boton_ceci eModal-<?php echo $modals[$modal]?>">Ver guía de tallas</button>
+<button href="#" class="boton_ceci eModal-<?php echo $modals[$modal]?>">Ver guía de tallas</button>
 <button class="boton_ceci tooltips" title ="Hola, soy el tooltip de la horma :D asdasdasdasdasdasdasdasdasdasdasd">Horma</button>
 
 
