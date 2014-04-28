@@ -15,29 +15,67 @@ global $woocommerce, $product, $post;
 <?php do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 
 <style type="text/css">
-.boton_ceci{ 
-    height: 25px;
-	width: 159px;
-	padding: 18px;
-	padding-top: 1px;
-	padding-left: 8px;
+.boton_ceci {
+margin-top: 10px;
+display: inline-block;
+margin-bottom: 0;
+font-weight: 400;
+text-align: center;
+vertical-align: middle;
+cursor: pointer;
+background-image: none;
+border: 1px solid transparent;
+white-space: nowrap;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+border-radius: 4px;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+color: #333;
+background-color: #fff;
+border-color: #ccc;
+}
+
+.social-icons{
+	padding-top: 5px!important;
+}
+
+.boton_ceci:hover{
+	background-color: #EE2A5C!important;
+}
+.tooltips[title]:hover:after {
+  content: attr(title);
+  padding: 4px 8px;
+  color: #333;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin-top: 10px;
+  max-width: 300px;
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: 400;
 	text-align: center;
-	color: #FFFFFF;
-	font-family: 'Arial';
-	font-size: 18px;
-	background: #EE2A5C;
-	background: -moz-linear-gradient(top, #EE2A5C 0%, #EE2A5C 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EE2A5C), color-stop(100%,#EE2A5C));
-	background: -webkit-linear-gradient(top, #EE2A5C 0%,#EE2A5C 100%);
-	background: -o-linear-gradient(top, #EE2A5C 0%,#EE2A5C 100%);
-	background: -ms-linear-gradient(top, #EE2A5C 0%,#EE2A5C 100%);
-	background: linear-gradient(to bottom, #EE2A5C 0%,#EE2A5C 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EE2A5C', endColorstr='#EE2A5C', GradientType=0 );
-	border-width: 2px;
-	border-style: outsetOutset;
-	border-color: #E0DDDC;
-	border-radius: 44px;
-	box-shadow: 0px 1px 0px 0px #7A8EB9;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: #333;
+	background-color: #fff;
+	border-color: #ccc;
+
 }
 </style>
 
@@ -147,9 +185,8 @@ global $woocommerce, $product, $post;
 	}
 ?>
 
-<input type="button" style="position:relative;top:-14px;"href="#" class="boton_ceci eModal-<?php echo $modals[$modal]?>" value="Ver guía de tallas">
-<input id="horma" type="button" style="position:relative;top:-14px;"href="#" class="boton_ceci " value="Horma">
-
+<button style="position:relative;top:-14px;"href="#" class="boton_ceci eModal-<?php echo $modals[$modal]?>">Ver guía de tallas</button>
+<button class="boton_ceci tooltips" id="horma" style="position:relative;top:-14px;" >Horma</button>
 
 
 
