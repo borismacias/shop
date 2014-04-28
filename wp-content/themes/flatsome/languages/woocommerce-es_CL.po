@@ -10187,7 +10187,7 @@ msgstr "Mostrando %1$d–%2$d de %3$d resultados"
 # @ woocommerce
 #: templates/loop/sale-flash.php:16 templates/single-product/sale-flash.php:16
 msgid "Sale!"
-msgstr "Rebajado!"
+msgstr "Sale!"
 
 # @ woocommerce
 #: templates/myaccount/form-add-payment-method.php:40
