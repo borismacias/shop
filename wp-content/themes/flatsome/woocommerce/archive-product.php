@@ -31,10 +31,10 @@ if(function_exists('get_term_meta')){
 			echo do_shortcode($content[0]['cat_header']);
 		}
 		else if($cat->name == "Diseño Nacional"){
-			echo do_shortcode('[ux_banner bg="http://leandoers.com/clubtacones/wp-content/uploads/2014/04/banner-nacional.jpg" height="250px" animation="flipInX" text_align="center" text_pos="center" text_color="light" text_width="80%" parallax="1"]<h3>'.$cat->name.'<h3>[/ux_banner]');
+			echo do_shortcode('[ux_banner bg="http://107.170.252.164/shop/wp-content/uploads/2014/04/banner-nacional.jpg" height="250px" animation="flipInX" text_align="center" text_pos="center" text_color="light" text_width="80%" parallax="1"]<h3>'.$cat->name.'<h3>[/ux_banner]');
 		}
 		else{
-			echo do_shortcode('[ux_banner bg="http://leandoers.com/clubtacones/wp-content/uploads/2014/04/banner-'.$cat->slug.'.jpg" height="250px" animation="flipInX" text_align="center" text_pos="center" text_color="light" text_width="80%" parallax="1"]<h3>'.$cat->name.'<h3>[/ux_banner]');
+			echo do_shortcode('[ux_banner bg="http://107.170.252.164/shop/wp-content/uploads/2014/04/banner-'.$cat->slug.'.jpg" height="250px" animation="flipInX" text_align="center" text_pos="center" text_color="light" text_width="80%" parallax="1"]<h3>'.$cat->name.'<h3>[/ux_banner]');
 		}
 	}
 }
