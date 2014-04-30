@@ -17,6 +17,7 @@
  */
 define( 'WPINC', 'wp-includes' );
 define( 'WP_MEMORY_LIMIT', '64M' );
+define( 'WP_DEBUG', true );
 
 // Include files required for initialization.
 require( ABSPATH . WPINC . '/load.php' );
