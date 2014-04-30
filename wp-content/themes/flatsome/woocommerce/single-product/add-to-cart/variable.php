@@ -19,7 +19,7 @@ global $woocommerce, $product, $post;
 
 <style type="text/css">
 .boton_ceci {
-margin-bottom: 15px;
+margin-bottom: 15px!important;
 display: inline-block;
 margin-bottom: 0;
 font-weight: 400;
