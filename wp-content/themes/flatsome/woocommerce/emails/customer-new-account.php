@@ -16,7 +16,6 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 		<td>
 			<img src="http://107.170.252.164/shop/wp-content/uploads/2014/05/chicas1.jpg" alt="chicas">
 		</td>	
-
 	</tr>
 </table>
 
