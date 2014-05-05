@@ -105,22 +105,22 @@ $header_content_h1 = "
                                             	<!-- <h1 style="<?php echo $header_content_h1; ?>"><?php echo $email_heading; ?></h1> -->
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/zapatos/" style='font-family: "icomoon";content: "\f107";opacity: 0.7;margin-left: 5px;top: 0px;position: relative;'>Zapatos</a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/zapatos/" ><p>Zapatos<p></a>
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/accesorios/" style='font-family: "icomoon";content: "\f107";opacity: 0.7;margin-left: 5px;top: 0px;position: relative;'>Zapatos</a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/accesorios/" ><p>Accesorios</p></a>
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/ropa/" style='font-family: "icomoon";content: "\f107";opacity: 0.7;margin-left: 5px;top: 0px;position: relative;'>Zapatos</a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/ropa/" ><p>Ropa</p></a>
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/diseno-nacional/" style='font-family: "icomoon";content: "\f107";opacity: 0.7;margin-left: 5px;top: 0px;position: relative;'>Dise&ntilde;o Nacional</a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/diseno-nacional/" ><p>Dise&ntilde;o Nacional<p></a>
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/zapatos/" style='font-family: "icomoon";content: "\f107";opacity: 0.7;margin-left: 5px;top: 0px;position: relative;'>Zapatos</a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/marcas/" ><p>Marcas</p></a>
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/zapatos/" style='font-family: "icomoon";content: "\f107";opacity: 0.7;margin-left: 5px;top: 0px;position: relative;'>Zapatos</a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/lookbooks/" ><p>Lookbooks</p></a>
                                             </td>
                                         </tr>
                                     </table>
