@@ -48,7 +48,7 @@ $credit = "
                                         	<td valign="top">
                                                 <table border="0" cellpadding="10" cellspacing="0" width="100%">
                                                     <tr>
-                                                        <td>
+                                                        <td align="center">
                                                             <a href="http://www.facebook.com/clubtacones">
                                                                 <img src="http://107.170.252.164/shop/wp-content/uploads/2014/04/facebook-32.png">
                                                             </a>
