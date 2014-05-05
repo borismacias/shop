@@ -30,7 +30,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 <table border="0" cellpadding="10" cellspacing="0" width="100%">
 	<tr>
 		<td align="center">
-			<button style="width:140px;display: inline-block;margin-bottom: 0;font-weight: 400;text-align: center;vertical-align: middle;cursor: pointer;background-image: none;border: 1px solid transparent;white-space: nowrap;padding: 6px 12px;font-size: 14px;line-height: 1.42857143;border-radius: 4px;user-select: none;background-color:#e23462;color:white;"><a href="<?php echo get_permalink( wc_get_page_id( 'myaccount' ));?>" style="color:white!important;">Ir de shopping!</a></button>
+			<button style="width:140px;display: inline-block;margin-bottom: 0;font-weight: 400;text-align: center;vertical-align: middle;cursor: pointer;background-image: none;border: 1px solid transparent;white-space: nowrap;padding: 6px 12px;font-size: 14px;line-height: 1.42857143;border-radius: 4px;user-select: none;background-color:#e23462;color:white;"><a href="<?php echo get_permalink( wc_get_page_id( 'myaccount' ));?>" style="color:white!important;text-decoration: none !important;">Ir de shopping!</a></button>
 		</td>
 	</tr>
 </table>

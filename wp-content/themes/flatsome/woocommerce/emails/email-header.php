@@ -82,7 +82,6 @@ $header_content_h1 = "
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <title><?php echo get_bloginfo( 'name' ); ?></title>
         <style type="text/css">
-        	 @import url(http://fonts.googleapis.com/css?family=Merienda);
         	 a {
 			    text-decoration: none !important;
 			    color: gray!important;
@@ -112,22 +111,22 @@ $header_content_h1 = "
                                             	<!-- <h1 style="<?php echo $header_content_h1; ?>"><?php echo $email_heading; ?></h1> -->
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/zapatos/" style="font-family:'Merienda';font-size:16px;" ><p>Zapatos<p></a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/zapatos/" style="text-decoration: none !important;color: gray!important;font-size:16px;" ><p>Zapatos<p></a>
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/accesorios/" style="font-family:'Merienda';font-size:16px;" ><p>Accesorios</p></a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/accesorios/" style="text-decoration: none !important;color: gray!important;font-size:16px;" ><p>Accesorios</p></a>
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/ropa/" style="font-family:'Merienda';font-size:16px;" ><p>Ropa</p></a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/ropa/" style="text-decoration: none !important;color: gray!important;font-size:16px;" ><p>Ropa</p></a>
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/diseno-nacional/"  style="font-family:'Merienda';font-size:16px;" ><p>Dise&ntilde;o Nacional<p></a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/diseno-nacional/"  style="text-decoration: none !important;color: gray!important;font-size:16px;" ><p>Dise&ntilde;o Nacional<p></a>
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/marcas/" style="font-family:'Merienda';font-size:16px;" ><p>Marcas</p></a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/marcas/" style="text-decoration: none !important;color: gray!important;font-size:16px;" ><p>Marcas</p></a>
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/lookbooks/" style="font-family:'Merienda';font-size:16px;" ><p>Lookbooks</p></a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/lookbooks/" style="text-decoration: none !important;color: gray!important;font-size:16px;" ><p>Lookbooks</p></a>
                                             </td>
                                         </tr>
                                     </table>
