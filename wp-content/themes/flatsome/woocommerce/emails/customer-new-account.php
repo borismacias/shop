@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 <table border="0" cellpadding="10" cellspacing="0" width="100%">
 	<tr>
 		<td align="center">
-			<h1 style="font-family:Georgia, Times New Roman, Times, serif;font-style:italic;font-weight:normal;font-size:50px!important;">Bienvenida al Mundo <br> Club Tacones</h1>
+			<h1 style="font-family:Georgia, Times New Roman, Times, serif;font-style:italic;font-weight:normal;font-size:50px!important;">Bienvenida al Mundo <br><br><br> Club Tacones</h1>
 		</td>
 	</tr>
 </table>
