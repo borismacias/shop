@@ -11,7 +11,13 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 
 <?php do_action('woocommerce_email_header', $email_heading); ?>
 
-<p><?php _e( "Your order has been received and is now being processed. Your order details are shown below for your reference:", 'woocommerce' ); ?></p>
+<table border="0" cellpadding="10" cellspacing="0" width="100%">
+	<tr>
+		<td align="center">
+			<h2 style="font-family:Georgia, Times New Roman, Times, serif;font-style:italic;font-weight:normal;font-size:30px!important;">Gracias por tu orden</h2>
+		</td>
+	</tr>
+</table>
 
 <?php do_action( 'woocommerce_email_before_order_table', $order, $sent_to_admin, $plain_text ); ?>
 
