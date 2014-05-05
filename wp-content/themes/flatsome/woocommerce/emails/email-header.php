@@ -106,7 +106,7 @@ $header_content_h1 = "
                                     <!-- Header -->
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                          <tr style="background-color:black;">
-                                            <p>Ll&aacute;manos a: 09.8255.5675</p>
+                                            <span style="color:white!important;">Ll&aacute;manos a: 09-82555675</span>
                                         </tr>
                                     </table>
                                 	<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_header" style="<?php echo $template_header; ?>" bgcolor="<?php echo $base; ?>">
