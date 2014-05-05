@@ -242,7 +242,7 @@ class WC_Gateway_BACS extends WC_Payment_Gateway {
     		return;
     	}
 
-    	echo '<h2>' . __( 'Our Bank Details', 'woocommerce' ) . '</h2>' . PHP_EOL;
+    	echo '<h4>' . __( 'Our Bank Details', 'woocommerce' ) . '</h4>' . PHP_EOL;
 
     	$bacs_accounts = apply_filters( 'woocommerce_bacs_accounts', $this->account_details );
 
