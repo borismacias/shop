@@ -89,14 +89,15 @@ $header_content_h1 = "
         </style>
 	</head>
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
-    	<table border="0" cellpadding="0" cellspacing="0" width="100%">
-            <tr style="height:10%;width:100%;background-color:black;">
-                <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
-            </tr>
-        </table>
+    	
         <div style="<?php echo $wrapper; ?>">
         	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
             	<tr>
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr style="height:10%;width:100%;background-color:black;">
+                            <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
+                        </tr>
+                    </table>
                 	<td align="center" valign="top">
                 		<?php
                 			if ( $img = get_option( 'woocommerce_email_header_image' ) ) {
