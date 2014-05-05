@@ -99,8 +99,28 @@ $header_content_h1 = "
                                 	<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_header" style="<?php echo $template_header; ?>" bgcolor="<?php echo $base; ?>">
                                         <tr>
                                             <td>
-                                            	<h1 style="<?php echo $header_content_h1; ?>"><?php echo $email_heading; ?></h1>
-
+                                            	<a href="http://107.170.252.164/shop/">
+													<img src="http://107.170.252.164/shop/wp-content/uploads/2014/02/logo-large.jpg" class="header_logo" alt="ClubTacones">						
+												</a>
+                                            	<!-- <h1 style="<?php echo $header_content_h1; ?>"><?php echo $email_heading; ?></h1> -->
+                                            </td>
+                                            <td>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/zapatos/" style='font-family: "icomoon";content: "\f107";opacity: 0.7;margin-left: 5px;top: 0px;position: relative;'>Zapatos</a>
+                                            </td>
+                                            <td>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/accesorios/" style='font-family: "icomoon";content: "\f107";opacity: 0.7;margin-left: 5px;top: 0px;position: relative;'>Zapatos</a>
+                                            </td>
+                                            <td>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/ropa/" style='font-family: "icomoon";content: "\f107";opacity: 0.7;margin-left: 5px;top: 0px;position: relative;'>Zapatos</a>
+                                            </td>
+                                            <td>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/diseno-nacional/" style='font-family: "icomoon";content: "\f107";opacity: 0.7;margin-left: 5px;top: 0px;position: relative;'>Dise&ntilde;o Nacional</a>
+                                            </td>
+                                            <td>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/zapatos/" style='font-family: "icomoon";content: "\f107";opacity: 0.7;margin-left: 5px;top: 0px;position: relative;'>Zapatos</a>
+                                            </td>
+                                            <td>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/zapatos/" style='font-family: "icomoon";content: "\f107";opacity: 0.7;margin-left: 5px;top: 0px;position: relative;'>Zapatos</a>
                                             </td>
                                         </tr>
                                     </table>
