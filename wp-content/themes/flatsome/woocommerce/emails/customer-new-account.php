@@ -13,8 +13,8 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 
 <table>
 	<tr>
-		<td>
-			<h1 style="font-family:Georgia, Times New Roman, Times, serif;font-style:italic;font-weight:normal;">Bienvenida al Mundo <br> Club Tacones</h1>
+		<td align="center">
+			<h1 style="font-family:Georgia, Times New Roman, Times, serif;font-style:italic;font-weight:normal;font-size:20px!important;">Bienvenida al Mundo <br> Club Tacones</h1>
 		</td>
 	</tr>
 </table>
