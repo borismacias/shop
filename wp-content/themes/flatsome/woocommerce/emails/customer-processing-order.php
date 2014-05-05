@@ -48,10 +48,10 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 		?>
 	</tfoot>
 </table>
-
+<!-- 
 <?php do_action( 'woocommerce_email_after_order_table', $order, $sent_to_admin, $plain_text ); ?>
 
-<?php do_action( 'woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text ); ?>
+<?php do_action( 'woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text ); ?> -->
 
 <!-- <h2><?php _e( 'Customer details', 'woocommerce' ); ?></h2>
 
