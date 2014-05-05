@@ -52,23 +52,15 @@ $credit = "
                                                             <a href="http://www.facebook.com/clubtacones">
                                                                 <img src="http://107.170.252.164/shop/wp-content/uploads/2014/04/facebook-32.png">
                                                             </a>
-                                                        </td>
-                                                        <td>
                                                             <a href="http://www.twitter.com/clubtacones">
                                                                 <img src="http://107.170.252.164/shop/wp-content/uploads/2014/04/twitter-32.png">
                                                             </a>
-                                                        </td>
-                                                        <td>
                                                             <a href="http://www.instagram.com/clubtacones">
                                                                 <img src="http://107.170.252.164/shop/wp-content/uploads/2014/04/instagram-32.png">
                                                             </a>
-                                                        </td>
-                                                        <td>
                                                             <a href="http://www.pinterest.com/clubtacones">
                                                                 <img src="http://107.170.252.164/shop/wp-content/uploads/2014/04/pinterest-32.png">
                                                             </a>
-                                                        </td>
-                                                        <td>
                                                             <a href="http://plus.google.com/+clubtacones">
                                                                 <img src="http://107.170.252.164/shop/wp-content/uploads/2014/04/googleplus-32.png">
                                                             </a>
