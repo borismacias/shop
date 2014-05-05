@@ -105,15 +105,16 @@ $header_content_h1 = "
                             	<td align="center" valign="top">
                                     <!-- Header -->
                                 	<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_header" style="<?php echo $template_header; ?>" bgcolor="<?php echo $base; ?>">
-                                        <tr style="height:10%;width:100%;background-color:black;">
-                                            <td align="center">
-                                                <p>Ll&aacute;manos </p>
+                                        <tr style="width:100%;background-color:black;">
+                                            <td>
+                                                <span>Ll&aacute;manos a: 09.8255.5675</span>
                                             </td>
                                             <td>
-                                                <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
-                                                <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
-                                                <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
-                                                <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
+                                                <a href="http://107.170.252.164/shop/lista-de-favoritos/" style="color:white !important;text-decoration: none !important;">Mi Lista de Favoritos</a>
+                                                <a href="http://clubtacones.cl" style="color:white !important;text-decoration: none !important;">Revista</a>
+                                                <a href="http://107.170.252.164/shop/pages/acerca-de-nosotros" style="color:white !important;text-decoration: none !important;">Acerca de Nosotros</a>
+                                                <a href="http://107.170.252.164/shop/pages/contacto" style="color:white !important;text-decoration: none !important;">Cont&aacute;ctanos</a>
+                                                <a href="http://107.170.252.164/shop/mi-cuenta" style="color:white !important;text-decoration: none !important;">Mi Cuenta</a>
                                             </td>
                                         </tr>
                                         <tr>
