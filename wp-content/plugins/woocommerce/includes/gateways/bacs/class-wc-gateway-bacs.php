@@ -242,7 +242,7 @@ class WC_Gateway_BACS extends WC_Payment_Gateway {
     		return;
     	}
 
-    	echo '<h4>' . __( 'Our Bank Details', 'woocommerce' ) . '</h4>' . PHP_EOL;
+    	echo '<h2 style="font-size:18px!important;font-weight:normal;">' . __( 'Our Bank Details', 'woocommerce' ) . '</h3>' . PHP_EOL;
 
     	$bacs_accounts = apply_filters( 'woocommerce_bacs_accounts', $this->account_details );
 
@@ -273,7 +273,7 @@ class WC_Gateway_BACS extends WC_Payment_Gateway {
 				), $order_id );
 
 				if ( $bacs_account->account_name || $bacs_account->bank_name ) {
-					echo '<h3>' . implode( ' - ', array_filter( array( $bacs_account->account_name, $bacs_account->bank_name ) ) ) . '</h3>' . PHP_EOL;
+					echo '<h3 style="font-size:16px!important;font-weight:normal;">' . implode( ' - ', array_filter( array( $bacs_account->account_name, $bacs_account->bank_name ) ) ) . '</h3>' . PHP_EOL;
 				}
 
 	    		foreach ( $account_fields as $field_key => $field ) {
