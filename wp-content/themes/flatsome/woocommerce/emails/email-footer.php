@@ -67,6 +67,11 @@ $credit = "
                                                             </a>
                                                         </td>
                                                     </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <span><em>Copyright &copy; 2014 Club Tacones, Todos los derechos reservados.</em><br /></span>
+                                                        </td>
+                                                    </tr>
                                                 </table>
                                             </td>
                                         </tr>
