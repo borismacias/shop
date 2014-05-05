@@ -108,7 +108,11 @@ $header_content_h1 = "
                                          <tr style="background-color:black;">
                                             <td>
                                                 <a href="http://clubtacones.cl" style="color:white !important;text-decoration: none !important;">Revista</a>
+                                            </td>
+                                            <td>
                                                 <a href="http://107.170.252.164/shop/pages/acerca-de-nosotros" style="color:white !important;text-decoration: none !important;">Acerca de Nosotros</a>
+                                            </td>
+                                            <td> 
                                                 <a href="http://107.170.252.164/shop/pages/contacto" style="color:white !important;text-decoration: none !important;">Cont&aacute;ctanos</a>
                                             </td>
                                             
