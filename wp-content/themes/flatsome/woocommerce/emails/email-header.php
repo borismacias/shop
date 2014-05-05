@@ -92,21 +92,19 @@ $header_content_h1 = "
     	
         <div style="<?php echo $wrapper; ?>">
         	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
-            	<tr style="height:10%;width:100%;background-color:black;">
-                    <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
-                </tr>
                 <tr>
-                    <!-- <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                        <tr style="height:10%;width:100%;background-color:black;">
-                            <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
-                        </tr>
-                    </table> -->
+                    
                 	<td align="center" valign="top">
                 		<?php
                 			if ( $img = get_option( 'woocommerce_email_header_image' ) ) {
                 				echo '<p style="margin-top:0;"><img src="' . esc_url( $img ) . '" alt="' . get_bloginfo( 'name' ) . '" /></p>';
                 			}
                 		?>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr style="height:10%;width:100%;background-color:black;">
+                                <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
+                            </tr>
+                        </table>
                     	<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_container" style="<?php echo $template_container; ?>">
                         	<tr>
                             	<td align="center" valign="top">
