@@ -134,6 +134,7 @@ $header_content_h1 = "
                                     <!-- End Header -->
                                 </td>
                             </tr>
+                            <tr style="border-top: 1px solid #eeeeee;"></tr>
                         	<tr>
                             	<td align="center" valign="top">
                                     <!-- Body -->
