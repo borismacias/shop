@@ -89,7 +89,12 @@ $header_content_h1 = "
         </style>
 	</head>
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
-    	<div style="<?php echo $wrapper; ?>">
+    	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr style="height:10%;width:100%;background-color:black;">
+                <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
+            </tr>
+        </table>
+        <div style="<?php echo $wrapper; ?>">
         	<table border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
             	<tr>
                 	<td align="center" valign="top">
@@ -103,9 +108,6 @@ $header_content_h1 = "
                             	<td align="center" valign="top">
                                     <!-- Header -->
                                 	<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_header" style="<?php echo $template_header; ?>" bgcolor="<?php echo $base; ?>">
-                                        <tr style="height:10%;background-color:black;">
-                                            <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
-                                        </tr>
                                         <tr>
                                             <td>
                                             	<a href="http://107.170.252.164/shop/">
@@ -114,22 +116,22 @@ $header_content_h1 = "
                                             	<!-- <h1 style="<?php echo $header_content_h1; ?>"><?php echo $email_heading; ?></h1> -->
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/zapatos/" style="text-decoration: none !important;color: gray!important;font-size:16px;" ><p>Zapatos<p></a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/zapatos/" style="text-decoration: none !important;color: gray!important;font-size:14px;" ><p>Zapatos<p></a>
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/accesorios/" style="text-decoration: none !important;color: gray!important;font-size:16px;" ><p>Accesorios</p></a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/accesorios/" style="text-decoration: none !important;color: gray!important;font-size:14px;" ><p>Accesorios</p></a>
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/ropa/" style="text-decoration: none !important;color: gray!important;font-size:16px;" ><p>Ropa</p></a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/ropa/" style="text-decoration: none !important;color: gray!important;font-size:14px;" ><p>Ropa</p></a>
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/diseno-nacional/"  style="text-decoration: none !important;color: gray!important;font-size:16px;" ><p>Dise&ntilde;o Nacional<p></a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/diseno-nacional/"  style="text-decoration: none !important;color: gray!important;font-size:14px;" ><p>Dise&ntilde;o Nacional<p></a>
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/marcas/" style="text-decoration: none !important;color: gray!important;font-size:16px;" ><p>Marcas</p></a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/marcas/" style="text-decoration: none !important;color: gray!important;font-size:14px;" ><p>Marcas</p></a>
                                             </td>
                                             <td>
-                                            	<a href="http://107.170.252.164/shop/categoria-producto/lookbooks/" style="text-decoration: none !important;color: gray!important;font-size:16px;" ><p>Lookbooks</p></a>
+                                            	<a href="http://107.170.252.164/shop/categoria-producto/lookbooks/" style="text-decoration: none !important;color: gray!important;font-size:14px;" ><p>Lookbooks</p></a>
                                             </td>
                                         </tr>
                                     </table>
