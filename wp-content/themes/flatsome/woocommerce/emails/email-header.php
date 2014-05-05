@@ -105,14 +105,10 @@ $header_content_h1 = "
                             	<td align="center" valign="top">
                                     <!-- Header -->
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                                         <tr align="left" style="background-color:black;">
+                                         <tr align="right" style="background-color:black;">
                                             <td>
                                                 <a href="http://clubtacones.cl" style="color:white !important;text-decoration: none !important;">Revista</a>
-                                            </td>
-                                            <td>
                                                 <a href="http://107.170.252.164/shop/pages/acerca-de-nosotros" style="color:white !important;text-decoration: none !important;">Acerca de Nosotros</a>
-                                            </td>
-                                            <td> 
                                                 <a href="http://107.170.252.164/shop/pages/contacto" style="color:white !important;text-decoration: none !important;">Cont&aacute;ctanos</a>
                                             </td>
                                             
