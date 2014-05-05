@@ -106,16 +106,20 @@ $header_content_h1 = "
                                     <!-- Header -->
                                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                          <tr style="background-color:black;">
-                                            <span style="color:white!important;">Ll&aacute;manos a: 09-82555675</span>
+                                            <td>
+                                                <span style="color:white!important;">Ll&aacute;manos a: 09-82555675</span>
+                                                 <a href="http://107.170.252.164/shop/lista-de-favoritos/" style="color:white !important;text-decoration: none !important;">Mi Lista de Favoritos</a>
+                                                <a href="http://clubtacones.cl" style="color:white !important;text-decoration: none !important;">Revista</a>
+                                                <a href="http://107.170.252.164/shop/pages/acerca-de-nosotros" style="color:white !important;text-decoration: none !important;">Acerca de Nosotros</a>
+                                                <a href="http://107.170.252.164/shop/pages/contacto" style="color:white !important;text-decoration: none !important;">Cont&aacute;ctanos</a>
+                                                <a href="http://107.170.252.164/shop/mi-cuenta" style="color:white !important;text-decoration: none !important;">Mi Cuenta</a>
+                                            </td>
+                                            
                                         </tr>
                                     </table>
                                 	<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_header" style="<?php echo $template_header; ?>" bgcolor="<?php echo $base; ?>">
                                        
-                                       <!--  <a href="http://107.170.252.164/shop/lista-de-favoritos/" style="color:white !important;text-decoration: none !important;">Mi Lista de Favoritos</a>
-                                                <a href="http://clubtacones.cl" style="color:white !important;text-decoration: none !important;">Revista</a>
-                                                <a href="http://107.170.252.164/shop/pages/acerca-de-nosotros" style="color:white !important;text-decoration: none !important;">Acerca de Nosotros</a>
-                                                <a href="http://107.170.252.164/shop/pages/contacto" style="color:white !important;text-decoration: none !important;">Cont&aacute;ctanos</a>
-                                                <a href="http://107.170.252.164/shop/mi-cuenta" style="color:white !important;text-decoration: none !important;">Mi Cuenta</a> -->
+                                       
                                         <tr>
                                             <td>
                                             	<a href="http://107.170.252.164/shop/">
