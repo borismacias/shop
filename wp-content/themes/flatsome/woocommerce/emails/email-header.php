@@ -83,6 +83,10 @@ $header_content_h1 = "
         <title><?php echo get_bloginfo( 'name' ); ?></title>
         <style type="text/css">
         	 @import url(http://fonts.googleapis.com/css?family=Merienda);
+        	 a {
+			    text-decoration: none !important;
+			    color: gray!important;
+			}
         </style>
 	</head>
     <body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
