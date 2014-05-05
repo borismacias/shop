@@ -21,8 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 
 <?php do_action( 'woocommerce_email_before_order_table', $order, $sent_to_admin, $plain_text ); ?>
 
-<h2><?php echo __( 'Order:', 'woocommerce' ) . ' ' . $order->get_order_number(); ?></h2>
-
+<h2 style="font-family:Georgia, Times New Roman, Times, serif;font-style:italic;font-weight:normal;font-size:30px!important;"><?php echo __( 'Order:', 'woocommerce' ) . ' ' . $order->get_order_number(); ?></h2>
 <table cellspacing="0" cellpadding="6" style="width: 100%; border: 1px solid #eee;" border="1" bordercolor="#eee">
 	<thead>
 		<tr>
@@ -50,6 +49,11 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 	</tfoot>
 </table>
 
+<?php do_action( 'woocommerce_email_after_order_table', $order, $sent_to_admin, $plain_text ); ?>
+
+<?php do_action( 'woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text ); ?>
+
+<!-- <h2><?php _e( 'Customer details', 'woocommerce' ); ?></h2>
 
 <?php if ($order->billing_email) : ?>
 	<p><strong><?php _e( 'Email:', 'woocommerce' ); ?></strong> <?php echo $order->billing_email; ?></p>
@@ -58,6 +62,6 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 	<p><strong><?php _e( 'Tel:', 'woocommerce' ); ?></strong> <?php echo $order->billing_phone; ?></p>
 <?php endif; ?>
 
-<?php wc_get_template( 'emails/email-addresses.php', array( 'order' => $order ) ); ?>
+<?php wc_get_template( 'emails/email-addresses.php', array( 'order' => $order ) ); ?> -->
 
 <?php do_action( 'woocommerce_email_footer' ); ?>
