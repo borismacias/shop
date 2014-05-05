@@ -18,6 +18,7 @@ $base_lighter_40 = wc_hex_lighter( $base, 40 );
 $template_footer = "
 	border-top:0;
 	-webkit-border-radius:6px;
+    background-color:lightgray;
 ";
 
 $credit = "
@@ -43,7 +44,7 @@ $credit = "
                         	<tr>
                             	<td align="center" valign="top">
                                     <!-- Footer -->
-                                	<table border="0" cellpadding="10" cellspacing="0" width="600" id="template_footer" style="<?php echo $template_footer; ?>">
+                                	<table border="0" cellpadding="10" cellspacing="0" width="600" id="template_footer"  style="<?php echo $template_footer; ?>">
                                     	<tr>
                                         	<td valign="top">
                                                 <table border="0" cellpadding="10" cellspacing="0" width="100%">

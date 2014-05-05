@@ -104,7 +104,7 @@ $header_content_h1 = "
                             <tr>
                             	<td align="center" valign="top">
                                     <!-- Header -->
-                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%" height="8%">
                                          <tr align="right" style="background-color:black;">
                                             <td>
                                                 <a href="http://clubtacones.cl" style="color:white !important;text-decoration: none !important;padding-right:5px;font-size:14px;">Revista</a>
