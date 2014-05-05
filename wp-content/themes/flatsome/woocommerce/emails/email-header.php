@@ -107,7 +107,7 @@ $header_content_h1 = "
                                         <tr>
                                             <td>
                                             	<a href="http://107.170.252.164/shop/">
-													<img src="http://107.170.252.164/shop/wp-content/uploads/2014/02/logo-large.jpg" style="height:90px;" alt="ClubTacones">						
+													<img src="http://107.170.252.164/shop/wp-content/uploads/2014/02/logo-large.jpg" style="height:90px;!important" alt="ClubTacones">						
 												</a>
                                             	<!-- <h1 style="<?php echo $header_content_h1; ?>"><?php echo $email_heading; ?></h1> -->
                                             </td>
