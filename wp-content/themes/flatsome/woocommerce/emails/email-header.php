@@ -101,13 +101,21 @@ $header_content_h1 = "
                 			}
                 		?>
                     	<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_container" style="<?php echo $template_container; ?>">
-                        	<tr style="height:10%;width:100%;background-color:black;">
-                                <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
-                            </tr>
                             <tr>
                             	<td align="center" valign="top">
                                     <!-- Header -->
                                 	<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_header" style="<?php echo $template_header; ?>" bgcolor="<?php echo $base; ?>">
+                                        <tr style="height:10%;width:100%;background-color:black;">
+                                            <td align="center">
+                                                <p>Ll&aacute;manos </p>
+                                            </td>
+                                            <td>
+                                                <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
+                                                <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
+                                                <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
+                                                <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
+                                            </td>
+                                        </tr>
                                         <tr>
                                             <td>
                                             	<a href="http://107.170.252.164/shop/">
