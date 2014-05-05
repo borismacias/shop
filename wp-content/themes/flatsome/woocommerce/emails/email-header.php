@@ -105,7 +105,7 @@ $header_content_h1 = "
                             	<td align="center" valign="top">
                                     <!-- Header -->
                                 	<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_header" style="<?php echo $template_header; ?>" bgcolor="<?php echo $base; ?>">
-                                        <tr style="width:100%;background-color:black;">
+                                        <tr style="background-color:black;">
                                             <td>
                                                 <span>Ll&aacute;manos a: 09.8255.5675</span>
                                                 <a href="http://107.170.252.164/shop/lista-de-favoritos/" style="color:white !important;text-decoration: none !important;">Mi Lista de Favoritos</a>
