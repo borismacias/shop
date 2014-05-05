@@ -278,7 +278,7 @@ class WC_Gateway_BACS extends WC_Payment_Gateway {
 
 	    		foreach ( $account_fields as $field_key => $field ) {
 				    if ( ! empty( $field['value'] ) ) {
-				    	echo '<li class="' . esc_attr( $field_key ) . '">' . esc_attr( $field['label'] ) . ': <strong>' . wptexturize( $field['value'] ) . '</strong></li>' . PHP_EOL;
+				    	echo '<li class="' . esc_attr( $field_key ) . '" style="font-size:14px;font-weight:normal;">' . esc_attr( $field['label'] ) . ': ' . wptexturize( $field['value'] ) . '</li>' . PHP_EOL;
 				    }
 				}
 
