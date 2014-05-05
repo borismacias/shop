@@ -11,19 +11,19 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 
 <?php do_action( 'woocommerce_email_header'); ?>
 
-<table border="0" cellpadding="10" cellspacing="0" width="100%">
+<!-- <table border="0" cellpadding="10" cellspacing="0" width="100%">
 	<tr>
 		<td align="center">
 			<h1 style="font-family:Georgia, Times New Roman, Times, serif;font-style:italic;font-weight:normal;font-size:50px!important;">Bienvenida al Mundo <br><br> Club Tacones</h1>
 		</td>
 	</tr>
-</table>
+</table> -->
 
 
 <table>
 	<tr>
 		<td>
-			<img src="http://107.170.252.164/shop/wp-content/uploads/2014/05/chicas1.jpg" alt="chicas">
+			<img src="http://107.170.252.164/shop/wp-content/uploads/2014/05/foto-bienvenida.jpg" alt="chicas">
 		</td>	
 	</tr>
 </table>
