@@ -100,13 +100,11 @@ $header_content_h1 = "
                 				echo '<p style="margin-top:0;"><img src="' . esc_url( $img ) . '" alt="' . get_bloginfo( 'name' ) . '" /></p>';
                 			}
                 		?>
-                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
-                            <tr style="height:10%;width:100%;background-color:black;">
+                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_container" style="<?php echo $template_container; ?>">
+                        	<tr style="height:10%;width:100%;background-color:black;">
                                 <a href="#" style="color:white !important;text-decoration: none !important;">menu :D</a>
                             </tr>
-                        </table>
-                    	<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_container" style="<?php echo $template_container; ?>">
-                        	<tr>
+                            <tr>
                             	<td align="center" valign="top">
                                     <!-- Header -->
                                 	<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_header" style="<?php echo $template_header; ?>" bgcolor="<?php echo $base; ?>">
