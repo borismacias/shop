@@ -146,20 +146,28 @@ border-color: #ccc;
 </form>
 
 <?php 
-	$modals = array("zapatos"=>"1","accesorios"=>"2","ropa"=>"3");
-	$slug_categories = array("zapatos","accesorios","ropa");
+	$modals = array("zapatos"=>"1","ropa"=>"3");
+	$slug_categories = array("zapatos","ropa");
 	$post_categories = get_the_terms($post->ID,'product_cat');
 	$modal = "";
+	$found=0;
 	foreach ($post_categories as $key => $value) {
 		if(in_array($value->slug,$slug_categories)){
 			$modal = $value->slug;
+			$found=1;
 			break;
 		}
 	}
 ?>
+<?php if($found==1){?>
 
 <button href="#" class="boton_ceci eModal-<?php echo $modals[$modal]?>">Ver guía de tallas</button>
+
+<?php if($modal=="zapatos"){?>
 <button class="boton_ceci tooltips" title ="<?php echo $horma;?>">Horma</button>
+<?php }?>
+
+<?php }?>
 
 
 
