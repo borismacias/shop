@@ -98,11 +98,10 @@ $stock_status = get_post_meta($post_id, '_stock_status',true) == 'outofstock';
       <div class="info text-center">
       	<?php $product_cats = strip_tags($product->get_categories('|', '', '')); 
       		$terms = get_the_terms($post->ID,'product_cat');
-            $cat = end($terms);
-            print_r($terms);
-            $slug = $cat->Name;
+            $id_marca = max(array_keys($terms));
+            $nombre = $terms[$id_marca]->name;
       	?>
-          <!-- <h5 class="category"><?php list($firstpart) = explode('|', $product_cats); echo $firstpart; ?></h5> -->
+          <h5 class="category"><?php echo $nombre; ?></h5>
           	
 
           <div class="tx-div small"></div>
