@@ -116,7 +116,7 @@
             echo do_shortcode('[block id="look-'.$name.'"]');
             echo "</div>";
             $terms = get_the_terms($post->ID,'product_cat');
-            print_r($cat);
+            print_r($terms); 
             $cat = $terms['109'];
             $slug = $cat->slug;
             print_r($slug);
