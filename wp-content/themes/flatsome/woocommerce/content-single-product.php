@@ -112,6 +112,7 @@
             do_action( 'woocommerce_after_single_product_summary' );
 
             $name = get_query_var('name');
+            print_r($name);
             echo "<div class='row'><h3 class='section-title'><span>&iquest;C&oacute;mo lo uso?</span></h3>";
             echo do_shortcode('[block id="look-'.$name.'"]');
             echo "</div>";
