@@ -101,9 +101,10 @@ $stock_status = get_post_meta($post_id, '_stock_status',true) == 'outofstock';
       		if(isset($terms['109'])){
       			$nombre=$termins['109']->name;
       		}
-      		// print_r($terms);
-            $id_marca = max(array_keys($terms));
-            $nombre = $terms[$id_marca]->name;
+      		else{
+	            $id_marca = max(array_keys($terms));
+	            $nombre = $terms[$id_marca]->name;
+	        }
       	?>
           <h5 class="category"><?php echo $nombre; ?></h5>
           	
