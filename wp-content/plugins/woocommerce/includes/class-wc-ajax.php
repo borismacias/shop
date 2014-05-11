@@ -131,9 +131,11 @@ class WC_AJAX {
 
 		$chosen_shipping_methods = WC()->session->get( 'chosen_shipping_methods' );
 
-		if ( isset( $_POST['shipping_method'] ) && is_array( $_POST['shipping_method'] ) )
-			foreach ( $_POST['shipping_method'] as $i => $value )
+		if ( isset( $_POST['shipping_method'] ) && is_array( $_POST['shipping_method'] ) ) {
+			foreach ( $_POST['shipping_method'] as $i => $value ) {
 				$chosen_shipping_methods[ $i ] = wc_clean( $value );
+			}
+		}
 
 		WC()->session->set( 'chosen_shipping_methods', $chosen_shipping_methods );
 
@@ -287,28 +289,31 @@ class WC_AJAX {
 	 * Feature a product from admin
 	 */
 	public function feature_product() {
-		if ( ! current_user_can('edit_products') )
+		if ( ! current_user_can( 'edit_products' ) ) {
 			wp_die( __( 'You do not have sufficient permissions to access this page.', 'woocommerce' ) );
+		}
 
-		if ( ! check_admin_referer('woocommerce-feature-product'))
+		if ( ! check_admin_referer( 'woocommerce-feature-product' ) ) {
 			wp_die( __( 'You have taken too long. Please go back and retry.', 'woocommerce' ) );
+		}
 
-		$post_id = isset( $_GET['product_id'] ) && (int) $_GET['product_id'] ? (int) $_GET['product_id'] : '';
+		$post_id = ! empty( $_GET['product_id'] ) ? (int) $_GET['product_id'] : '';
 
-		if (!$post_id) die;
+		if ( ! $post_id || get_post_type( $post_id ) !== 'product' ) {
+			die;
+		}
 
-		$post = get_post($post_id);
+		$featured = get_post_meta( $post_id, '_featured', true );
 
-		if ( ! $post || $post->post_type !== 'product' ) die;
+		if ( 'yes' === $featured ) {
+			update_post_meta( $post_id, '_featured', 'no' );
+		} else {
+			update_post_meta( $post_id, '_featured', 'yes' );
+		}
 
-		$featured = get_post_meta( $post->ID, '_featured', true );
+		wc_delete_product_transients();
 
-		if ( $featured == 'yes' )
-			update_post_meta($post->ID, '_featured', 'no');
-		else
-			update_post_meta($post->ID, '_featured', 'yes');
-
-		wp_safe_redirect( remove_query_arg( array('trashed', 'untrashed', 'deleted', 'ids'), wp_get_referer() ) );
+		wp_safe_redirect( remove_query_arg( array( 'trashed', 'untrashed', 'deleted', 'ids' ), wp_get_referer() ) );
 
 		die();
 	}
@@ -880,15 +885,16 @@ class WC_AJAX {
 		// Set values
 		$item = array();
 
-		$item['product_id'] 			= $_product->id;
-		$item['variation_id'] 			= isset( $_product->variation_id ) ? $_product->variation_id : '';
-		$item['name'] 					= $_product->get_title();
-		$item['tax_class']				= $_product->get_tax_class();
-		$item['qty'] 					= 1;
-		$item['line_subtotal'] 			= wc_format_decimal( $_product->get_price_excluding_tax() );
-		$item['line_subtotal_tax'] 		= '';
-		$item['line_total'] 			= wc_format_decimal( $_product->get_price_excluding_tax() );
-		$item['line_tax'] 				= '';
+		$item['product_id']        = $_product->id;
+		$item['variation_id']      = isset( $_product->variation_id ) ? $_product->variation_id : '';
+		$item['variation_data']    = isset( $_product->variation_data ) ? $_product->variation_data : '';
+		$item['name']              = $_product->get_title();
+		$item['tax_class']         = $_product->get_tax_class();
+		$item['qty']               = 1;
+		$item['line_subtotal']     = wc_format_decimal( $_product->get_price_excluding_tax() );
+		$item['line_subtotal_tax'] = '';
+		$item['line_total']        = wc_format_decimal( $_product->get_price_excluding_tax() );
+		$item['line_tax']          = '';
 
 		// Add line item
 	   	$item_id = wc_add_order_item( $order_id, array(
@@ -906,9 +912,16 @@ class WC_AJAX {
 		 	wc_add_order_item_meta( $item_id, '_line_subtotal_tax', $item['line_subtotal_tax'] );
 		 	wc_add_order_item_meta( $item_id, '_line_total', $item['line_total'] );
 		 	wc_add_order_item_meta( $item_id, '_line_tax', $item['line_tax'] );
+	 		
+	 		// Store variation data in meta
+			if ( $item['variation_data'] && is_array( $item['variation_data'] ) ) {
+				foreach ( $item['variation_data'] as $key => $value ) {
+					wc_add_order_item_meta( $item_id, str_replace( 'attribute_', '', $key ), $value );
+				}
+			}
+			
+			do_action( 'woocommerce_ajax_add_order_item_meta', $item_id, $item );
 	 	}
-
-		do_action( 'woocommerce_ajax_add_order_item_meta', $item_id, $item );
 
 		$item = apply_filters( 'woocommerce_ajax_order_item', $item, $item_id );
 
@@ -1438,12 +1451,12 @@ class WC_AJAX {
 
 		add_action( 'pre_user_query', array( $this, 'json_search_customer_name' ) );
 
-		$customers_query = new WP_User_Query( array(
+		$customers_query = new WP_User_Query( apply_filters( 'woocommerce_json_search_customers_query', array(
 			'fields'			=> 'all',
 			'orderby'			=> 'display_name',
 			'search'			=> '*' . $term . '*',
 			'search_columns'	=> array( 'ID', 'user_login', 'user_email', 'user_nicename' )
-		) );
+		) ) );
 
 		remove_action( 'pre_user_query', array( $this, 'json_search_customer_name' ) );
 
@@ -1504,11 +1517,8 @@ class WC_AJAX {
 
 		$term = wc_clean( stripslashes( $_GET['term'] ) );
 
-		$query->query_from  .= " LEFT JOIN {$wpdb->usermeta} as meta2 ON ({$wpdb->users}.ID = meta2.user_id) ";
-		$query->query_from  .= " LEFT JOIN {$wpdb->usermeta} as meta3 ON ({$wpdb->users}.ID = meta3.user_id) ";
-
-		$query->query_where .= $wpdb->prepare( " OR ( meta2.meta_value LIKE %s OR meta3.meta_value LIKE %s )", '%' . like_escape( $term ) . '%', '%' . like_escape( $term ) . '%' );
-		$query->query_where .= " AND meta2.meta_key = 'first_name' AND meta3.meta_key = 'last_name' ";
+		$query->query_from  .= " INNER JOIN {$wpdb->usermeta} AS user_name ON {$wpdb->users}.ID = user_name.user_id AND ( user_name.meta_key = 'first_name' OR user_name.meta_key = 'last_name' ) ";
+		$query->query_where .= $wpdb->prepare( " OR user_name.meta_value LIKE %s ", '%' . like_escape( $term ) . '%' );
 	}
 
 	/**

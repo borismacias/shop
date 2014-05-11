@@ -70,6 +70,12 @@ class WC_Order {
 		$this->customer_note       = $result->post_excerpt;
 		$this->post_status         = $result->post_status;
 
+		// Billing email cam default to user if set
+		if ( empty( $this->billing_email ) && ! empty( $this->customer_user ) ) {
+			$user                = get_user_by( 'id', $this->customer_user );
+			$this->billing_email = $user->user_email;
+		}
+
 		// Get status
 		$terms        = wp_get_object_terms( $this->id, 'shop_order_status', array( 'fields' => 'slugs' ) );
 		$this->status = isset( $terms[0] ) ? $terms[0] : apply_filters( 'woocommerce_default_order_status', 'pending' );
@@ -86,7 +92,6 @@ class WC_Order {
 		if ( ! $this->id ) {
 			return false;
 		}
-
 		return metadata_exists( 'post', $this->id, '_' . $key );
 	}
 
@@ -282,17 +287,38 @@ class WC_Order {
 
 		$items = array();
 
-		foreach ( $line_items as $item ) {
+		// Reserved meta keys
+		$reserved_item_meta_keys = array(
+			'name',
+			'type',
+			'item_meta',
+			'qty',
+			'tax_class',
+			'product_id',
+			'variation_id',
+			'line_subtotal',
+			'line_total',
+			'line_tax',
+			'line_subtotal_tax'
+		);
 
+		// Loop items
+		foreach ( $line_items as $item ) {
 			// Place line item into array to return
-			$items[ $item->order_item_id ]['name'] = $item->order_item_name;
-			$items[ $item->order_item_id ]['type'] = $item->order_item_type;
+			$items[ $item->order_item_id ]['name']      = $item->order_item_name;
+			$items[ $item->order_item_id ]['type']      = $item->order_item_type;
 			$items[ $item->order_item_id ]['item_meta'] = $this->get_item_meta( $item->order_item_id );
 
-			// Put meta into item array
+			// Expand meta data into the array
 			foreach ( $items[ $item->order_item_id ]['item_meta'] as $name => $value ) {
-				$key = substr( $name, 0, 1 ) == '_' ? substr( $name, 1 ) : $name;
-				$items[ $item->order_item_id ][ $key ] = $value[0];
+				if ( in_array( $name, $reserved_item_meta_keys ) ) {
+					continue;
+				}
+				if ( '_' === substr( $name, 0, 1 ) ) {
+					$items[ $item->order_item_id ][ substr( $name, 1 ) ] = $value[0];
+				} elseif ( ! in_array( $name, $reserved_item_meta_keys ) ) {
+					$items[ $item->order_item_id ][ $name ] = $value[0];
+				}
 			}
 		}
 
@@ -1042,7 +1068,7 @@ class WC_Order {
 
 			$_product = $this->get_product_from_item( $item );
 
-			if ( $_product && $_product->exists() && $_product->is_downloadable() ) {
+			if ( $_product && $_product->exists() && $_product->is_downloadable() && $_product->has_file() ) {
 				$has_downloadable_item = true;
 			}
 
@@ -1105,7 +1131,13 @@ class WC_Order {
 	 */
 	public function get_cancel_order_url( $redirect = '' ) {
 		$cancel_endpoint = get_permalink( wc_get_page_id( 'cart' ) );
-		$cancel_endpoint = trailingslashit( $cancel_endpoint ? $cancel_endpoint : home_url() );
+		if ( ! $cancel_endpoint ) {
+			$cancel_endpoint = home_url();
+		}
+
+		if ( false === strpos( $cancel_endpoint, '?' ) ) {
+			$cancel_endpoint = trailingslashit( $cancel_endpoint );
+		}
 
 		return apply_filters('woocommerce_get_cancel_order_url', wp_nonce_url( add_query_arg( array( 'cancel_order' => 'true', 'order' => $this->order_key, 'order_id' => $this->id, 'redirect' => $redirect ), $cancel_endpoint ), 'woocommerce-cancel_order' ) );
 	}
@@ -1124,7 +1156,7 @@ class WC_Order {
 	/**
 	 * Gets any downloadable product file urls.
 	 *
-	 * @deprecated as of 2.1 get_item_downloads is prefered as downloads are more than just file urls
+	 * @deprecated as of 2.1 get_item_downloads is preferred as downloads are more than just file urls
 	 * @param int $product_id product identifier
 	 * @param int $variation_id variation identifier, or null
 	 * @param array $item the item
@@ -1216,7 +1248,7 @@ class WC_Order {
 
 		$is_customer_note = intval( $is_customer_note );
 
-		if ( is_user_logged_in() && current_user_can( 'manage_woocommerce' ) ) {
+		if ( is_user_logged_in() && current_user_can( 'edit_shop_order', $this->id ) ) {
 			$user                 = get_user_by( 'id', get_current_user_id() );
 			$comment_author       = $user->display_name;
 			$comment_author_email = $user->user_email;

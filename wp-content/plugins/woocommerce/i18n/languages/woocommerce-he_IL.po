@@ -1,16 +1,19 @@
 # 
 # Translators:
+# arielk <relklik@gmail.com>, 2014
 # joelbal <jbalbachan@gmail.com>, 2014
 # josh_marom <josh@josh.co.il>, 2014
 # roidayan <roi.dayan@gmail.com>, 2014
+# ronshe <ronny.sherer@gmail.com>, 2014
+# shoresh319, 2014
 # Yakir Gottesman <yakir@go-press.co.il>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
-"POT-Creation-Date: 2014-03-03 14:47:31+00:00\n"
-"PO-Revision-Date: 2014-03-04 16:10+0000\n"
-"Last-Translator: roidayan <roi.dayan@gmail.com>\n"
+"POT-Creation-Date: 2014-03-24 12:16:53+00:00\n"
+"PO-Revision-Date: 2014-04-28 17:13+0000\n"
+"Last-Translator: shoresh319\n"
 "Language-Team: Hebrew (Israel) (http://www.transifex.com/projects/p/woocommerce/language/he_IL/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -97,37 +100,285 @@ msgstr "ויקטוריה"
 msgid "Western Australia"
 msgstr "מערב אוסטרליה"
 
+#: i18n/states/BD.php:13
+msgid "Bagerhat"
+msgstr "בג'ראט"
+
+#: i18n/states/BD.php:14
+msgid "Bandarban"
+msgstr "בנדרבן"
+
+#: i18n/states/BD.php:15
+msgid "Barguna"
+msgstr "בארגונה"
+
+#: i18n/states/BD.php:16
+msgid "Barisal"
+msgstr "באריסל"
+
+#: i18n/states/BD.php:17
+msgid "Bhola"
+msgstr "בולה"
+
+#: i18n/states/BD.php:18
+msgid "Bogra"
+msgstr "בוגרה"
+
+#: i18n/states/BD.php:19
+msgid "Chandpur"
+msgstr "צ'אנדפור"
+
+#: i18n/states/BD.php:20
+msgid "Chittagong"
+msgstr "צ'יטגונג"
+
+#: i18n/states/BD.php:21
+msgid "Chuadanga"
+msgstr "צ'ואדנגה"
+
+#: i18n/states/BD.php:22
+msgid "Comilla"
+msgstr "קומילה"
+
+#: i18n/states/BD.php:23
+msgid "Cox's Bazar"
+msgstr "קוקס בזאר"
+
+#: i18n/states/BD.php:24
+msgid "Dhaka"
+msgstr "דאקה"
+
+#: i18n/states/BD.php:25
+msgid "Dinajpur"
+msgstr ""
+
+#: i18n/states/BD.php:26
+msgid "Faridpur "
+msgstr "פארידפור"
+
+#: i18n/states/BD.php:27
+msgid "Feni"
+msgstr "פני"
+
+#: i18n/states/BD.php:28
+msgid "Gaibandha"
+msgstr "גאיבנדה"
+
+#: i18n/states/BD.php:29
+msgid "Gazipur"
+msgstr "גזיפור"
+
+#: i18n/states/BD.php:30
+msgid "Gopalganj"
+msgstr ""
+
+#: i18n/states/BD.php:31
+msgid "Jamalpur"
+msgstr "ג'מלפור"
+
+#: i18n/states/BD.php:32
+msgid "Jessore"
+msgstr "ג'סורה"
+
+#: i18n/states/BD.php:33
+msgid "Jhalokati"
+msgstr ""
+
+#: i18n/states/BD.php:34
+msgid "Jhenaidah"
+msgstr ""
+
+#: i18n/states/BD.php:35
+msgid "Joypurhat"
+msgstr "ג'איפורהאט"
+
+#: i18n/states/BD.php:36
+msgid "Khagrachhari"
+msgstr ""
+
+#: i18n/states/BD.php:37
+msgid "Khulna"
+msgstr ""
+
+#: i18n/states/BD.php:38
+msgid "Kishoreganj"
+msgstr ""
+
+#: i18n/states/BD.php:39
+msgid "Kurigram"
+msgstr "קוריגראם"
+
+#: i18n/states/BD.php:40
+msgid "Kushtia"
+msgstr "קושטיה"
+
+#: i18n/states/BD.php:41
+msgid "Lakshmipur"
+msgstr "לקשמיפור"
+
+#: i18n/states/BD.php:42
+msgid "Lalmonirhat"
+msgstr "לאלמונירהאט"
+
+#: i18n/states/BD.php:43
+msgid "Madaripur"
+msgstr "מדריפור"
+
+#: i18n/states/BD.php:44
+msgid "Magura"
+msgstr ""
+
+#: i18n/states/BD.php:45
+msgid "Manikganj "
+msgstr "מניקגאנג'"
+
+#: i18n/states/BD.php:46
+msgid "Meherpur"
+msgstr "מהרפור"
+
+#: i18n/states/BD.php:47
+msgid "Moulvibazar"
+msgstr ""
+
+#: i18n/states/BD.php:48
+msgid "Munshiganj"
+msgstr "מונשיגאנג'"
+
+#: i18n/states/BD.php:49
+msgid "Mymensingh"
+msgstr "מימנסינג"
+
+#: i18n/states/BD.php:50
+msgid "Naogaon"
+msgstr "נאוגאון"
+
+#: i18n/states/BD.php:51
+msgid "Narail"
+msgstr "נראיל"
+
+#: i18n/states/BD.php:52
+msgid "Narayanganj"
+msgstr "נאראיאנגנג'"
+
+#: i18n/states/BD.php:53
+msgid "Narsingdi"
+msgstr "נרשינגדי"
+
+#: i18n/states/BD.php:54
+msgid "Natore"
+msgstr ""
+
+#: i18n/states/BD.php:55
+msgid "Nawabganj"
+msgstr ""
+
+#: i18n/states/BD.php:56
+msgid "Netrakona"
+msgstr ""
+
+#: i18n/states/BD.php:57
+msgid "Nilphamari"
+msgstr "נילפמארי"
+
+#: i18n/states/BD.php:58
+msgid "Noakhali"
+msgstr "נואחלי"
+
+#: i18n/states/BD.php:59
+msgid "Pabna"
+msgstr "פבנה"
+
+#: i18n/states/BD.php:60
+msgid "Panchagarh"
+msgstr "פנצ'גר"
+
+#: i18n/states/BD.php:61
+msgid "Patuakhali"
+msgstr ""
+
+#: i18n/states/BD.php:62
+msgid "Pirojpur"
+msgstr "פירוז'פור"
+
+#: i18n/states/BD.php:63
+msgid "Rajbari"
+msgstr "ראג'בארי"
+
+#: i18n/states/BD.php:64
+msgid "Rajshahi"
+msgstr ""
+
+#: i18n/states/BD.php:65
+msgid "Rangamati"
+msgstr "רנגמטי"
+
+#: i18n/states/BD.php:66
+msgid "Rangpur"
+msgstr "ראנגפור"
+
+#: i18n/states/BD.php:67
+msgid "Satkhira"
+msgstr "סטקירה"
+
+#: i18n/states/BD.php:68
+msgid "Shariatpur"
+msgstr "שאריאטפור"
+
+#: i18n/states/BD.php:69
+msgid "Sherpur"
+msgstr "שרפור"
+
+#: i18n/states/BD.php:70
+msgid "Sirajganj"
+msgstr ""
+
+#: i18n/states/BD.php:71
+msgid "Sunamganj"
+msgstr "סונאמגאנג'"
+
+#: i18n/states/BD.php:72
+msgid "Sylhet"
+msgstr "סילהט"
+
+#: i18n/states/BD.php:73
+msgid "Tangail"
+msgstr "טנגאלי"
+
+#: i18n/states/BD.php:74
+msgid "Thakurgaon"
+msgstr "תאקורגאון"
+
 #: i18n/states/BG.php:13
 msgid "Blagoevgrad"
-msgstr ""
+msgstr "בלגואבגרד"
 
 #: i18n/states/BG.php:14
 msgid "Burgas"
-msgstr ""
+msgstr "בורגס"
 
 #: i18n/states/BG.php:15
 msgid "Dobrich"
-msgstr ""
+msgstr "דובריץ'"
 
 #: i18n/states/BG.php:16
 msgid "Gabrovo"
-msgstr ""
+msgstr "גברובו"
 
 #: i18n/states/BG.php:17
 msgid "Haskovo"
-msgstr ""
+msgstr "חאסקובו"
 
 #: i18n/states/BG.php:18
 msgid "Kardzhali"
-msgstr ""
+msgstr "קרדז'אלי"
 
 #: i18n/states/BG.php:19
 msgid "Kyustendil"
-msgstr ""
+msgstr "קיוסטנדיל"
 
 #: i18n/states/BG.php:20
 msgid "Lovech"
-msgstr ""
+msgstr "לובץ'"
 
 #: i18n/states/BG.php:21 i18n/states/US.php:39
 msgid "Montana"
@@ -135,23 +386,23 @@ msgstr "מונטנה"
 
 #: i18n/states/BG.php:22
 msgid "Pazardzhik"
-msgstr ""
+msgstr "פאזארדז'יק"
 
 #: i18n/states/BG.php:23
 msgid "Pernik"
-msgstr ""
+msgstr "פרניק"
 
 #: i18n/states/BG.php:24
 msgid "Pleven"
-msgstr ""
+msgstr "פלבן"
 
 #: i18n/states/BG.php:25
 msgid "Plovdiv"
-msgstr ""
+msgstr "פלובדיב"
 
 #: i18n/states/BG.php:26
 msgid "Razgrad"
-msgstr ""
+msgstr "ראזגרד"
 
 #: i18n/states/BG.php:27
 msgid "Ruse"
@@ -159,55 +410,55 @@ msgstr ""
 
 #: i18n/states/BG.php:28
 msgid "Shumen"
-msgstr ""
+msgstr "שומן"
 
 #: i18n/states/BG.php:29
 msgid "Silistra"
-msgstr ""
+msgstr "סיליסטרה"
 
 #: i18n/states/BG.php:30
 msgid "Sliven"
-msgstr ""
+msgstr "סליבן"
 
 #: i18n/states/BG.php:31
 msgid "Smolyan"
-msgstr ""
+msgstr "סמוליאן"
 
 #: i18n/states/BG.php:32
 msgid "Sofia"
-msgstr ""
+msgstr "סופיה"
 
 #: i18n/states/BG.php:33
 msgid "Sofia-Grad"
-msgstr ""
+msgstr "סופיה"
 
 #: i18n/states/BG.php:34
 msgid "Stara Zagora"
-msgstr ""
+msgstr "סטארה זאגורה"
 
 #: i18n/states/BG.php:35
 msgid "Targovishte"
-msgstr ""
+msgstr "טרגובישטה"
 
 #: i18n/states/BG.php:36
 msgid "Varna"
-msgstr ""
+msgstr "וארנה"
 
 #: i18n/states/BG.php:37
 msgid "Veliko Tarnovo"
-msgstr ""
+msgstr "וליקו טרנובו"
 
 #: i18n/states/BG.php:38
 msgid "Vidin"
-msgstr ""
+msgstr "וידין"
 
 #: i18n/states/BG.php:39
 msgid "Vratsa"
-msgstr ""
+msgstr "וראצה"
 
 #: i18n/states/BG.php:40
 msgid "Yambol"
-msgstr ""
+msgstr "ימבול"
 
 #: i18n/states/BR.php:13
 msgid "Acre"
@@ -499,127 +750,127 @@ msgstr "שינג'יאנג / 新疆"
 
 #: i18n/states/ES.php:13
 msgid "A Coru&ntilde;a"
-msgstr ""
+msgstr "א קורוניה"
 
 #: i18n/states/ES.php:14
 msgid "Araba/&Aacute;lava"
-msgstr ""
+msgstr "אראבה/אלאבה"
 
 #: i18n/states/ES.php:15
 msgid "Albacete"
-msgstr ""
+msgstr "אלבסטה"
 
 #: i18n/states/ES.php:16
 msgid "Alicante"
-msgstr ""
+msgstr "אליקנטה"
 
 #: i18n/states/ES.php:17
 msgid "Almer&iacute;a"
-msgstr ""
+msgstr "אלמריה"
 
 #: i18n/states/ES.php:18
 msgid "Asturias"
-msgstr ""
+msgstr "אסטוריאס"
 
 #: i18n/states/ES.php:19
 msgid "&Aacute;vila"
-msgstr ""
+msgstr "אווילה"
 
 #: i18n/states/ES.php:20
 msgid "Badajoz"
-msgstr ""
+msgstr "בדחוס"
 
 #: i18n/states/ES.php:21
 msgid "Baleares"
-msgstr ""
+msgstr "האיים הבלאריים"
 
 #: i18n/states/ES.php:22
 msgid "Barcelona"
-msgstr ""
+msgstr "ברצלונה"
 
 #: i18n/states/ES.php:23
 msgid "Burgos"
-msgstr ""
+msgstr "בורגוס"
 
 #: i18n/states/ES.php:24
 msgid "C&aacute;ceres"
-msgstr ""
+msgstr "קסרס"
 
 #: i18n/states/ES.php:25
 msgid "C&aacute;diz"
-msgstr ""
+msgstr "קדיס"
 
 #: i18n/states/ES.php:26
 msgid "Cantabria"
-msgstr ""
+msgstr "קנטבריה"
 
 #: i18n/states/ES.php:27
 msgid "Castell&oacute;n"
-msgstr ""
+msgstr "קאסטיון"
 
 #: i18n/states/ES.php:28
 msgid "Ceuta"
-msgstr ""
+msgstr "סאוטה"
 
 #: i18n/states/ES.php:29
 msgid "Ciudad Real"
-msgstr ""
+msgstr "סיודאד ריאל"
 
 #: i18n/states/ES.php:30
 msgid "C&oacute;rdoba"
-msgstr ""
+msgstr "ב"
 
 #: i18n/states/ES.php:31
 msgid "Cuenca"
-msgstr ""
+msgstr "קואנקה"
 
 #: i18n/states/ES.php:32
 msgid "Girona"
-msgstr ""
+msgstr "גירונה"
 
 #: i18n/states/ES.php:33
 msgid "Granada"
-msgstr ""
+msgstr "גרנדה"
 
 #: i18n/states/ES.php:34
 msgid "Guadalajara"
-msgstr ""
+msgstr "גואדלחרה"
 
 #: i18n/states/ES.php:35
 msgid "Gipuzkoa"
-msgstr ""
+msgstr "גיפוזקואה"
 
 #: i18n/states/ES.php:36
 msgid "Huelva"
-msgstr ""
+msgstr "הואלבה"
 
 #: i18n/states/ES.php:37
 msgid "Huesca"
-msgstr ""
+msgstr "הואסקה"
 
 #: i18n/states/ES.php:38
 msgid "Ja&eacute;n"
-msgstr ""
+msgstr "חאאן"
 
 #: i18n/states/ES.php:39
 msgid "La Rioja"
-msgstr ""
+msgstr "לה ריוחה"
 
 #: i18n/states/ES.php:40
 msgid "Las Palmas"
-msgstr ""
+msgstr "לאס פאלמאס"
 
 #: i18n/states/ES.php:41
 msgid "Le&oacute;n"
-msgstr ""
+msgstr "לאון"
 
 #: i18n/states/ES.php:42
 msgid "Lleida"
-msgstr ""
+msgstr "ליידה"
 
 #: i18n/states/ES.php:43
 msgid "Lugo"
-msgstr ""
+msgstr "לוגו"
 
 #: i18n/states/ES.php:44
 msgid "Madrid"
@@ -627,83 +878,83 @@ msgstr "מדריד"
 
 #: i18n/states/ES.php:45
 msgid "M&aacute;laga"
-msgstr ""
+msgstr "מאלגה"
 
 #: i18n/states/ES.php:46
 msgid "Melilla"
-msgstr ""
+msgstr "מלייה"
 
 #: i18n/states/ES.php:47
 msgid "Murcia"
-msgstr ""
+msgstr "מורסיה"
 
 #: i18n/states/ES.php:48
 msgid "Navarra"
-msgstr ""
+msgstr "נווארה"
 
 #: i18n/states/ES.php:49
 msgid "Ourense"
-msgstr ""
+msgstr "אורנסה"
 
 #: i18n/states/ES.php:50
 msgid "Palencia"
-msgstr ""
+msgstr "פלנסיה"
 
 #: i18n/states/ES.php:51
 msgid "Pontevedra"
-msgstr ""
+msgstr "פונטוודרה"
 
 #: i18n/states/ES.php:52
 msgid "Salamanca"
-msgstr ""
+msgstr "סלמנקה"
 
 #: i18n/states/ES.php:53
 msgid "Santa Cruz de Tenerife"
-msgstr ""
+msgstr "סנטה קרוז דה טנריף"
 
 #: i18n/states/ES.php:54
 msgid "Segovia"
-msgstr ""
+msgstr "סגוביה"
 
 #: i18n/states/ES.php:55
 msgid "Sevilla"
-msgstr ""
+msgstr "סביליה"
 
 #: i18n/states/ES.php:56
 msgid "Soria"
-msgstr ""
+msgstr "סוׂרִיה"
 
 #: i18n/states/ES.php:57
 msgid "Tarragona"
-msgstr ""
+msgstr "טרגונה"
 
 #: i18n/states/ES.php:58
 msgid "Teruel"
-msgstr ""
+msgstr "טרואל"
 
 #: i18n/states/ES.php:59
 msgid "Toledo"
-msgstr ""
+msgstr "טולדו"
 
 #: i18n/states/ES.php:60
 msgid "Valencia"
-msgstr ""
+msgstr "ולנסיה"
 
 #: i18n/states/ES.php:61
 msgid "Valladolid"
-msgstr ""
+msgstr "ויאדוליד"
 
 #: i18n/states/ES.php:62
 msgid "Bizkaia"
-msgstr ""
+msgstr "ויזקאיה"
 
 #: i18n/states/ES.php:63
 msgid "Zamora"
-msgstr ""
+msgstr "זאמורה"
 
 #: i18n/states/ES.php:64
 msgid "Zaragoza"
-msgstr ""
+msgstr "סראגוסה"
 
 #: i18n/states/HK.php:13
 msgid "Hong Kong Island"
@@ -1135,139 +1386,139 @@ msgstr "פונדיצ'רי (Puducherry)"
 
 #: i18n/states/IT.php:13
 msgid "Agrigento"
-msgstr ""
+msgstr "אגריג'נטו"
 
 #: i18n/states/IT.php:14
 msgid "Alessandria"
-msgstr ""
+msgstr "אלסנדריה"
 
 #: i18n/states/IT.php:15
 msgid "Ancona"
-msgstr ""
+msgstr "אנקונה"
 
 #: i18n/states/IT.php:16
 msgid "Aosta"
-msgstr ""
+msgstr "אאוסטה"
 
 #: i18n/states/IT.php:17
 msgid "Arezzo"
-msgstr ""
+msgstr "ארזו"
 
 #: i18n/states/IT.php:18
 msgid "Ascoli Piceno"
-msgstr ""
+msgstr "אסקולי פיסנו"
 
 #: i18n/states/IT.php:19
 msgid "Asti"
-msgstr ""
+msgstr "אסטי"
 
 #: i18n/states/IT.php:20
 msgid "Avellino"
-msgstr ""
+msgstr "אבלינו"
 
 #: i18n/states/IT.php:21
 msgid "Bari"
-msgstr ""
+msgstr "בארי"
 
 #: i18n/states/IT.php:22
 msgid "Barletta-Andria-Trani"
-msgstr ""
+msgstr "ברלטה-אנדריה-טראני"
 
 #: i18n/states/IT.php:23
 msgid "Belluno"
-msgstr ""
+msgstr "בלונו"
 
 #: i18n/states/IT.php:24
 msgid "Benevento"
-msgstr ""
+msgstr "נוונטו"
 
 #: i18n/states/IT.php:25
 msgid "Bergamo"
-msgstr ""
+msgstr "ברגמו"
 
 #: i18n/states/IT.php:26
 msgid "Biella"
-msgstr ""
+msgstr "ביאלה"
 
 #: i18n/states/IT.php:27
 msgid "Bologna"
-msgstr ""
+msgstr "בולוניה"
 
 #: i18n/states/IT.php:28
 msgid "Bolzano"
-msgstr ""
+msgstr "בּוׂלְצָנוׂ"
 
 #: i18n/states/IT.php:29
 msgid "Brescia"
-msgstr ""
+msgstr "בְּרֶשִיָה"
 
 #: i18n/states/IT.php:30
 msgid "Brindisi"
-msgstr ""
+msgstr "ברינדיזי"
 
 #: i18n/states/IT.php:31
 msgid "Cagliari"
-msgstr ""
+msgstr "Cagliari"
 
 #: i18n/states/IT.php:32
 msgid "Caltanissetta"
-msgstr ""
+msgstr "קלטניסטה"
 
 #: i18n/states/IT.php:33
 msgid "Campobasso"
-msgstr ""
+msgstr "קמפובאסו"
 
 #: i18n/states/IT.php:34
 msgid "Carbonia-Iglesias"
-msgstr ""
+msgstr "קרבוניה איגלסיס"
 
 #: i18n/states/IT.php:35
 msgid "Caserta"
-msgstr ""
+msgstr "קאזרטה"
 
 #: i18n/states/IT.php:36
 msgid "Catania"
-msgstr ""
+msgstr "קטאניה"
 
 #: i18n/states/IT.php:37
 msgid "Catanzaro"
-msgstr ""
+msgstr "קטנזארו"
 
 #: i18n/states/IT.php:38
 msgid "Chieti"
-msgstr ""
+msgstr "קיאטי"
 
 #: i18n/states/IT.php:39
 msgid "Como"
-msgstr ""
+msgstr "קומו"
 
 #: i18n/states/IT.php:40
 msgid "Cosenza"
-msgstr ""
+msgstr "קוזנצה"
 
 #: i18n/states/IT.php:41
 msgid "Cremona"
-msgstr ""
+msgstr "קרמונה"
 
 #: i18n/states/IT.php:42
 msgid "Crotone"
-msgstr ""
+msgstr "קרוטונה"
 
 #: i18n/states/IT.php:43
 msgid "Cuneo"
-msgstr ""
+msgstr "קונאו"
 
 #: i18n/states/IT.php:44
 msgid "Enna"
-msgstr ""
+msgstr "אנה"
 
 #: i18n/states/IT.php:45
 msgid "Fermo"
-msgstr ""
+msgstr "פרמו"
 
 #: i18n/states/IT.php:46
 msgid "Ferrara"
-msgstr ""
+msgstr "פרארה"
 
 #: i18n/states/IT.php:47
 msgid "Firenze"
@@ -1275,87 +1526,87 @@ msgstr "פירנצה"
 
 #: i18n/states/IT.php:48
 msgid "Foggia"
-msgstr ""
+msgstr "פוג'יה"
 
 #: i18n/states/IT.php:49
 msgid "Forlì-Cesena"
-msgstr ""
+msgstr "פורלי-צסנה"
 
 #: i18n/states/IT.php:50
 msgid "Frosinone"
-msgstr ""
+msgstr "פרוסינונה"
 
 #: i18n/states/IT.php:51
 msgid "Genova"
-msgstr ""
+msgstr "גנואה"
 
 #: i18n/states/IT.php:52
 msgid "Gorizia"
-msgstr ""
+msgstr "גוריציה"
 
 #: i18n/states/IT.php:53
 msgid "Grosseto"
-msgstr ""
+msgstr "גרוסטו"
 
 #: i18n/states/IT.php:54
 msgid "Imperia"
-msgstr ""
+msgstr "אימפריה"
 
 #: i18n/states/IT.php:55
 msgid "Isernia"
-msgstr ""
+msgstr "איסרניה"
 
 #: i18n/states/IT.php:56
 msgid "La Spezia"
-msgstr ""
+msgstr "לה ספציה"
 
 #: i18n/states/IT.php:57
 msgid "L&apos;Aquila"
-msgstr ""
+msgstr "ל'אקווילה"
 
 #: i18n/states/IT.php:58
 msgid "Latina"
-msgstr ""
+msgstr "לטינה"
 
 #: i18n/states/IT.php:59
 msgid "Lecce"
-msgstr ""
+msgstr "לצ'ה"
 
 #: i18n/states/IT.php:60
 msgid "Lecco"
-msgstr ""
+msgstr "לקו"
 
 #: i18n/states/IT.php:61
 msgid "Livorno"
-msgstr ""
+msgstr "ליבורנו"
 
 #: i18n/states/IT.php:62
 msgid "Lodi"
-msgstr ""
+msgstr "לודי"
 
 #: i18n/states/IT.php:63
 msgid "Lucca"
-msgstr ""
+msgstr "לוקה"
 
 #: i18n/states/IT.php:64
 msgid "Macerata"
-msgstr ""
+msgstr "מצ'רטה"
 
 #: i18n/states/IT.php:65
 msgid "Mantova"
-msgstr ""
+msgstr "מנטובה"
 
 #: i18n/states/IT.php:66
 msgid "Massa-Carrara"
-msgstr ""
+msgstr "מאסה קאררה"
 
 #: i18n/states/IT.php:67
 msgid "Matera"
-msgstr ""
+msgstr "מאטרה"
 
 #: i18n/states/IT.php:68
 msgid "Messina"
-msgstr ""
+msgstr "מסינה"
 
 #: i18n/states/IT.php:69
 msgid "Milano"
@@ -1363,11 +1614,11 @@ msgstr "מילאנו"
 
 #: i18n/states/IT.php:70
 msgid "Modena"
-msgstr ""
+msgstr "מודנה"
 
 #: i18n/states/IT.php:71
 msgid "Monza e della Brianza"
-msgstr ""
+msgstr "דלה דואר מונזה Brianza"
 
 #: i18n/states/IT.php:72
 msgid "Napoli"
@@ -1375,143 +1626,143 @@ msgstr "נאפולי"
 
 #: i18n/states/IT.php:73
 msgid "Novara"
-msgstr ""
+msgstr "נובארה"
 
 #: i18n/states/IT.php:74
 msgid "Nuoro"
-msgstr ""
+msgstr "נואורו"
 
 #: i18n/states/IT.php:75
 msgid "Olbia-Tempio"
-msgstr ""
+msgstr "אולביה-טמפיו"
 
 #: i18n/states/IT.php:76
 msgid "Oristano"
-msgstr ""
+msgstr "אוריסטאנו"
 
 #: i18n/states/IT.php:77
 msgid "Padova"
-msgstr ""
+msgstr "פדובה"
 
 #: i18n/states/IT.php:78
 msgid "Palermo"
-msgstr ""
+msgstr "פאלרמו"
 
 #: i18n/states/IT.php:79
 msgid "Parma"
-msgstr ""
+msgstr "פארמה"
 
 #: i18n/states/IT.php:80
 msgid "Pavia"
-msgstr ""
+msgstr "פאביה"
 
 #: i18n/states/IT.php:81
 msgid "Perugia"
-msgstr ""
+msgstr "פרוג'ה"
 
 #: i18n/states/IT.php:82
 msgid "Pesaro e Urbino"
-msgstr ""
+msgstr "פזארו אה אורבינו"
 
 #: i18n/states/IT.php:83
 msgid "Pescara"
-msgstr ""
+msgstr "פסקארה"
 
 #: i18n/states/IT.php:84
 msgid "Piacenza"
-msgstr ""
+msgstr "פיאצ'נזה"
 
 #: i18n/states/IT.php:85
 msgid "Pisa"
-msgstr ""
+msgstr "פיזה"
 
 #: i18n/states/IT.php:86
 msgid "Pistoia"
-msgstr ""
+msgstr "פיסטויה"
 
 #: i18n/states/IT.php:87
 msgid "Pordenone"
-msgstr ""
+msgstr "פורדנונה"
 
 #: i18n/states/IT.php:88
 msgid "Potenza"
-msgstr ""
+msgstr "פוטנצה"
 
 #: i18n/states/IT.php:89
 msgid "Prato"
-msgstr ""
+msgstr "פראטו"
 
 #: i18n/states/IT.php:90
 msgid "Ragusa"
-msgstr ""
+msgstr "רגוזה"
 
 #: i18n/states/IT.php:91
 msgid "Ravenna"
-msgstr ""
+msgstr "רוונה"
 
 #: i18n/states/IT.php:92
 msgid "Reggio Calabria"
-msgstr ""
+msgstr "רג'יו קלבריה"
 
 #: i18n/states/IT.php:93
 msgid "Reggio Emilia"
-msgstr ""
+msgstr "רג'יו אמיליה"
 
 #: i18n/states/IT.php:94
 msgid "Rieti"
-msgstr ""
+msgstr "ריאטי"
 
 #: i18n/states/IT.php:95
 msgid "Rimini"
-msgstr ""
+msgstr "רימיני"
 
 #: i18n/states/IT.php:96
 msgid "Roma"
-msgstr ""
+msgstr "רומא"
 
 #: i18n/states/IT.php:97
 msgid "Rovigo"
-msgstr ""
+msgstr "רוביגו"
 
 #: i18n/states/IT.php:98
 msgid "Salerno"
-msgstr ""
+msgstr "סלרנו"
 
 #: i18n/states/IT.php:99
 msgid "Medio Campidano"
-msgstr ""
+msgstr "מדיו קמפידנו"
 
 #: i18n/states/IT.php:100
 msgid "Sassari"
-msgstr ""
+msgstr "ססארי"
 
 #: i18n/states/IT.php:101
 msgid "Savona"
-msgstr ""
+msgstr "סבונה"
 
 #: i18n/states/IT.php:102
 msgid "Siena"
-msgstr ""
+msgstr "Siena"
 
 #: i18n/states/IT.php:103
 msgid "Siracusa"
-msgstr ""
+msgstr "סירקוזה"
 
 #: i18n/states/IT.php:104
 msgid "Sondrio"
-msgstr ""
+msgstr "סונדריו"
 
 #: i18n/states/IT.php:105
 msgid "Taranto"
-msgstr ""
+msgstr "טרנטו"
 
 #: i18n/states/IT.php:106
 msgid "Teramo"
-msgstr ""
+msgstr "טראמו"
 
 #: i18n/states/IT.php:107
 msgid "Terni"
-msgstr ""
+msgstr "טרני"
 
 #: i18n/states/IT.php:108
 msgid "Torino"
@@ -1519,43 +1770,43 @@ msgstr "טורינו"
 
 #: i18n/states/IT.php:109
 msgid "Ogliastra"
-msgstr ""
+msgstr "אוגליאסטרה"
 
 #: i18n/states/IT.php:110
 msgid "Trapani"
-msgstr ""
+msgstr "טראפאני"
 
 #: i18n/states/IT.php:111
 msgid "Trento"
-msgstr ""
+msgstr "טרנטו"
 
 #: i18n/states/IT.php:112
 msgid "Treviso"
-msgstr ""
+msgstr "טרוויזו"
 
 #: i18n/states/IT.php:113
 msgid "Trieste"
-msgstr ""
+msgstr "טריאסטה"
 
 #: i18n/states/IT.php:114
 msgid "Udine"
-msgstr ""
+msgstr "אודינה"
 
 #: i18n/states/IT.php:115
 msgid "Varese"
-msgstr ""
+msgstr "וארזה"
 
 #: i18n/states/IT.php:116
 msgid "Venezia"
-msgstr ""
+msgstr "ונציה"
 
 #: i18n/states/IT.php:117
 msgid "Verbano-Cusio-Ossola"
-msgstr ""
+msgstr "ורבאנו-קוציו-אוסולה"
 
 #: i18n/states/IT.php:118
 msgid "Vercelli"
-msgstr ""
+msgstr "ורצ'לי"
 
 #: i18n/states/IT.php:119
 msgid "Verona"
@@ -1563,63 +1814,63 @@ msgstr "ורונה"
 
 #: i18n/states/IT.php:120
 msgid "Vibo Valentia"
-msgstr ""
+msgstr "ויבו ולנטיה"
 
 #: i18n/states/IT.php:121
 msgid "Vicenza"
-msgstr ""
+msgstr "ויצ'נזה"
 
 #: i18n/states/IT.php:122
 msgid "Viterbo"
-msgstr ""
+msgstr "ויטרבו"
 
 #: i18n/states/JP.php:13
 msgid "Hokkaido"
-msgstr ""
+msgstr "הוקאידו"
 
 #: i18n/states/JP.php:14
 msgid "Aomori"
-msgstr ""
+msgstr "אומורי"
 
 #: i18n/states/JP.php:15
 msgid "Iwate"
-msgstr ""
+msgstr "איווטה"
 
 #: i18n/states/JP.php:16
 msgid "Miyagi"
-msgstr ""
+msgstr "מיאגי"
 
 #: i18n/states/JP.php:17
 msgid "Akita"
-msgstr ""
+msgstr "אקיטה"
 
 #: i18n/states/JP.php:18
 msgid "Yamagata"
-msgstr ""
+msgstr "יאמאגטה"
 
 #: i18n/states/JP.php:19
 msgid "Fukushima"
-msgstr ""
+msgstr "פוקושימה"
 
 #: i18n/states/JP.php:20
 msgid "Ibaraki"
-msgstr ""
+msgstr "איבראקי"
 
 #: i18n/states/JP.php:21
 msgid "Tochigi"
-msgstr ""
+msgstr "טוצ'יגי"
 
 #: i18n/states/JP.php:22
 msgid "Gunma"
-msgstr ""
+msgstr "גאנמה"
 
 #: i18n/states/JP.php:23
 msgid "Saitama"
-msgstr ""
+msgstr "סאיטמה"
 
 #: i18n/states/JP.php:24
 msgid "Chiba"
-msgstr ""
+msgstr "צ'יבה"
 
 #: i18n/states/JP.php:25
 msgid "Tokyo"
@@ -1627,43 +1878,43 @@ msgstr "טוקיו"
 
 #: i18n/states/JP.php:26
 msgid "Kanagawa"
-msgstr ""
+msgstr "קאנאגאווה"
 
 #: i18n/states/JP.php:27
 msgid "Niigata"
-msgstr ""
+msgstr "נייגטה"
 
 #: i18n/states/JP.php:28
 msgid "Toyama"
-msgstr ""
+msgstr "טויאמה"
 
 #: i18n/states/JP.php:29
 msgid "Ishikawa"
-msgstr ""
+msgstr "אישיקאווה"
 
 #: i18n/states/JP.php:30
 msgid "Fukui"
-msgstr ""
+msgstr "פוקוי"
 
 #: i18n/states/JP.php:31
 msgid "Yamanashi"
-msgstr ""
+msgstr "יאמאנאשי"
 
 #: i18n/states/JP.php:32
 msgid "Nagano"
-msgstr ""
+msgstr "נאגאנו"
 
 #: i18n/states/JP.php:33
 msgid "Gifu"
-msgstr ""
+msgstr "גיפו"
 
 #: i18n/states/JP.php:34
 msgid "Shizuoka"
-msgstr ""
+msgstr "שיזואוקה"
 
 #: i18n/states/JP.php:35
 msgid "Aichi"
-msgstr ""
+msgstr "אייצ'י"
 
 #: i18n/states/JP.php:36
 msgid "Mie"
@@ -1671,27 +1922,27 @@ msgstr ""
 
 #: i18n/states/JP.php:37
 msgid "Shiga"
-msgstr ""
+msgstr "שיגה"
 
 #: i18n/states/JP.php:38
 msgid "Kyouto"
-msgstr ""
+msgstr "קיוטו"
 
 #: i18n/states/JP.php:39
 msgid "Osaka"
-msgstr ""
+msgstr "אוסקה"
 
 #: i18n/states/JP.php:40
 msgid "Hyougo"
-msgstr ""
+msgstr "היוגו"
 
 #: i18n/states/JP.php:41
 msgid "Nara"
-msgstr ""
+msgstr "נארה"
 
 #: i18n/states/JP.php:42
 msgid "Wakayama"
-msgstr ""
+msgstr "וואקאיאמה"
 
 #: i18n/states/JP.php:43
 msgid "Tottori"
@@ -1699,7 +1950,7 @@ msgstr "טוטורי"
 
 #: i18n/states/JP.php:44
 msgid "Shimane"
-msgstr ""
+msgstr "שימאנה"
 
 #: i18n/states/JP.php:45
 msgid "Okayama"
@@ -1711,7 +1962,7 @@ msgstr "הירושימה"
 
 #: i18n/states/JP.php:47
 msgid "Yamaguchi"
-msgstr ""
+msgstr "יאמגוצ'י"
 
 #: i18n/states/JP.php:48
 msgid "Tokushima"
@@ -1719,15 +1970,15 @@ msgstr "טוקושימה"
 
 #: i18n/states/JP.php:49
 msgid "Kagawa"
-msgstr ""
+msgstr "קגאווה"
 
 #: i18n/states/JP.php:50
 msgid "Ehime"
-msgstr ""
+msgstr "אהימה"
 
 #: i18n/states/JP.php:51
 msgid "Kochi"
-msgstr ""
+msgstr "קוצ'י"
 
 #: i18n/states/JP.php:52
 msgid "Fukuoka"
@@ -1735,7 +1986,7 @@ msgstr "פוקוקה"
 
 #: i18n/states/JP.php:53
 msgid "Saga"
-msgstr ""
+msgstr "סאגה"
 
 #: i18n/states/JP.php:54
 msgid "Nagasaki"
@@ -1827,7 +2078,7 @@ msgstr "WP Putrajaya"
 
 #: i18n/states/PE.php:13
 msgid "El Callao"
-msgstr ""
+msgstr "קלאו"
 
 #: i18n/states/PE.php:14
 msgid "Municipalidad Metropolitana de Lima"
@@ -1835,63 +2086,63 @@ msgstr ""
 
 #: i18n/states/PE.php:16
 msgid "Ancash"
-msgstr ""
+msgstr "אנקש"
 
 #: i18n/states/PE.php:17
 msgid "Apur&iacute;mac"
-msgstr ""
+msgstr "אפורימק"
 
 #: i18n/states/PE.php:18
 msgid "Arequipa"
-msgstr ""
+msgstr "ארקיפה"
 
 #: i18n/states/PE.php:19
 msgid "Ayacucho"
-msgstr ""
+msgstr "אייקוצ'ו"
 
 #: i18n/states/PE.php:20
 msgid "Cajamarca"
-msgstr ""
+msgstr "קחמרקה"
 
 #: i18n/states/PE.php:21
 msgid "Cusco"
-msgstr ""
+msgstr "קוסקו"
 
 #: i18n/states/PE.php:22
 msgid "Huancavelica"
-msgstr ""
+msgstr "הואנקווליקה"
 
 #: i18n/states/PE.php:23
 msgid "Hu&aacute;nuco"
-msgstr ""
+msgstr "הואנוקו"
 
 #: i18n/states/PE.php:24
 msgid "Ica"
-msgstr ""
+msgstr "איקה"
 
 #: i18n/states/PE.php:25
 msgid "Jun&iacute;n"
-msgstr ""
+msgstr "ג'ונין"
 
 #: i18n/states/PE.php:26
 msgid "La Libertad"
-msgstr ""
+msgstr "לה ליברטד"
 
 #: i18n/states/PE.php:27
 msgid "Lambayeque"
-msgstr ""
+msgstr "לאמבאייק"
 
 #: i18n/states/PE.php:28
 msgid "Lima"
-msgstr ""
+msgstr "לימה"
 
 #: i18n/states/PE.php:29
 msgid "Loreto"
-msgstr ""
+msgstr "לורטו"
 
 #: i18n/states/PE.php:30
 msgid "Madre de Dios"
-msgstr ""
+msgstr "מדרה דה דיוס"
 
 #: i18n/states/PE.php:31
 msgid "Moquegua"
@@ -1899,31 +2150,31 @@ msgstr ""
 
 #: i18n/states/PE.php:32
 msgid "Pasco"
-msgstr ""
+msgstr "פסקו"
 
 #: i18n/states/PE.php:33
 msgid "Piura"
-msgstr ""
+msgstr "פיורה"
 
 #: i18n/states/PE.php:34
 msgid "Puno"
-msgstr ""
+msgstr "פונו"
 
 #: i18n/states/PE.php:35
 msgid "San Mart&iacute;n"
-msgstr ""
+msgstr "סן מרטין"
 
 #: i18n/states/PE.php:36
 msgid "Tacna"
-msgstr ""
+msgstr "טקנהטקנה"
 
 #: i18n/states/PE.php:37
 msgid "Tumbes"
-msgstr ""
+msgstr "טומבס"
 
 #: i18n/states/PE.php:38
 msgid "Ucayali"
-msgstr ""
+msgstr "אוקאיאלי"
 
 #: i18n/states/TH.php:13
 msgid ""
@@ -2284,211 +2535,211 @@ msgstr "יאסוטון (ยโสธร)"
 
 #: i18n/states/TR.php:13
 msgid "Adana"
-msgstr ""
+msgstr "אדנה"
 
 #: i18n/states/TR.php:14
 msgid "Ad&#305;yaman"
-msgstr ""
+msgstr "אדיאמן"
 
 #: i18n/states/TR.php:15
 msgid "Afyon"
-msgstr ""
+msgstr "אפיון"
 
 #: i18n/states/TR.php:16
 msgid "A&#287;r&#305;"
-msgstr ""
+msgstr "אגרי"
 
 #: i18n/states/TR.php:17
 msgid "Amasya"
-msgstr ""
+msgstr "אמסיה"
 
 #: i18n/states/TR.php:18
 msgid "Ankara"
-msgstr ""
+msgstr "אנקארה"
 
 #: i18n/states/TR.php:19
 msgid "Antalya"
-msgstr ""
+msgstr "אנטליה"
 
 #: i18n/states/TR.php:20
 msgid "Artvin"
-msgstr ""
+msgstr "ארטווין"
 
 #: i18n/states/TR.php:21
 msgid "Ayd&#305;n"
-msgstr ""
+msgstr "איידין"
 
 #: i18n/states/TR.php:22
 msgid "Bal&#305;kesir"
-msgstr ""
+msgstr "באליקסיר"
 
 #: i18n/states/TR.php:23
 msgid "Bilecik"
-msgstr ""
+msgstr "בילסיק"
 
 #: i18n/states/TR.php:24
 msgid "Bing&#246;l"
-msgstr ""
+msgstr "בינגול"
 
 #: i18n/states/TR.php:25
 msgid "Bitlis"
-msgstr ""
+msgstr "ביטליס"
 
 #: i18n/states/TR.php:26
 msgid "Bolu"
-msgstr ""
+msgstr "בולו"
 
 #: i18n/states/TR.php:27
 msgid "Burdur"
-msgstr ""
+msgstr "בורדור"
 
 #: i18n/states/TR.php:28
 msgid "Bursa"
-msgstr ""
+msgstr "בורסה"
 
 #: i18n/states/TR.php:29
 msgid "&#199;anakkale"
-msgstr ""
+msgstr "צ'נקלה"
 
 #: i18n/states/TR.php:30
 msgid "&#199;ank&#305;r&#305;"
-msgstr ""
+msgstr "קנקירי"
 
 #: i18n/states/TR.php:31
 msgid "&#199;orum"
-msgstr ""
+msgstr "צורום"
 
 #: i18n/states/TR.php:32
 msgid "Denizli"
-msgstr ""
+msgstr "דניזלי"
 
 #: i18n/states/TR.php:33
 msgid "Diyarbak&#305;r"
-msgstr ""
+msgstr "דיארבקיר"
 
 #: i18n/states/TR.php:34
 msgid "Edirne"
-msgstr ""
+msgstr "אדירנה"
 
 #: i18n/states/TR.php:35
 msgid "Elaz&#305;&#287;"
-msgstr ""
+msgstr "אלאזיג"
 
 #: i18n/states/TR.php:36
 msgid "Erzincan"
-msgstr ""
+msgstr "ארזינקאן"
 
 #: i18n/states/TR.php:37
 msgid "Erzurum"
-msgstr ""
+msgstr "ארזורום"
 
 #: i18n/states/TR.php:38
 msgid "Eski&#351;ehir"
-msgstr ""
+msgstr "אסקישהיר"
 
 #: i18n/states/TR.php:39
 msgid "Gaziantep"
-msgstr ""
+msgstr "גזיאנטפ"
 
 #: i18n/states/TR.php:40
 msgid "Giresun"
-msgstr ""
+msgstr "גירסון"
 
 #: i18n/states/TR.php:41
 msgid "G&#252;m&#252;&#351;hane"
-msgstr ""
+msgstr "גומושנה"
 
 #: i18n/states/TR.php:42
 msgid "Hakkari"
-msgstr ""
+msgstr "האקארי"
 
 #: i18n/states/TR.php:43
 msgid "Hatay"
-msgstr ""
+msgstr "הטאי"
 
 #: i18n/states/TR.php:44
 msgid "Isparta"
-msgstr ""
+msgstr "אספרטה"
 
 #: i18n/states/TR.php:45
 msgid "&#304;&#231;el"
-msgstr ""
+msgstr "איצ'ל (מרסין)"
 
 #: i18n/states/TR.php:46
 msgid "&#304;stanbul"
-msgstr ""
+msgstr "איסטנבול"
 
 #: i18n/states/TR.php:47
 msgid "&#304;zmir"
-msgstr ""
+msgstr "איזמיר"
 
 #: i18n/states/TR.php:48
 msgid "Kars"
-msgstr ""
+msgstr "קארס"
 
 #: i18n/states/TR.php:49
 msgid "Kastamonu"
-msgstr ""
+msgstr "קסטמונו"
 
 #: i18n/states/TR.php:50
 msgid "Kayseri"
-msgstr ""
+msgstr "קייסרי"
 
 #: i18n/states/TR.php:51
 msgid "K&#305;rklareli"
-msgstr ""
+msgstr "קירקלרלי"
 
 #: i18n/states/TR.php:52
 msgid "K&#305;r&#351;ehir"
-msgstr ""
+msgstr "קירסהיר"
 
 #: i18n/states/TR.php:53
 msgid "Kocaeli"
-msgstr ""
+msgstr "קוג'אלי"
 
 #: i18n/states/TR.php:54
 msgid "Konya"
-msgstr ""
+msgstr "קוניה"
 
 #: i18n/states/TR.php:55
 msgid "K&#252;tahya"
-msgstr ""
+msgstr "קוטאיה"
 
 #: i18n/states/TR.php:56
 msgid "Malatya"
-msgstr ""
+msgstr "מלטיה"
 
 #: i18n/states/TR.php:57
 msgid "Manisa"
-msgstr ""
+msgstr "מניסה"
 
 #: i18n/states/TR.php:58
 msgid "Kahramanmara&#351;"
-msgstr ""
+msgstr "קהרמאנמרש"
 
 #: i18n/states/TR.php:59
 msgid "Mardin"
-msgstr ""
+msgstr "מרדין"
 
 #: i18n/states/TR.php:60
 msgid "Mu&#287;la"
-msgstr ""
+msgstr "Mu&#287;la"
 
 #: i18n/states/TR.php:61
 msgid "Mu&#351;"
-msgstr ""
+msgstr "מוס"
 
 #: i18n/states/TR.php:62
 msgid "Nev&#351;ehir"
-msgstr ""
+msgstr "נבסהיר"
 
 #: i18n/states/TR.php:63
 msgid "Ni&#287;de"
-msgstr ""
+msgstr "ניגדה"
 
 #: i18n/states/TR.php:64
 msgid "Ordu"
-msgstr ""
+msgstr "אורדו"
 
 #: i18n/states/TR.php:65
 msgid "Rize"
@@ -2496,11 +2747,11 @@ msgstr ""
 
 #: i18n/states/TR.php:66
 msgid "Sakarya"
-msgstr ""
+msgstr "סקריה"
 
 #: i18n/states/TR.php:67
 msgid "Samsun"
-msgstr ""
+msgstr "סמסון"
 
 #: i18n/states/TR.php:68
 msgid "Siirt"
@@ -2512,31 +2763,31 @@ msgstr ""
 
 #: i18n/states/TR.php:70
 msgid "Sivas"
-msgstr ""
+msgstr "סיווס"
 
 #: i18n/states/TR.php:71
 msgid "Tekirda&#287;"
-msgstr ""
+msgstr "טקירדא"
 
 #: i18n/states/TR.php:72
 msgid "Tokat"
-msgstr ""
+msgstr "טוקאט"
 
 #: i18n/states/TR.php:73
 msgid "Trabzon"
-msgstr ""
+msgstr "טרבזון"
 
 #: i18n/states/TR.php:74
 msgid "Tunceli"
-msgstr ""
+msgstr "טונסלי"
 
 #: i18n/states/TR.php:75
 msgid "&#350;anl&#305;urfa"
-msgstr ""
+msgstr "אורפה"
 
 #: i18n/states/TR.php:76
 msgid "U&#351;ak"
-msgstr ""
+msgstr "אוסאק"
 
 #: i18n/states/TR.php:77
 msgid "Van"
@@ -2544,31 +2795,31 @@ msgstr ""
 
 #: i18n/states/TR.php:78
 msgid "Yozgat"
-msgstr ""
+msgstr "יוזגט"
 
 #: i18n/states/TR.php:79
 msgid "Zonguldak"
-msgstr ""
+msgstr "זונגולדאק"
 
 #: i18n/states/TR.php:80
 msgid "Aksaray"
-msgstr ""
+msgstr "אקסראי"
 
 #: i18n/states/TR.php:81
 msgid "Bayburt"
-msgstr ""
+msgstr "בייבורט"
 
 #: i18n/states/TR.php:82
 msgid "Karaman"
-msgstr ""
+msgstr "קרמאן"
 
 #: i18n/states/TR.php:83
 msgid "K&#305;r&#305;kkale"
-msgstr ""
+msgstr "קיריקאלה"
 
 #: i18n/states/TR.php:84
 msgid "Batman"
-msgstr ""
+msgstr "באטמן"
 
 #: i18n/states/TR.php:85
 msgid "&#350;&#305;rnak"
@@ -2580,7 +2831,7 @@ msgstr ""
 
 #: i18n/states/TR.php:87
 msgid "Ardahan"
-msgstr ""
+msgstr "ארדהאן"
 
 #: i18n/states/TR.php:88
 msgid "I&#287;d&#305;r"
@@ -2588,7 +2839,7 @@ msgstr ""
 
 #: i18n/states/TR.php:89
 msgid "Yalova"
-msgstr ""
+msgstr "יאלובה"
 
 #: i18n/states/TR.php:90
 msgid "Karab&#252;k"
@@ -2596,7 +2847,7 @@ msgstr ""
 
 #: i18n/states/TR.php:91
 msgid "Kilis"
-msgstr ""
+msgstr "קיליס"
 
 #: i18n/states/TR.php:92
 msgid "Osmaniye"
@@ -2604,7 +2855,7 @@ msgstr ""
 
 #: i18n/states/TR.php:93
 msgid "D&#252;zce"
-msgstr ""
+msgstr "דוצ'ה"
 
 #: i18n/states/US.php:13
 msgid "Alabama"
@@ -2888,7 +3139,7 @@ msgstr "נכשל"
 
 #: i18n/strings.php:18
 msgid "on-hold"
-msgstr "בהמתנה"
+msgstr "מושהה"
 
 #: i18n/strings.php:19
 msgid "processing"
@@ -2906,7 +3157,7 @@ msgstr "הוחזר"
 msgid "cancelled"
 msgstr "בוטל"
 
-#: includes/abstracts/abstract-wc-email.php:568
+#: includes/abstracts/abstract-wc-email.php:570
 #: includes/emails/class-wc-email-customer-completed-order.php:140
 #: includes/emails/class-wc-email-new-order.php:120
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:66
@@ -2919,19 +3170,19 @@ msgstr "בוטל"
 msgid "Enable/Disable"
 msgstr "הפעל/כבה"
 
-#: includes/abstracts/abstract-wc-email.php:570
+#: includes/abstracts/abstract-wc-email.php:572
 #: includes/emails/class-wc-email-customer-completed-order.php:142
 #: includes/emails/class-wc-email-new-order.php:122
 msgid "Enable this email notification"
 msgstr "הפעל את התרעות המייל"
 
-#: includes/abstracts/abstract-wc-email.php:574
+#: includes/abstracts/abstract-wc-email.php:576
 #: includes/emails/class-wc-email-customer-invoice.php:146
 msgid "Email subject"
 msgstr "נושא המייל"
 
-#: includes/abstracts/abstract-wc-email.php:576
-#: includes/abstracts/abstract-wc-email.php:583
+#: includes/abstracts/abstract-wc-email.php:578
+#: includes/abstracts/abstract-wc-email.php:585
 #: includes/emails/class-wc-email-customer-completed-order.php:148
 #: includes/emails/class-wc-email-customer-completed-order.php:155
 #: includes/emails/class-wc-email-customer-completed-order.php:162
@@ -2943,108 +3194,108 @@ msgstr "נושא המייל"
 msgid "Defaults to <code>%s</code>"
 msgstr "ברירת המחדל היא <code>%s</code>"
 
-#: includes/abstracts/abstract-wc-email.php:581
+#: includes/abstracts/abstract-wc-email.php:583
 #: includes/emails/class-wc-email-customer-invoice.php:153
 msgid "Email heading"
 msgstr "הדינג של המייל"
 
-#: includes/abstracts/abstract-wc-email.php:588
+#: includes/abstracts/abstract-wc-email.php:590
 #: includes/emails/class-wc-email-customer-completed-order.php:174
 #: includes/emails/class-wc-email-customer-invoice.php:174
 #: includes/emails/class-wc-email-new-order.php:147
 msgid "Email type"
 msgstr "סוג מייל"
 
-#: includes/abstracts/abstract-wc-email.php:590
+#: includes/abstracts/abstract-wc-email.php:592
 #: includes/emails/class-wc-email-customer-completed-order.php:176
 #: includes/emails/class-wc-email-customer-invoice.php:176
 #: includes/emails/class-wc-email-new-order.php:149
 msgid "Choose which format of email to send."
 msgstr "בחר סוג מייל לשליחה"
 
-#: includes/abstracts/abstract-wc-email.php:594
+#: includes/abstracts/abstract-wc-email.php:596
 #: includes/emails/class-wc-email-customer-completed-order.php:180
 #: includes/emails/class-wc-email-customer-invoice.php:180
 #: includes/emails/class-wc-email-new-order.php:153
 msgid "Plain text"
 msgstr "טקסט פשוט"
 
-#: includes/abstracts/abstract-wc-email.php:595
+#: includes/abstracts/abstract-wc-email.php:597
 #: includes/emails/class-wc-email-customer-completed-order.php:181
 #: includes/emails/class-wc-email-customer-invoice.php:181
 #: includes/emails/class-wc-email-new-order.php:154
 msgid "HTML"
 msgstr "HTML"
 
-#: includes/abstracts/abstract-wc-email.php:596
+#: includes/abstracts/abstract-wc-email.php:598
 #: includes/emails/class-wc-email-customer-completed-order.php:182
 #: includes/emails/class-wc-email-customer-invoice.php:182
 #: includes/emails/class-wc-email-new-order.php:155
 msgid "Multipart"
 msgstr "Multipart"
 
-#: includes/abstracts/abstract-wc-email.php:632
-#: includes/abstracts/abstract-wc-email.php:653
+#: includes/abstracts/abstract-wc-email.php:634
+#: includes/abstracts/abstract-wc-email.php:655
 msgid "Could not write to template file."
-msgstr "הכתיבה לקובץ הטמפלט לא עברה בהצלחה"
+msgstr "הכתיבה לקובץ התבנית לא עברה בהצלחה"
 
-#: includes/abstracts/abstract-wc-email.php:684
+#: includes/abstracts/abstract-wc-email.php:686
 msgid "Template file copied to theme."
-msgstr "קובץ הטמפלט הועתק לערכת הנושא."
+msgstr "קובץ התבנית הועתק לערכת הנושא."
 
-#: includes/abstracts/abstract-wc-email.php:693
+#: includes/abstracts/abstract-wc-email.php:695
 msgid "Template file deleted from theme."
-msgstr "קובץ הטמפלט נמחק מערכת הנושא."
+msgstr "קובץ התבנית נמחק מערכת הנושא."
 
-#: includes/abstracts/abstract-wc-email.php:701
+#: includes/abstracts/abstract-wc-email.php:703
 #: includes/abstracts/abstract-wc-integration.php:30
 #: includes/abstracts/abstract-wc-settings-api.php:39 woocommerce.php:181
 msgid "Settings"
 msgstr "הגדרות"
 
-#: includes/abstracts/abstract-wc-email.php:713
+#: includes/abstracts/abstract-wc-email.php:715
 msgid "HTML template"
-msgstr "טמפלט HTML"
+msgstr "תבנית HTML"
 
-#: includes/abstracts/abstract-wc-email.php:714
+#: includes/abstracts/abstract-wc-email.php:716
 msgid "Plain text template"
-msgstr "טמפלט טקסט פשוט"
+msgstr "תבנית טקסט פשוט"
 
-#: includes/abstracts/abstract-wc-email.php:735
+#: includes/abstracts/abstract-wc-email.php:737
 msgid "Delete template file"
-msgstr "מחק קובץ טמפלט"
+msgstr "מחק קובץ תבנית"
 
-#: includes/abstracts/abstract-wc-email.php:738
+#: includes/abstracts/abstract-wc-email.php:740
 msgid ""
 "This template has been overridden by your theme and can be found in: "
 "<code>%s</code>."
-msgstr "קובץ הטמפלט הנ&quot;ל נשלט על ידי ערכת הנושא שלך ויכול להמצא ב: <code>%s</code>"
+msgstr "קובץ התבנית זה נדרס על ידי ערכת הנושא שלך וניתן למצוא אותו ב: <code>%s</code>"
 
-#: includes/abstracts/abstract-wc-email.php:753
+#: includes/abstracts/abstract-wc-email.php:755
 msgid "Copy file to theme"
 msgstr "העתק קובץ לערכת הנושא"
 
-#: includes/abstracts/abstract-wc-email.php:756
+#: includes/abstracts/abstract-wc-email.php:758
 msgid ""
 "To override and edit this email template copy <code>%s</code> to your theme "
 "folder: <code>%s</code>."
-msgstr "כדי להשתלט על הטמפלט ולערוך אותו, העתק את  <code>%s</code> לתיקיית ערכת הנושא: <code>%s</code>"
+msgstr "כדי לדרוס את תבנית האי-מייל הזו ולערוך אותה, העתק את <code>%s</code> לתיקיית ערכת הנושא שלך: <code>%s</code>"
 
-#: includes/abstracts/abstract-wc-email.php:767
+#: includes/abstracts/abstract-wc-email.php:769
 msgid "File was not found."
 msgstr "הקובץ לא נמצא."
 
-#: includes/abstracts/abstract-wc-email.php:792
+#: includes/abstracts/abstract-wc-email.php:794
 msgid "View template"
-msgstr "צפה בטמפלט"
+msgstr "צפה בתבנית"
 
-#: includes/abstracts/abstract-wc-email.php:793
+#: includes/abstracts/abstract-wc-email.php:795
 msgid "Hide template"
-msgstr "הסתר טמפלט"
+msgstr "הסתר תבנית"
 
-#: includes/abstracts/abstract-wc-email.php:804
+#: includes/abstracts/abstract-wc-email.php:806
 msgid "Are you sure you want to delete this template file?"
-msgstr "האם אתה בטוח שברצונך למחוק את קובץ הטמפלט הזה?"
+msgstr "האם אתה בטוח שברצונך למחוק את קובץ התבנית הזה?"
 
 #: includes/abstracts/abstract-wc-payment-gateway.php:207
 msgid "Card Number"
@@ -3054,15 +3305,23 @@ msgstr "מספר כרטיס"
 msgid "Expiry (MM/YY)"
 msgstr "תאריך תפוגה (MM/YY)"
 
+#: includes/abstracts/abstract-wc-payment-gateway.php:212
+msgid "MM / YY"
+msgstr "MM / YY"
+
 #: includes/abstracts/abstract-wc-payment-gateway.php:215
 msgid "Card Code"
 msgstr "קוד כרטיס"
+
+#: includes/abstracts/abstract-wc-payment-gateway.php:216
+msgid "CVC"
+msgstr "קוד אבטחה"
 
 #: includes/abstracts/abstract-wc-product.php:455
 #: includes/class-wc-product-simple.php:48
 #: includes/class-wc-product-variation.php:211
 msgid "Add to cart"
-msgstr "הוסף לסל הקניות"
+msgstr "הוסף לסל"
 
 #: includes/abstracts/abstract-wc-product.php:465
 msgid "Read more"
@@ -3099,7 +3358,7 @@ msgstr "חסר במלאי"
 
 #: includes/abstracts/abstract-wc-product.php:908
 #: includes/abstracts/abstract-wc-product.php:914
-#: includes/class-wc-cart.php:1419 includes/class-wc-order.php:838
+#: includes/class-wc-cart.php:1419 includes/class-wc-order.php:859
 #: includes/class-wc-product-variation.php:312
 msgid "Free!"
 msgstr "חינם!"
@@ -3107,7 +3366,7 @@ msgstr "חינם!"
 #: includes/abstracts/abstract-wc-product.php:930
 msgctxt "min_price"
 msgid "From:"
-msgstr "החל ממחיר:"
+msgstr "החל מ:"
 
 #: includes/abstracts/abstract-wc-product.php:1040
 #: templates/single-product/rating.php:23
@@ -3120,29 +3379,29 @@ msgstr "דורג %s מתוך 5"
 msgid "out of 5"
 msgstr "מתוך 5"
 
-#: includes/abstracts/abstract-wc-product.php:1384
+#: includes/abstracts/abstract-wc-product.php:1386
 msgid "%s &ndash; %s"
-msgstr ""
+msgstr "%s &ndash; %s"
 
 #: includes/api/class-wc-api-authentication.php:69
 msgid "Consumer Key is missing"
-msgstr "מפתח לקוח חסר"
+msgstr "מפתח צרכן חסר"
 
 #: includes/api/class-wc-api-authentication.php:72
 msgid "Consumer Secret is missing"
-msgstr ""
+msgstr "סוד צרכן חסר"
 
 #: includes/api/class-wc-api-authentication.php:80
 msgid "Consumer Secret is invalid"
-msgstr ""
+msgstr "סוד צרכן אינו תקין"
 
 #: includes/api/class-wc-api-authentication.php:112
 msgid "%s parameter is missing"
-msgstr ""
+msgstr "הפרמטר %s חסר"
 
 #: includes/api/class-wc-api-authentication.php:151
 msgid "Consumer Key is invalid"
-msgstr "מפתח לקוח לא תקין"
+msgstr "מפתח צרכן לא תקין"
 
 #: includes/api/class-wc-api-authentication.php:201
 msgid "Invalid Signature - failed to sort parameters"
@@ -3150,15 +3409,15 @@ msgstr ""
 
 #: includes/api/class-wc-api-authentication.php:214
 msgid "Invalid Signature - signature method is invalid"
-msgstr ""
+msgstr "חתימה לא תקינה - שיטת החתימה אינה תקינה"
 
 #: includes/api/class-wc-api-authentication.php:221
 msgid "Invalid Signature - provided signature does not match"
-msgstr ""
+msgstr "חתימה לא תקינה - החתימה שסופקה אינה תואמת"
 
 #: includes/api/class-wc-api-authentication.php:256
 msgid "Invalid timestamp"
-msgstr ""
+msgstr "חותמת זמן לא תקינה"
 
 #: includes/api/class-wc-api-authentication.php:264
 msgid "Invalid nonce - nonce has already been used"
@@ -3191,31 +3450,31 @@ msgstr "אימייל לקוח לא חוקי"
 
 #: includes/api/class-wc-api-customers.php:219
 msgid "You do not have permission to read the customers count"
-msgstr ""
+msgstr "אין לך הרשאה לקרוא את ספירת הלקוחות"
 
 #: includes/api/class-wc-api-customers.php:235
 msgid "You do not have permission to create this customer"
-msgstr ""
+msgstr "אין לך הרשאה ליצור לקוח זה"
 
 #: includes/api/class-wc-api-customers.php:482
 msgid "Invalid customer ID"
-msgstr ""
+msgstr "מזהה לקוח לא תקין"
 
 #: includes/api/class-wc-api-customers.php:488
 msgid "Invalid customer"
-msgstr ""
+msgstr "לקוח לא תקין"
 
 #: includes/api/class-wc-api-customers.php:495
 msgid "You do not have permission to read this customer"
-msgstr ""
+msgstr "אין לך הרשאות מתאימות לצפות בעמוד הזה."
 
 #: includes/api/class-wc-api-customers.php:500
 msgid "You do not have permission to edit this customer"
-msgstr ""
+msgstr "אין לך הרשאה לערוך את העמוד הזה"
 
 #: includes/api/class-wc-api-customers.php:505
 msgid "You do not have permission to delete this customer"
-msgstr ""
+msgstr "אין לך הרשאות למחוק את העמוד הזה"
 
 #: includes/api/class-wc-api-json-handler.php:56
 msgid "JSONP support is disabled on this site"
@@ -3227,7 +3486,7 @@ msgstr ""
 
 #: includes/api/class-wc-api-orders.php:255
 msgid "You do not have permission to read the orders count"
-msgstr ""
+msgstr "אין לך הרשאות מתאימות לצפיות במספר הזמנות "
 
 #: includes/api/class-wc-api-products.php:140
 msgid "You do not have permission to read the products count"
@@ -3236,7 +3495,7 @@ msgstr "אין לך הרשאות לצפיה בכמות המוצר"
 #: includes/api/class-wc-api-products.php:459
 #: includes/api/class-wc-api-products.php:460
 msgid "Placeholder"
-msgstr ""
+msgstr "ממלא מקום"
 
 #: includes/api/class-wc-api-reports.php:469
 msgid "You do not have permission to read this report"
@@ -3244,11 +3503,11 @@ msgstr "אין לך הרשאות מתאימות לצפייה בדוח זה. "
 
 #: includes/api/class-wc-api-resource.php:71
 msgid "Invalid %s ID"
-msgstr ""
+msgstr "מזהה %s לא תקין"
 
 #: includes/api/class-wc-api-resource.php:83
 msgid "Invalid %s"
-msgstr ""
+msgstr "%s לא תקין"
 
 #: includes/api/class-wc-api-resource.php:90
 msgid "You do not have permission to read this %s"
@@ -3284,7 +3543,7 @@ msgstr "%s נמחק"
 
 #: includes/api/class-wc-api-server.php:165
 msgid "Invalid authentication method"
-msgstr ""
+msgstr "שיטת אימות בלתי תקינה"
 
 #: includes/api/class-wc-api-server.php:316
 msgid "Unsupported request method"
@@ -3300,7 +3559,7 @@ msgstr ""
 
 #: includes/api/class-wc-api-server.php:404
 msgid "Missing parameter %s"
-msgstr ""
+msgstr "פרמטר %s חסר"
 
 #: includes/class-wc-ajax.php:158
 msgid "Sorry, your session has expired."
@@ -3332,42 +3591,42 @@ msgstr "סטנטדרטי"
 msgid "File %d"
 msgstr "קובץ %d"
 
-#: includes/class-wc-ajax.php:1000 includes/class-wc-ajax.php:1001
-#: includes/class-wc-order.php:1544
+#: includes/class-wc-ajax.php:1008 includes/class-wc-ajax.php:1009
+#: includes/class-wc-order.php:1571
 msgid "Item #%s stock reduced from %s to %s."
 msgstr "המלאי של פריט מספר %s ירד מ%s ל %s"
 
-#: includes/class-wc-ajax.php:1009
+#: includes/class-wc-ajax.php:1017
 msgid ""
 "No products had their stock reduced - they may not have stock management "
 "enabled."
 msgstr "אין מוצרי המניות שלהם היו מופחתים - הם לא יכולים להיות מניית ניהול פעיל."
 
-#: includes/class-wc-ajax.php:1048 includes/class-wc-ajax.php:1049
+#: includes/class-wc-ajax.php:1056 includes/class-wc-ajax.php:1057
 msgid "Item #%s stock increased from %s to %s."
 msgstr "המלאי של #%s עלה מ %s ל %s"
 
-#: includes/class-wc-ajax.php:1056
+#: includes/class-wc-ajax.php:1064
 msgid ""
 "No products had their stock increased - they may not have stock management "
 "enabled."
-msgstr ""
+msgstr "לאף מוצר לא הוגדל המלאי - ייתכן כי לא אופשר להם ניהול מלאי."
 
-#: includes/class-wc-ajax.php:1072
+#: includes/class-wc-ajax.php:1080
 #: includes/widgets/class-wc-widget-product-categories.php:39
 #: templates/single-product-reviews.php:62
 msgid "Name"
 msgstr "שם"
 
-#: includes/class-wc-ajax.php:1072
+#: includes/class-wc-ajax.php:1080
 msgid "Value"
 msgstr "ערך"
 
-#: includes/class-wc-ajax.php:1290
+#: includes/class-wc-ajax.php:1298
 msgid "Delete note"
 msgstr "מחק הערה"
 
-#: includes/class-wc-ajax.php:1435
+#: includes/class-wc-ajax.php:1443
 msgid "Guest"
 msgstr "אורח"
 
@@ -3401,7 +3660,7 @@ msgid ""
 "Sorry, we do not have enough \"%s\" in stock to fulfill your order right "
 "now. Please try again in %d minutes or edit your cart and try again. We "
 "apologise for any inconvenience caused."
-msgstr ""
+msgstr "אנו מצטערים, אך אין לנו מספיק \"%s\" במלאי בכדי למלא את הזמנתך כרגע. אנא נסה שנית בעוד %d דקות או ערוך את העגלה שלך ונסה שוב. אנו מתנצלים עבור כל אי-נוחות שנגרמה."
 
 #: includes/class-wc-cart.php:470
 msgid ""
@@ -3447,7 +3706,7 @@ msgstr "אתה לא יכול להוסיף כמות זו לסל הקניות &mda
 #: includes/class-wc-payment-gateways.php:55 includes/class-wc-shipping.php:64
 #: includes/class-wc-shipping.php:73 woocommerce.php:102 woocommerce.php:111
 msgid "Cheatin&#8217; huh?"
-msgstr ""
+msgstr "מרמה, הא?"
 
 #: includes/class-wc-checkout.php:97
 msgid "Account username"
@@ -3465,7 +3724,7 @@ msgstr "סיסמת החשבון"
 #: includes/class-wc-checkout.php:108
 msgctxt "placeholder"
 msgid "Password"
-msgstr "סיסמה"
+msgstr "סיסמא"
 
 #: includes/class-wc-checkout.php:116
 msgid "Order Notes"
@@ -3485,52 +3744,52 @@ msgctxt "Order date parsed by strftime"
 msgid "%b %d, %Y @ %I:%M %p"
 msgstr "%b %d, %Y @ %I:%M %p"
 
-#: includes/class-wc-checkout.php:284
+#: includes/class-wc-checkout.php:287
 msgid "Backordered"
 msgstr "הזמנה מראש"
 
-#: includes/class-wc-checkout.php:416
+#: includes/class-wc-checkout.php:423
 msgid ""
 "Sorry, your session has expired. <a href=\"%s\" class=\"wc-backward\">Return"
 " to homepage</a>"
-msgstr ""
+msgstr "אנו מצטערים, אך פג תוקף החיבור שלך. <a href=\"%s\" class=\"wc-backward\">חזור אל דף הבית</a>"
 
-#: includes/class-wc-checkout.php:491 includes/class-wc-form-handler.php:88
+#: includes/class-wc-checkout.php:498 includes/class-wc-form-handler.php:88
 msgid "is a required field."
 msgstr "שדה חובה למילוי."
 
-#: includes/class-wc-checkout.php:503 includes/class-wc-form-handler.php:99
+#: includes/class-wc-checkout.php:510 includes/class-wc-form-handler.php:99
 #: includes/shortcodes/class-wc-shortcode-cart.php:43
 msgid "Please enter a valid postcode/ZIP."
 msgstr "אנא הכנס מיקוד חוקי."
 
-#: includes/class-wc-checkout.php:512 includes/class-wc-form-handler.php:108
+#: includes/class-wc-checkout.php:519 includes/class-wc-form-handler.php:108
 msgid "is not a valid phone number."
 msgstr "אינו מספר תקני."
 
-#: includes/class-wc-checkout.php:518 includes/class-wc-form-handler.php:115
+#: includes/class-wc-checkout.php:525 includes/class-wc-form-handler.php:115
 msgid "is not a valid email address."
 msgstr "לא מייל תקני."
 
-#: includes/class-wc-checkout.php:533
+#: includes/class-wc-checkout.php:540
 msgid "is not valid. Please enter one of the following:"
 msgstr "לא תקין. אנא כתוב את זה:"
 
-#: includes/class-wc-checkout.php:578
+#: includes/class-wc-checkout.php:585
 msgid "You must accept our Terms &amp; Conditions."
 msgstr "אתה חייב לאשר את תנאי השימוש שלנו."
 
-#: includes/class-wc-checkout.php:583
+#: includes/class-wc-checkout.php:590
 msgid ""
 "Unfortunately <strong>we do not ship to %s</strong>. Please enter an "
 "alternative shipping address."
 msgstr "לצערנו <strong>אנחנו לא מבצעים משלוחים אל %s</strong>. אנא הזן כתובת אחרת למשלוח."
 
-#: includes/class-wc-checkout.php:591
+#: includes/class-wc-checkout.php:598
 msgid "Invalid shipping method."
 msgstr "צורת המשלוח לא תקנית."
 
-#: includes/class-wc-checkout.php:604
+#: includes/class-wc-checkout.php:611
 msgid "Invalid payment method."
 msgstr "צורת התשלום לא תקנית."
 
@@ -4500,7 +4759,7 @@ msgstr "מערב הסהרה"
 
 #: includes/class-wc-countries.php:277
 msgid "Western Samoa"
-msgstr ""
+msgstr "סמואה המערבית"
 
 #: includes/class-wc-countries.php:278
 msgid "Yemen"
@@ -4593,113 +4852,117 @@ msgstr "מדינה / ארץ"
 msgid "Postcode / Zip"
 msgstr "מיקוד"
 
-#: includes/class-wc-countries.php:826 includes/class-wc-countries.php:842
-#: includes/class-wc-countries.php:862 includes/class-wc-countries.php:923
-#: includes/class-wc-countries.php:942 includes/class-wc-countries.php:947
-#: includes/class-wc-countries.php:959 includes/class-wc-countries.php:1009
-#: includes/class-wc-countries.php:1033 includes/class-wc-countries.php:1074
+#: includes/class-wc-countries.php:827
+msgid "District"
+msgstr "מחוז"
+
+#: includes/class-wc-countries.php:834 includes/class-wc-countries.php:850
+#: includes/class-wc-countries.php:870 includes/class-wc-countries.php:931
+#: includes/class-wc-countries.php:950 includes/class-wc-countries.php:955
+#: includes/class-wc-countries.php:967 includes/class-wc-countries.php:1017
+#: includes/class-wc-countries.php:1041 includes/class-wc-countries.php:1082
 msgid "Province"
 msgstr "מחוז"
 
-#: includes/class-wc-countries.php:848
+#: includes/class-wc-countries.php:856
 msgid "Canton"
 msgstr "קנטון"
 
-#: includes/class-wc-countries.php:857 includes/class-wc-countries.php:1015
+#: includes/class-wc-countries.php:865 includes/class-wc-countries.php:1023
 msgid "Municipality"
 msgstr "רשות מקומית"
 
-#: includes/class-wc-countries.php:910
+#: includes/class-wc-countries.php:918
 msgid "Town / District"
 msgstr "עיירה / רובע"
 
-#: includes/class-wc-countries.php:913
+#: includes/class-wc-countries.php:921
 msgid "Region"
 msgstr "אזור"
 
-#: includes/class-wc-countries.php:918 includes/class-wc-countries.php:1049
+#: includes/class-wc-countries.php:926 includes/class-wc-countries.php:1057
 msgid "County"
 msgstr "ארץ"
 
-#: includes/class-wc-countries.php:1038
+#: includes/class-wc-countries.php:1046
 msgid "Zip"
 msgstr "מיקוד"
 
-#: includes/class-wc-countries.php:1041
+#: includes/class-wc-countries.php:1049
 msgid "State"
 msgstr "מדינה"
 
-#: includes/class-wc-countries.php:1046
+#: includes/class-wc-countries.php:1054
 msgid "Postcode"
 msgstr "תא דואר"
 
-#: includes/class-wc-countries.php:1154
+#: includes/class-wc-countries.php:1162
 msgid "Email Address"
 msgstr "כתובת אימייל"
 
-#: includes/class-wc-countries.php:1160
+#: includes/class-wc-countries.php:1168
 msgid "Phone"
 msgstr "טלפון"
 
-#: includes/class-wc-coupon.php:568
+#: includes/class-wc-coupon.php:575
 msgid "Coupon code applied successfully."
 msgstr "קוד קופון הוזן בהצלחה."
 
-#: includes/class-wc-coupon.php:571
+#: includes/class-wc-coupon.php:578
 msgid "Coupon code removed successfully."
 msgstr "קוד קופון הוסר בהצלחה."
 
-#: includes/class-wc-coupon.php:592
+#: includes/class-wc-coupon.php:599
 msgid "Coupon is not valid."
 msgstr "הקופון לא תקני."
 
-#: includes/class-wc-coupon.php:595 includes/class-wc-coupon.php:645
+#: includes/class-wc-coupon.php:602 includes/class-wc-coupon.php:652
 msgid "Coupon does not exist!"
 msgstr "הקופון לא קיים!"
 
-#: includes/class-wc-coupon.php:598
+#: includes/class-wc-coupon.php:605
 msgid ""
 "Sorry, it seems the coupon \"%s\" is invalid - it has now been removed from "
 "your order."
 msgstr "אנו מצטערים, אך ניראה כי הקופון \"%s\" לא תקין - הוא הוסר מההזמנה שלך."
 
-#: includes/class-wc-coupon.php:601
+#: includes/class-wc-coupon.php:608
 msgid ""
 "Sorry, it seems the coupon \"%s\" is not yours - it has now been removed "
 "from your order."
 msgstr "אנו מצטערים, אך נראה כי הקופון \"%s\" אינו שלך - הוא הוסר מההזמנה שלך."
 
-#: includes/class-wc-coupon.php:604
+#: includes/class-wc-coupon.php:611
 msgid "Coupon code already applied!"
 msgstr "קוד הקופון הזה כבר שומש."
 
-#: includes/class-wc-coupon.php:607
+#: includes/class-wc-coupon.php:614
 msgid ""
 "Sorry, coupon \"%s\" has already been applied and cannot be used in "
 "conjunction with other coupons."
 msgstr "מצטערים, הקופון \"%s\" כבר שומש, ולא ניתן להשתמש בו בשילוב עם קופונים אחרים."
 
-#: includes/class-wc-coupon.php:610
+#: includes/class-wc-coupon.php:617
 msgid "Coupon usage limit has been reached."
 msgstr "הגעת למגבלת הכמות לשימוש בקופונים."
 
-#: includes/class-wc-coupon.php:613
+#: includes/class-wc-coupon.php:620
 msgid "This coupon has expired."
 msgstr "הקופון פג תוקף."
 
-#: includes/class-wc-coupon.php:616
+#: includes/class-wc-coupon.php:623
 msgid "The minimum spend for this coupon is %s."
 msgstr "הקנייה המינימלית לקופון זה היא %s."
 
-#: includes/class-wc-coupon.php:619
+#: includes/class-wc-coupon.php:626
 msgid "Sorry, this coupon is not applicable to your cart contents."
 msgstr "אנו מצטערים, אך לא ניתן לממש קופון זה לתוכן ההזמנה שלך."
 
-#: includes/class-wc-coupon.php:622
+#: includes/class-wc-coupon.php:629
 msgid "Sorry, this coupon is not valid for sale items."
 msgstr "לא ניתן לממש את הקופון הזה למוצרים במבצע."
 
-#: includes/class-wc-coupon.php:648
+#: includes/class-wc-coupon.php:655
 msgid "Please enter a coupon code."
 msgstr "אנא הזן קוד הקופון"
 
@@ -4714,7 +4977,7 @@ msgstr "כתובת מייל לא תקנית."
 #: includes/class-wc-download-handler.php:95
 #: includes/class-wc-download-handler.php:99
 #: includes/class-wc-download-handler.php:143
-#: includes/class-wc-download-handler.php:294
+#: includes/class-wc-download-handler.php:296
 msgid "Go to homepage"
 msgstr "עבור לדף הבית"
 
@@ -4749,7 +5012,7 @@ msgstr "מוצר אינו קיים עוד."
 #: includes/shortcodes/class-wc-shortcode-checkout.php:172
 #: includes/shortcodes/class-wc-shortcode-my-account.php:111
 msgid "Invalid order."
-msgstr "הזמנה לא מאומתת."
+msgstr "מפתח לא תקין"
 
 #: includes/class-wc-download-handler.php:95
 msgid "Sorry, you have reached your download limit for this file"
@@ -4763,7 +5026,7 @@ msgstr "סליחה, פג תוקף להורדה זו "
 msgid "No file defined"
 msgstr "לא הוגדר קובץ"
 
-#: includes/class-wc-download-handler.php:294
+#: includes/class-wc-download-handler.php:296
 msgid "File not found"
 msgstr "קובץ לא נמצא"
 
@@ -4803,7 +5066,7 @@ msgstr "הזמנת מוצר מראש"
 
 #: includes/class-wc-emails.php:411
 msgid "%s units of %s have been backordered in order %s."
-msgstr ""
+msgstr "%s יחידות של %s הוחזרו בהזמנה %s."
 
 #: includes/class-wc-form-handler.php:129
 msgid "Address changed successfully."
@@ -4824,7 +5087,7 @@ msgstr "כתובת אימייל זו כבר רשומה."
 
 #: includes/class-wc-form-handler.php:190
 msgid "Please re-enter your password."
-msgstr "אנא הזן סיסמה בשנית."
+msgstr "אנא הזן סיסמא בשנית."
 
 #: includes/class-wc-form-handler.php:192
 #: includes/class-wc-form-handler.php:815
@@ -4837,7 +5100,7 @@ msgstr "פרטי החשבון שונו בהצלחה."
 
 #: includes/class-wc-form-handler.php:334
 msgid "Payment method added."
-msgstr ""
+msgstr "נוספה אפשרות תשלום."
 
 #: includes/class-wc-form-handler.php:367
 #: includes/class-wc-form-handler.php:426
@@ -4894,7 +5157,7 @@ msgstr "נדרש שם משתמש."
 
 #: includes/class-wc-form-handler.php:732
 msgid "Password is required."
-msgstr "נדרשת סיסמה."
+msgstr "נדרשת סיסמא."
 
 #: includes/class-wc-form-handler.php:741
 msgid "A user could not be found with this email address."
@@ -4906,7 +5169,7 @@ msgstr "אתה מחובר כרגע בתור <strong>%s</strong>"
 
 #: includes/class-wc-form-handler.php:810
 msgid "Please enter your password."
-msgstr "אנא הזן את הסיסמה שלך."
+msgstr "אנא הזן את הסיסמא שלך."
 
 #: includes/class-wc-form-handler.php:877
 #: includes/wc-customer-functions.php:110
@@ -4922,7 +5185,7 @@ msgid "Please select a rating"
 msgstr "בחר דירוג"
 
 #: includes/class-wc-frontend-scripts.php:140
-#: includes/wc-template-functions.php:1593
+#: includes/wc-template-functions.php:1602
 msgid "required"
 msgstr "נדרש"
 
@@ -4998,47 +5261,47 @@ msgctxt "hash before order number"
 msgid "#"
 msgstr "מספר "
 
-#: includes/class-wc-order.php:833
+#: includes/class-wc-order.php:854
 msgid "&nbsp;<small>%svia %s</small>"
 msgstr "&nbsp;<small>%sדרך %s</small>"
 
-#: includes/class-wc-order.php:896
+#: includes/class-wc-order.php:917
 msgid "Cart Subtotal:"
 msgstr "סכום ביניים סל הקניות:"
 
-#: includes/class-wc-order.php:903
+#: includes/class-wc-order.php:924
 msgid "Cart Discount:"
 msgstr "הנחת סל הקניות:"
 
-#: includes/class-wc-order.php:910
+#: includes/class-wc-order.php:931
 msgid "Shipping:"
 msgstr "משלוח:"
 
-#: includes/class-wc-order.php:957
+#: includes/class-wc-order.php:978
 msgid "Order Discount:"
 msgstr "הנחת סל הקניות:"
 
-#: includes/class-wc-order.php:964
+#: includes/class-wc-order.php:985
 msgid "Payment Method:"
 msgstr "אמצעי תשלום:"
 
-#: includes/class-wc-order.php:970
+#: includes/class-wc-order.php:991
 msgid "Order Total:"
-msgstr "סך הזמנה"
+msgstr "סך הזמנה:"
 
-#: includes/class-wc-order.php:988 includes/wc-cart-functions.php:236
+#: includes/class-wc-order.php:1009 includes/wc-cart-functions.php:251
 msgid "(Includes %s)"
 msgstr "(כולל %s)"
 
-#: includes/class-wc-order.php:1231 includes/class-wc-order.php:1232
+#: includes/class-wc-order.php:1258 includes/class-wc-order.php:1259
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
-#: includes/class-wc-order.php:1287
+#: includes/class-wc-order.php:1314
 msgid "Order status changed from %s to %s."
 msgstr "מצב ההזמנה שונה מהמצב %s למצב  %s"
 
-#: includes/class-wc-order.php:1556
+#: includes/class-wc-order.php:1583
 msgid "Order item stock reduced successfully."
 msgstr "כמות הפריט במלאי הופחתה בהצלחה."
 
@@ -5228,7 +5491,7 @@ msgstr "%s חדש"
 #: includes/updates/woocommerce-update-2.0.php:53
 msgctxt "slug"
 msgid "product"
-msgstr "product"
+msgstr "מוצר"
 
 #: includes/class-wc-post-types.php:232
 #: includes/widgets/class-wc-widget-products.php:27
@@ -5421,11 +5684,11 @@ msgid "View products"
 msgstr "הצג מוצרים"
 
 #: includes/class-wc-product-grouped.php:194
-#: includes/class-wc-product-variable.php:251
-#: includes/class-wc-product-variable.php:256
+#: includes/class-wc-product-variable.php:273
+#: includes/class-wc-product-variable.php:278
 msgctxt "Price range: from-to"
 msgid "%1$s&ndash;%2$s"
-msgstr ""
+msgstr "%1$s&ndash;%2$s"
 
 #: includes/class-wc-product-simple.php:48
 #: includes/class-wc-product-variation.php:211
@@ -5436,13 +5699,13 @@ msgstr "קרא עוד"
 msgid "Select options"
 msgstr "בחר אפשרויות"
 
-#: includes/class-wc-product-variable.php:455
+#: includes/class-wc-product-variable.php:485
 msgid ""
 "This variable product has no active variations so cannot be published. "
 "Changing status to draft."
 msgstr "למוצר עם וריאציות זה אין וריאציות מוגדרות ולכן לא ניתן לפרסום. משנה לטיוטה."
 
-#: includes/class-wc-product-variation.php:494
+#: includes/class-wc-product-variation.php:516
 msgid "%s &ndash; %s%s"
 msgstr "%s &ndash; %s %s"
 
@@ -5539,7 +5802,7 @@ msgstr "חשבון חדש"
 msgid ""
 "Customer new account emails are sent when a customer signs up via the "
 "checkout or My Account page."
-msgstr "מייל חשבון חדשים של לקוחות נשלחים כאשר לקוח חותם על דרך הקופה או דף החשבון שלי."
+msgstr "מיילים של חשבון לקוח חדש נשלחים כאשר לקוח נרשם בקופה או בדף החשבון שלי."
 
 #: includes/emails/class-wc-email-customer-new-account.php:39
 msgid "Your account on {site_title}"
@@ -5585,21 +5848,21 @@ msgstr "הזמנתך מ- {site_title} מתאריך {order_date}"
 
 #: includes/emails/class-wc-email-customer-reset-password.php:38
 msgid "Reset password"
-msgstr "אפס סיסמה"
+msgstr "אפס סיסמא"
 
 #: includes/emails/class-wc-email-customer-reset-password.php:39
 msgid ""
 "Customer reset password emails are sent when a customer resets their "
 "password."
-msgstr "מייל איפוס סיסמא לקוחות נשלחים כאשר מאפסים את הסיסמה שלהם ללקוח."
+msgstr "מייל איפוס סיסמא לקוחות נשלחים כאשר מאפסים את הסיסמא שלהם ללקוח."
 
 #: includes/emails/class-wc-email-customer-reset-password.php:44
 msgid "Password Reset for {site_title}"
-msgstr "איפוס סיסמה עבור {site_title}"
+msgstr "איפוס סיסמא עבור {site_title}"
 
 #: includes/emails/class-wc-email-customer-reset-password.php:45
 msgid "Password Reset Instructions"
-msgstr "הוראות איפוס סיסמה"
+msgstr "הוראות איפוס סיסמא"
 
 #: includes/emails/class-wc-email-new-order.php:26
 msgid "New order"
@@ -5641,12 +5904,12 @@ msgstr "זה קובע את ההדינג הראשי הכלול בהודעת הא�
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:25
 msgid "BACS"
-msgstr ""
+msgstr "BACS"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:26
 msgid ""
 "Allows payments by BACS, more commonly known as direct bank/wire transfer."
-msgstr ""
+msgstr "מאפשר תשלומים באמצעות BACS, מוכר יותר בתור העברה בנקאית ישירה."
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:68
 msgid "Enable Bank Transfer"
@@ -5694,7 +5957,7 @@ msgstr "העברה בנקאית"
 #: includes/gateways/cod/class-wc-gateway-cod.php:71
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:149
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:139
-#: includes/wc-template-functions.php:971
+#: includes/wc-template-functions.php:980
 msgid "Description"
 msgstr "תיאור"
 
@@ -5710,7 +5973,7 @@ msgid ""
 "Make your payment directly into our bank account. Please use your Order ID "
 "as the payment reference. Your order won't be shipped until the funds have "
 "cleared in our account."
-msgstr ""
+msgstr "בצע את התשלום שלך ישירות לחשבון הבנק שלנו. אנא השתמש במזהה ההזמנה שלך כסימוכין התשלום. ההשמנה שלך לא תישלח עד שהכספים יועברו לחשבון שלנו."
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:86
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:72
@@ -5721,7 +5984,7 @@ msgstr "הוראות"
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:88
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:74
 msgid "Instructions that will be added to the thank you page and emails."
-msgstr ""
+msgstr "הוראות אשר יתווספו לעמוד התודה והודעות אי-מייל."
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:105
 msgid "Account Details"
@@ -5760,7 +6023,7 @@ msgstr "+ הוסף חשבון"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:121
 msgid "Remove selected account(s)"
-msgstr ""
+msgstr "הסר חשבונות מסומנים"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:245
 msgid "Our Bank Details"
@@ -5772,7 +6035,7 @@ msgstr "BIC"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:301
 msgid "Awaiting BACS payment"
-msgstr "ממתין לתשלום BACS"
+msgstr "ממתין לתשלום באמצעות BACS (העברה בנקאית)"
 
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:25
 msgid "Cheque"
@@ -5845,7 +6108,7 @@ msgstr "אם COD הוא זמין רק לשיטות מסוימות, להגדיר 
 
 #: includes/gateways/cod/class-wc-gateway-cod.php:94
 msgid "Select shipping methods"
-msgstr ""
+msgstr "בחר שיטות משלוח"
 
 #: includes/gateways/cod/class-wc-gateway-cod.php:164
 msgid "Payment to be made upon delivery."
@@ -5854,7 +6117,7 @@ msgstr "תשלום יבוצע בעת הלידה."
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:30
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:167
 msgid "Mijireh Checkout"
-msgstr ""
+msgstr "Mijireh Checkout"
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:107
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:291
@@ -5863,7 +6126,7 @@ msgstr "שגיאת Mijireh:"
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:131
 msgid "Enable Mijireh Checkout"
-msgstr ""
+msgstr "הפעל Mijireh Checkout"
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:135
 msgid "Access Key"
@@ -5888,7 +6151,7 @@ msgstr "זה קובע את הכותרת שהמשתמש רואה בשלב הקו�
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:171
 msgid "Get started with Mijireh Checkout"
-msgstr ""
+msgstr "צא לדרך עם תשלום באמצעות Mijireh "
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:172
 msgid ""
@@ -5896,7 +6159,7 @@ msgid ""
 "card data to your payment gateway while keeping you in control of the design"
 " of your site. Mijireh supports a wide variety of payment gateways: Stripe, "
 "Authorize.net, PayPal, eWay, SagePay, Braintree, PayLeap, and more."
-msgstr "מספקת תואם PCI במלואו, דרך בטוחה כדי לאסוף ולהעביר נתונים לכרטיסי אשראי שער התשלום שלך, תוך שמירה לך שליטה על העיצוב של האתר שלך. Mijireh תומך במגוון רחב של תשלום שערים: פסים, Authorize.net, PayPal, eWay, SagePay, Braintree, PayLeap, ועוד."
+msgstr "מספק דרך תואמת תקן PCI ומאובטחת לאיסוף ותשדורת נתוני כרטיסי אשראי לשיטת התשלום שבחרת, תוך שמירתך בשליטה על העיצוב של האתר שלך. Mijireh תומך במגוון רחב של שיטות תשלום: Stripe, Authorize.net, PayPal, eWay, SagePay, Braintree, PayLeap ועוד."
 
 #: includes/gateways/mijireh/class-wc-gateway-mijireh.php:174
 msgid "Join for free"
@@ -5915,7 +6178,7 @@ msgstr "מספקת תואם PCI במלואו, דרך בטוחה כדי לאסו�
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:31
 msgid "Proceed to PayPal"
-msgstr "המשך לפייפאל"
+msgstr "המשך ל-PayPal"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:34
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:135
@@ -5934,7 +6197,7 @@ msgstr "PayPal הסטנדרטי עובד על ידי שליחה למשתמש Pay
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:111
 msgid "Gateway Disabled"
-msgstr "שער לא זמין"
+msgstr "שיטת תשלום לא זמינה"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:111
 msgid "PayPal does not support your store currency."
@@ -5942,7 +6205,7 @@ msgstr "PayPal לא תומך במטבע החנות שלך."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:128
 msgid "Enable PayPal standard"
-msgstr "אפשר PayPal "
+msgstr "אפשר PayPal סטנדרטי"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:142
 msgid ""
@@ -5968,18 +6231,18 @@ msgstr "אימייל המקבל"
 msgid ""
 "If this differs from the email entered above, input your main receiver email"
 " for your PayPal account. This is used to validate IPN requests."
-msgstr ""
+msgstr "אם שונה מהמייל מעל, הכנס אימייל מקבל של חשבון ה-PayPal שלך. זה נועד לאמת בקשות IPN."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:161
 msgid "PayPal Identity Token"
-msgstr ""
+msgstr "PayPal Identity Token"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:163
 msgid ""
 "Optionally enable \"Payment Data Transfer\" (Profile > Website Payment "
 "Preferences) and then copy your identity token here. This will allow "
 "payments to be verified without the need for PayPal IPN."
-msgstr ""
+msgstr "באפשרותך לאפשר \"העברת נתוני תשלום\" (Payment Data Transfer/PDT) בפרופיל > העדפות תשלום האתר ואז להעתיק את אסימון הזהות שלך לכאן. זה יאפשר לתשלומים לעבור וידוא ללא צורך בIPN של  PayPal."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:166
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:199
@@ -5999,7 +6262,7 @@ msgstr "אנא הכנס קידומת למספרי החשבוניות שלך. א�
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:176
 msgid "Payment Action"
-msgstr ""
+msgstr "פעולת תשלום"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:178
 msgid ""
@@ -6075,7 +6338,7 @@ msgstr "PayPal מאמת כתובות לכן הגדרה זו עשויה לגרו�
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:221
 msgid "Gateway Testing"
-msgstr "בדיקת Gateway"
+msgstr "בדיקת שיטת תשלום"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:226
 msgid "PayPal sandbox"
@@ -6089,7 +6352,7 @@ msgstr "אפשר PayPal ארגז חול"
 msgid ""
 "PayPal sandbox can be used to test payments. Sign up for a developer account"
 " <a href=\"%s\">here</a>."
-msgstr "מצב ארגז החול של פייפל יכול לשמש כדי לבדוק את תשלומים. הרשם לחשבון מפתח <a href=\"%s\">כאן</a>."
+msgstr "מצב ארגז החול של פייפל יכול לשמש כדי לבדוק תשלומים. הרשם לחשבון מפתח <a href=\"%s\">כאן</a>."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:233
 msgid "Debug Log"
@@ -6103,7 +6366,7 @@ msgstr "לאפשר רישום"
 msgid ""
 "Log PayPal events, such as IPN requests, inside "
 "<code>woocommerce/logs/paypal-%s.txt</code>"
-msgstr ""
+msgstr "תעד אירועי PayPal, כגון בקשות IPN, בתוך <code>woocommerce/logs/paypal-%s.txt</code>"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:361
 msgid "Order %s"
@@ -6135,11 +6398,11 @@ msgstr "ביטול ההזמנה ושיחזור הסל"
 msgid ""
 "Thank you - your order is now pending payment. You should be automatically "
 "redirected to PayPal to make payment."
-msgstr ""
+msgstr "תודה רבה - ההזמנה שלך ממתינה כעת לאישור תשלום. אתה אמור להיות מועבר באופן אוטומטי לPayPal  לביצוע תשלום."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:701
 msgid "Validation error: PayPal currencies do not match (code %s)."
-msgstr ""
+msgstr "שגיאת תיקוף: מטבעות PayPal אינם תואמים (קוד %s)."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:712
 msgid "Validation error: PayPal amounts do not match (gross %s)."
@@ -6148,7 +6411,7 @@ msgstr "שגיאת אימות: כמויות PayPal אינן תואמת %s"
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:723
 msgid ""
 "Validation error: PayPal IPN response from a different email address (%s)."
-msgstr ""
+msgstr "שגיאת וידוא: תגובת IPN של PayPal מכתובת אימייל שונה (%s)."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:746
 msgid "IPN payment completed"
@@ -6183,33 +6446,33 @@ msgstr "הזמנה נשמרה"
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:793
 msgid ""
 "Order %s has been marked on-hold due to a reversal - PayPal reason code: %s"
-msgstr ""
+msgstr "ההזמנה %s סומנה כמושהית בגלל היפוך - קוד סיבה של PayPal: %s"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:796
 msgid "Payment for order %s reversed"
-msgstr ""
+msgstr "התשלום עבור הזמנה %s הוחזר"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:804
 msgid "Reversal Cancelled"
-msgstr ""
+msgstr "היפוך בוטל"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:805
 msgid ""
 "Order %s has had a reversal cancelled. Please check the status of payment "
 "and update the order status accordingly."
-msgstr ""
+msgstr "היפוך עבור הזמנה %s בוטל. אנא בדוק את מצב התשלום ועדכן את מצב ההזמנה בהתאם."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:808
 msgid "Reversal cancelled for order %s"
-msgstr ""
+msgstr "היפוך בוטל עבור הזמנה %s"
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:880
 msgid "Validation error: PayPal amounts do not match (amt %s)."
-msgstr ""
+msgstr "שגיאת וידוא: חשבונות PayPal אינם תואמים (amt %s)."
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:888
 msgid "PDT payment completed"
-msgstr ""
+msgstr "תשלום PDT בוצע"
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:25
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:84
@@ -6260,7 +6523,7 @@ msgstr "ארצות ספציפיות"
 #: includes/shipping/local-delivery/class-wc-shipping-local-delivery.php:154
 #: includes/shipping/local-pickup/class-wc-shipping-local-pickup.php:113
 msgid "Select some countries"
-msgstr ""
+msgstr "בחר במספר מדינות"
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:109
 #: includes/shipping/international-delivery/class-wc-shipping-international-delivery.php:83
@@ -6284,7 +6547,7 @@ msgstr "מחיר פר הזמנה"
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:121
 msgid "Enter a cost (excluding tax) per order, e.g. 5.00. Default is 0."
-msgstr ""
+msgstr "הזן מחיר (לא כולל מס) לכל הזמנה, לדוגמא: 5.00. ברירת המחדל היא 0."
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:126
 msgid "Additional Rates"
@@ -6311,11 +6574,11 @@ msgstr "עלויות נוספות"
 msgid ""
 "Additional costs can be added below - these will all be added to the per-"
 "order cost above."
-msgstr ""
+msgstr "ניתן להוסיף למטה עלויות נוספות - העלויות יתווספו למחיר ההזמנה למעלה."
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:139
 msgid "Costs Added..."
-msgstr ""
+msgstr "העלויות הנוספות..."
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:143
 #: includes/shipping/international-delivery/class-wc-shipping-international-delivery.php:96
@@ -6342,7 +6605,7 @@ msgstr "דמי טיפול מינימליים"
 msgid ""
 "Enter a minimum fee amount. Fee's less than this will be increased. Leave "
 "blank to disable."
-msgstr "הזן את סכום תשלום מינימאלי. הדמים פחות מזה יהיה מוגבר. שאר ריק כדי לבטל."
+msgstr "הזן סכום תשלום מינימאלי. סכום נמוך מהמינימאלי יוגדל. השאר ריק כדי לבטל."
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:540
 msgid "Costs"
@@ -6377,7 +6640,7 @@ msgstr "מחק עלויות שנבחרו"
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:559
 msgid "Any class"
-msgstr ""
+msgstr "כל מחלקה"
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:560
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:561
@@ -6549,7 +6812,7 @@ msgstr "אפשר איסוף עצמי"
 msgid ""
 "What zip/post codes are available for local pickup? Separate codes with a "
 "comma. Accepts wildcards, e.g. P* will match a postcode of PE30."
-msgstr ""
+msgstr "אילו מיקודים זמינים עבור איסוף עצמי? הפרד מיקודים עם פסיקים. מקבל wildcards, לדוגמא: 3* יתאים למיקוד 3548761."
 
 #: includes/shipping/local-pickup/class-wc-shipping-local-pickup.php:128
 msgid ""
@@ -6563,7 +6826,7 @@ msgstr "עלות משלוח עודכנה."
 
 #: includes/shortcodes/class-wc-shortcode-checkout.php:91
 msgid "Invalid order. If you have an account please log in and try again."
-msgstr ""
+msgstr "הזמנה לא תקינה. אם יש לך חשבון יש להתחבר ולנסות שוב."
 
 #: includes/shortcodes/class-wc-shortcode-checkout.php:113
 #: includes/shortcodes/class-wc-shortcode-checkout.php:164
@@ -6575,7 +6838,7 @@ msgstr ""
 #: includes/shortcodes/class-wc-shortcode-checkout.php:117
 #: includes/shortcodes/class-wc-shortcode-checkout.php:168
 msgid "Sorry, this order is invalid and cannot be paid for."
-msgstr ""
+msgstr "מצטערים, הזמנה זו אינה תקינה ולא ניתן לשלם עליה."
 
 #: includes/shortcodes/class-wc-shortcode-checkout.php:134
 #: templates/checkout/thankyou.php:40
@@ -6609,7 +6872,7 @@ msgstr "הסכומים עודכנו. נא לאשר את ההזמנה על ידי
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:202
 msgid "Your password has been reset."
-msgstr "הסיסמה שלך אופסה."
+msgstr "הסיסמא שלך אופסה."
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:202
 msgid "Log in"
@@ -6629,7 +6892,7 @@ msgstr "שם משתמש או מייל לא תקין."
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:256
 msgid "Password reset is not allowed for this user"
-msgstr "לא ניתן לאפס את הסיסמה למשתמש זה"
+msgstr "לא ניתן לאפס את הסיסמא למשתמש זה"
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:284
 msgid "Check your e-mail for the confirmation link."
@@ -6643,7 +6906,7 @@ msgstr "מפתח לא תקין"
 
 #: includes/shortcodes/class-wc-shortcode-my-account.php:353
 msgid "Add a new payment method."
-msgstr ""
+msgstr "הוסף שיטת תשלום חדשה."
 
 #: includes/shortcodes/class-wc-shortcode-order-tracking.php:54
 msgid "Please enter a valid order ID"
@@ -6667,7 +6930,7 @@ msgstr "&quot;%s&quot; נוסף לסל הקניות."
 
 #: includes/wc-cart-functions.php:83
 msgid "&quot; and &quot;"
-msgstr ""
+msgstr "&quot; וגם &quot;"
 
 #: includes/wc-cart-functions.php:86
 msgid "&quot;%s&quot; was successfully added to your cart."
@@ -6677,177 +6940,181 @@ msgstr "&quot;%s&quot; נוסף לסל הקניות בהצלחה."
 msgid "Continue Shopping"
 msgstr "המשך בקניה"
 
-#: includes/wc-cart-functions.php:183
+#: includes/wc-cart-functions.php:193
 msgid "Coupon:"
 msgstr "קופון:"
 
-#: includes/wc-cart-functions.php:208
+#: includes/wc-cart-functions.php:219
 msgid "Free shipping coupon"
 msgstr "קופון משלוח חינם"
 
-#: includes/wc-cart-functions.php:210
+#: includes/wc-cart-functions.php:225
 msgid "[Remove]"
 msgstr "[הסר]"
 
-#: includes/wc-cart-functions.php:271
+#: includes/wc-cart-functions.php:288
 msgid "Free"
 msgstr "חינם"
 
 #: includes/wc-core-functions.php:167
 msgid "United Arab Emirates Dirham"
-msgstr ""
+msgstr "דירהם איחוד האמירויות"
 
 #: includes/wc-core-functions.php:168
 msgid "Australian Dollars"
 msgstr "דולר אוסטרלי"
 
 #: includes/wc-core-functions.php:169
+msgid "Bangladeshi Taka"
+msgstr "טאקה בנגלדשי"
+
+#: includes/wc-core-functions.php:170
 msgid "Brazilian Real"
 msgstr "ריאל ברזילאי"
 
-#: includes/wc-core-functions.php:170
-msgid "Bulgarian Lev"
-msgstr ""
-
 #: includes/wc-core-functions.php:171
+msgid "Bulgarian Lev"
+msgstr "לב בולגרי"
+
+#: includes/wc-core-functions.php:172
 msgid "Canadian Dollars"
 msgstr "דולר קנדי"
 
-#: includes/wc-core-functions.php:172
-msgid "Chilean Peso"
-msgstr ""
-
 #: includes/wc-core-functions.php:173
+msgid "Chilean Peso"
+msgstr "פזו צ'יליאני"
+
+#: includes/wc-core-functions.php:174
 msgid "Chinese Yuan"
 msgstr "יואן"
 
-#: includes/wc-core-functions.php:174
-msgid "Colombian Peso"
-msgstr ""
-
 #: includes/wc-core-functions.php:175
+msgid "Colombian Peso"
+msgstr "פזו קולומביאני"
+
+#: includes/wc-core-functions.php:176
 msgid "Czech Koruna"
 msgstr "קורונה צ 'כי"
 
-#: includes/wc-core-functions.php:176
+#: includes/wc-core-functions.php:177
 msgid "Danish Krone"
 msgstr "כתר דני"
 
-#: includes/wc-core-functions.php:177
+#: includes/wc-core-functions.php:178
 msgid "Euros"
 msgstr "הורה"
 
-#: includes/wc-core-functions.php:178
+#: includes/wc-core-functions.php:179
 msgid "Hong Kong Dollar"
 msgstr "דולר הונג קונגי"
 
-#: includes/wc-core-functions.php:179
-msgid "Croatia kuna"
-msgstr ""
-
 #: includes/wc-core-functions.php:180
+msgid "Croatia kuna"
+msgstr "קונה קרואטית"
+
+#: includes/wc-core-functions.php:181
 msgid "Hungarian Forint"
 msgstr "פורינט הונגרי"
 
-#: includes/wc-core-functions.php:181
-msgid "Icelandic krona"
-msgstr ""
-
 #: includes/wc-core-functions.php:182
+msgid "Icelandic krona"
+msgstr "קרונה איסלנדית"
+
+#: includes/wc-core-functions.php:183
 msgid "Indonesia Rupiah"
 msgstr "אינדונזיה רופים"
 
-#: includes/wc-core-functions.php:183
-msgid "Indian Rupee"
-msgstr ""
-
 #: includes/wc-core-functions.php:184
+msgid "Indian Rupee"
+msgstr "רופי הודי"
+
+#: includes/wc-core-functions.php:185
 msgid "Israeli Shekel"
 msgstr "שקל ישראלי"
 
-#: includes/wc-core-functions.php:185
+#: includes/wc-core-functions.php:186
 msgid "Japanese Yen"
 msgstr "ין יפני"
 
-#: includes/wc-core-functions.php:186
-msgid "South Korean Won"
-msgstr ""
-
 #: includes/wc-core-functions.php:187
+msgid "South Korean Won"
+msgstr "וון דרום-קוריאני"
+
+#: includes/wc-core-functions.php:188
 msgid "Malaysian Ringgits"
 msgstr "מלזי מלזי"
 
-#: includes/wc-core-functions.php:188
+#: includes/wc-core-functions.php:189
 msgid "Mexican Peso"
 msgstr "פזו מקסיקני"
 
-#: includes/wc-core-functions.php:189
-msgid "Nigerian Naira"
-msgstr ""
-
 #: includes/wc-core-functions.php:190
+msgid "Nigerian Naira"
+msgstr "נאירה ניגרי"
+
+#: includes/wc-core-functions.php:191
 msgid "Norwegian Krone"
 msgstr "כתר נורבגי"
 
-#: includes/wc-core-functions.php:191
+#: includes/wc-core-functions.php:192
 msgid "New Zealand Dollar"
 msgstr "דולר ניו זילנד"
 
-#: includes/wc-core-functions.php:192
+#: includes/wc-core-functions.php:193
 msgid "Philippine Pesos"
 msgstr "פזו פיליפיני"
 
-#: includes/wc-core-functions.php:193
+#: includes/wc-core-functions.php:194
 msgid "Polish Zloty"
 msgstr "הזלוטי פולני"
 
-#: includes/wc-core-functions.php:194
+#: includes/wc-core-functions.php:195
 msgid "Pounds Sterling"
 msgstr "פאונד סטרלינג"
 
-#: includes/wc-core-functions.php:195
+#: includes/wc-core-functions.php:196
 msgid "Romanian Leu"
 msgstr "לאו רומני"
 
-#: includes/wc-core-functions.php:196
-msgid "Russian Ruble"
-msgstr ""
-
 #: includes/wc-core-functions.php:197
+msgid "Russian Ruble"
+msgstr "רובל רוסי"
+
+#: includes/wc-core-functions.php:198
 msgid "Singapore Dollar"
 msgstr "דולר סינגפורי"
 
-#: includes/wc-core-functions.php:198
+#: includes/wc-core-functions.php:199
 msgid "South African rand"
 msgstr "ראנד הדרום האפריקאי"
 
-#: includes/wc-core-functions.php:199
+#: includes/wc-core-functions.php:200
 msgid "Swedish Krona"
 msgstr "כתר שבדי"
 
-#: includes/wc-core-functions.php:200
+#: includes/wc-core-functions.php:201
 msgid "Swiss Franc"
 msgstr "פרנק שויצרי"
 
-#: includes/wc-core-functions.php:201
+#: includes/wc-core-functions.php:202
 msgid "Taiwan New Dollars"
 msgstr "חדש הדולר טייוואני"
 
-#: includes/wc-core-functions.php:202
+#: includes/wc-core-functions.php:203
 msgid "Thai Baht"
 msgstr "בהט התאילנדי"
 
-#: includes/wc-core-functions.php:203
+#: includes/wc-core-functions.php:204
 msgid "Turkish Lira"
 msgstr "לירה טורקית"
 
-#: includes/wc-core-functions.php:204
+#: includes/wc-core-functions.php:205
 msgid "US Dollars"
 msgstr "דולר ארצות הברית"
 
-#: includes/wc-core-functions.php:205
+#: includes/wc-core-functions.php:206
 msgid "Vietnamese Dong"
-msgstr ""
+msgstr "דונג ויאטנמי"
 
 #: includes/wc-coupon-functions.php:22
 msgid "Cart Discount"
@@ -6891,87 +7158,87 @@ msgstr "לא הצלחנו לרשום אותך&hellip; אנא צור איתנו �
 
 #: includes/wc-order-functions.php:295
 msgid "Unpaid order cancelled - time limit reached."
-msgstr ""
+msgstr "הזמנה שלא שולמה בוטלה - מסגרת הזמן הסתיימה."
 
-#: includes/wc-product-functions.php:236
+#: includes/wc-product-functions.php:233
 msgctxt "slug"
 msgid "uncategorized"
 msgstr "uncategorized"
 
-#: includes/wc-template-functions.php:103
+#: includes/wc-template-functions.php:120
 msgid "New products"
 msgstr "מוצרים חדשים"
 
-#: includes/wc-template-functions.php:111
+#: includes/wc-template-functions.php:128
 msgid "New products added to %s"
 msgstr "מוצרים חדשים נוספו ל  %s"
 
-#: includes/wc-template-functions.php:119
+#: includes/wc-template-functions.php:136
 msgid "New products tagged %s"
 msgstr "מוצרים חדשים תויגו %s"
 
-#: includes/wc-template-functions.php:356
+#: includes/wc-template-functions.php:381
 msgid ""
 "This is a demo store for testing purposes &mdash; no orders shall be "
 "fulfilled."
 msgstr "זוהי חנות ההדגמה למטרות בדיקה - הזמנות לא ימולאו."
 
-#: includes/wc-template-functions.php:375
+#: includes/wc-template-functions.php:400
 msgid "Search Results: &ldquo;%s&rdquo;"
 msgstr "תוצאות חיפוש: &ldquo;%s&rdquo;"
 
-#: includes/wc-template-functions.php:378
+#: includes/wc-template-functions.php:403
 msgid "&nbsp;&ndash; Page %s"
 msgstr "&nbsp;&nbsp; עמוד %s"
 
-#: includes/wc-template-functions.php:980
+#: includes/wc-template-functions.php:989
 #: templates/checkout/form-shipping.php:55
 #: templates/single-product/tabs/additional-information.php:14
 msgid "Additional Information"
 msgstr "מידע נוסף"
 
-#: includes/wc-template-functions.php:989
+#: includes/wc-template-functions.php:998
 msgid "Reviews (%d)"
 msgstr "חוות דעת (%d)"
 
-#: includes/wc-template-functions.php:1080
+#: includes/wc-template-functions.php:1089
 msgid ""
 "Use $args argument as an array instead. Deprecated argument will be removed "
 "in WC 2.2."
 msgstr ""
 
-#: includes/wc-template-functions.php:1248
+#: includes/wc-template-functions.php:1257
 msgctxt "breadcrumb"
 msgid "Home"
 msgstr "עמוד הבית"
 
-#: includes/wc-template-functions.php:1549
+#: includes/wc-template-functions.php:1558
 msgid "Order Again"
 msgstr "הזמן שוב"
 
-#: includes/wc-template-functions.php:1640
+#: includes/wc-template-functions.php:1649
 #: templates/cart/shipping-calculator.php:28
 msgid "Select a country&hellip;"
 msgstr "בחר ארץ&hellip;"
 
-#: includes/wc-template-functions.php:1647
+#: includes/wc-template-functions.php:1656
 msgid "Update country"
 msgstr "עדכן ארץ"
 
-#: includes/wc-template-functions.php:1690
+#: includes/wc-template-functions.php:1699
 #: templates/cart/shipping-calculator.php:52
 msgid "Select a state&hellip;"
 msgstr "בחר מדינה&hellip;"
 
-#: includes/wc-template-functions.php:1803
+#: includes/wc-template-functions.php:1812
 msgid "Search for:"
 msgstr "חיפוש עבור:"
 
-#: includes/wc-template-functions.php:1804
+#: includes/wc-template-functions.php:1813
 msgid "Search for products"
 msgstr "חיפוש מוצרים"
 
-#: includes/wc-template-functions.php:1805
+#: includes/wc-template-functions.php:1814
 msgid "Search"
 msgstr "חיפוש"
 
@@ -7002,7 +7269,7 @@ msgstr "הסתר אם סל הקניות ריק"
 
 #: includes/widgets/class-wc-widget-layered-nav-filters.php:21
 msgid "Shows active layered nav filters so users can see and deactivate them."
-msgstr "מראה מסנני nav שכבתיים פעילים, כך שמשתמש יכול לראות ולנטרל אותם."
+msgstr "הצג מסנני ניווט שכבתי פעילים כך שמשתמשים יכולים לראות ולבטל אותם."
 
 #: includes/widgets/class-wc-widget-layered-nav-filters.php:23
 msgid "WooCommerce Layered Nav Filters"
@@ -7010,7 +7277,7 @@ msgstr "מסנני WooCommerce Layered Nav"
 
 #: includes/widgets/class-wc-widget-layered-nav-filters.php:27
 msgid "Active Filters"
-msgstr ""
+msgstr "פילטרים פעילים"
 
 #: includes/widgets/class-wc-widget-layered-nav-filters.php:84
 #: includes/widgets/class-wc-widget-layered-nav-filters.php:91
@@ -7135,7 +7402,7 @@ msgstr "הצג היררכיה"
 msgid "Only show children for the current category"
 msgstr "להראות ילדים אך ורק של קטגוריה נוכחית"
 
-#: includes/widgets/class-wc-widget-product-categories.php:177
+#: includes/widgets/class-wc-widget-product-categories.php:214
 msgid "No product categories exist."
 msgstr "אין קטגוריות מוצרים קיימים."
 
@@ -7149,11 +7416,11 @@ msgstr "חיפוש מוצר"
 
 #: includes/widgets/class-wc-widget-product-tag-cloud.php:21
 msgid "Your most used product tags in cloud format."
-msgstr "ביותר בשימוש תגיות מוצר במתכונת ענן."
+msgstr "תגיות מוצר שהכי בשימוש בתצורת ענן."
 
 #: includes/widgets/class-wc-widget-product-tag-cloud.php:23
 msgid "WooCommerce Product Tags"
-msgstr "תגיות המוצר"
+msgstr "תגיות מוצר"
 
 #: includes/widgets/class-wc-widget-products.php:21
 msgid "Display a list of your products on your site."
@@ -7290,27 +7557,30 @@ msgid "Shipping and Handling"
 msgstr "טיפול ומשלוח"
 
 #: templates/cart/cart-shipping.php:55
-msgid ""
-"No shipping methods were found; please recalculate your shipping or continue"
-" to checkout and enter your full address to see if there is shipping "
-"available to your location."
-msgstr ""
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr "אנא השתמש במחשבון המשלוח כדי לראות שיטות משלוח זמינות."
 
 #: templates/cart/cart-shipping.php:59
+msgid ""
+"Please continue to the checkout and enter your full address to see if there "
+"are any available shipping methods."
+msgstr "אנא המשך לקופה והזן את כתובתך המלאה כדי לראות אם ישנם שיטות משלוח זמינות כלשהן."
+
+#: templates/cart/cart-shipping.php:63
 msgid "Please fill in your details to see available shipping methods."
 msgstr "אנא מלא את פרטיך כדי לראות אפשרויות אספקה."
 
-#: templates/cart/cart-shipping.php:69 templates/cart/cart-shipping.php:77
+#: templates/cart/cart-shipping.php:73 templates/cart/cart-shipping.php:81
 msgid "Sorry, shipping is unavailable %s."
 msgstr ""
 
-#: templates/cart/cart-shipping.php:69 templates/cart/cart-shipping.php:77
+#: templates/cart/cart-shipping.php:73 templates/cart/cart-shipping.php:81
 msgid ""
 "If you require assistance or wish to make alternate arrangements please "
 "contact us."
 msgstr "אם אתה זקוק לסיוע או רוצה לעשות הזמנה חלופית אנא צור קשר."
 
-#: templates/cart/cart-shipping.php:93
+#: templates/cart/cart-shipping.php:97
 msgid "Shipping"
 msgstr "משלוח"
 
@@ -7418,11 +7688,8 @@ msgid "Billing &amp; Shipping"
 msgstr "חיוב ומשלוח"
 
 #: templates/checkout/form-billing.php:19
-#: templates/myaccount/form-edit-address.php:14
-#: templates/myaccount/my-address.php:19 templates/myaccount/my-address.php:25
-#: templates/order/order-details.php:118
-msgid "Billing Address"
-msgstr "כתובת חיוב"
+msgid "Billing Details"
+msgstr "פרטי חיוב"
 
 #: templates/checkout/form-billing.php:38
 msgid "Create an account?"
@@ -7463,7 +7730,7 @@ msgid ""
 "If you have shopped with us before, please enter your details in the boxes "
 "below. If you are a new customer please proceed to the Billing &amp; "
 "Shipping section."
-msgstr "אם קנית כאן בעבר, אנא הכנס את שם המשתמש והסיסמה שלך בתיבות הבאות. אם אתה לקוח חדש אנא המשך לסעיף חיוב ומשלוח."
+msgstr "אם קנית כאן בעבר, אנא הכנס את שם המשתמש והסיסמא שלך בתיבות הבאות. אם אתה לקוח חדש אנא המשך לסעיף חיוב ומשלוח."
 
 #: templates/checkout/form-pay.php:20
 msgid "Qty"
@@ -7503,7 +7770,7 @@ msgid ""
 "arrangements."
 msgstr "סליחה, נראה כי אין אפשרויות משלוח הזמינות עבור המדינה שלך. אנא צור קשר אם אתה זקוק לסיוע או רוצה לעשות הזמנה חלופית."
 
-#: templates/checkout/review-order.php:161
+#: templates/checkout/review-order.php:163
 msgid ""
 "Since your browser does not support JavaScript, or it is disabled, please "
 "ensure you click the <em>Update Totals</em> button before placing your "
@@ -7511,21 +7778,19 @@ msgid ""
 "do so."
 msgstr "הדפדפן שלך לא תומך ב JavaScript, או שהוא מכובה, אנא ודא שאתה לוחץ על <em>עדכן סכום</em> לפני ביצוע ההזמנה. אתה עשוי להיות מחויב יותר מהסכום האמור לעיל, אם לא תצליח לעשות זאת."
 
-#: templates/checkout/review-order.php:161
+#: templates/checkout/review-order.php:163
 msgid "Update totals"
 msgstr "עדכן סכום"
 
-#: templates/checkout/review-order.php:168
+#: templates/checkout/review-order.php:170
 msgid "Place order"
 msgstr "הזן הזמנה"
 
-#: templates/checkout/review-order.php:177
-msgid "I have read and accept the"
-msgstr "אני קראתי ומאשר את "
-
-#: templates/checkout/review-order.php:177
-msgid "terms &amp; conditions"
-msgstr "תנאי השימוש"
+#: templates/checkout/review-order.php:179
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; "
+"conditions</a>"
+msgstr "אני קראתי והנני מסכים/ה <a href=\"%s\" target=\"_blank\">לתנאי השימוש</a>"
 
 #: templates/checkout/thankyou.php:18
 msgid ""
@@ -7552,7 +7817,7 @@ msgstr "תודה לך. ההזמנה שלך התקבלה בהצלחה."
 #: templates/emails/admin-new-order.php:13
 #: templates/emails/plain/admin-new-order.php:13
 msgid "You have received an order from %s. Their order is as follows:"
-msgstr "קיבלת הזמנה מ- %s. לְהַלָן ההזמנה שלהם:"
+msgstr "התקבלה הזמנה מ%s, פרטי ההזמנה הינם:"
 
 #: templates/emails/admin-new-order.php:17
 msgid "Order: %s"
@@ -7577,7 +7842,7 @@ msgstr "פרטי לקוח"
 #: templates/emails/plain/customer-processing-order.php:41
 #: templates/order/order-details.php:101
 msgid "Email:"
-msgstr "דוא\"ל:"
+msgstr "אימייל:"
 
 #: templates/emails/admin-new-order.php:56
 #: templates/emails/customer-completed-order.php:57
@@ -7595,7 +7860,7 @@ msgstr "טלפון:"
 msgid ""
 "Hi there. Your recent order on %s has been completed. Your order details are"
 " shown below for your reference:"
-msgstr "היי. ההזמנה האחרונה שלך מ %s הושלמה. פרטי ההזמנה שלך מוצגים מתחת לעיונך:"
+msgstr "היי. ההזמנה האחרונה שלך מ- %s הושלמה. פרטי ההזמנה שלך מוצגים מתחת לעיונך:"
 
 #: templates/emails/customer-invoice.php:16
 #: templates/emails/plain/customer-invoice.php:14
@@ -7616,7 +7881,7 @@ msgstr "תודה שפתחת חשבון ב%s. שם המשתמש שלך הוא: <s
 
 #: templates/emails/customer-new-account.php:18
 msgid "Your password has been automatically generated: <strong>%s</strong>"
-msgstr "הסיסמה שלך נוצרה באופן אוטומטי: <strong>%s</strong>"
+msgstr "הסיסמא שלך נוצרה באופן אוטומטי: <strong>%s</strong>"
 
 #: templates/emails/customer-new-account.php:22
 #: templates/emails/plain/customer-new-account.php:18
@@ -7646,7 +7911,7 @@ msgstr "הזמנתך התקבלה וכעת נמצאת בטיפול. פרטי ה�
 #: templates/emails/plain/customer-reset-password.php:13
 msgid ""
 "Someone requested that the password be reset for the following account:"
-msgstr "מישהו ביקש לאפס את הסיסמה עבור החשבון שלהלן:"
+msgstr "מישהו ביקש לאפס את הסיסמא עבור החשבון שלהלן:"
 
 #: templates/emails/customer-reset-password.php:15
 #: templates/emails/plain/customer-reset-password.php:15
@@ -7661,11 +7926,11 @@ msgstr "אם זו טעות, פשוט התעלם מאימייל זה ודבר ל�
 #: templates/emails/customer-reset-password.php:17
 #: templates/emails/plain/customer-reset-password.php:17
 msgid "To reset your password, visit the following address:"
-msgstr "כדי לאפס את הסיסמה שלך, בקר בכתובת הבאה:"
+msgstr "כדי לאפס את הסיסמא שלך, בקר בכתובת הבאה:"
 
 #: templates/emails/customer-reset-password.php:20
 msgid "Click here to reset your password"
-msgstr "לחץ כאן כדי לאפס את הסיסמה שלך"
+msgstr "לחץ כאן כדי לאפס את הסיסמא שלך"
 
 #: templates/emails/email-addresses.php:18
 #: templates/emails/plain/email-addresses.php:12
@@ -7713,7 +7978,7 @@ msgstr "תאריך הזמנה: %s"
 
 #: templates/emails/plain/admin-new-order.php:21
 msgid "jS F Y"
-msgstr "jS F Y"
+msgstr "j F Y"
 
 #: templates/emails/plain/customer-completed-order.php:38
 #: templates/emails/plain/customer-note.php:46
@@ -7765,7 +8030,7 @@ msgstr "שם משתמש או כתובת מייל"
 #: templates/global/form-login.php:26 templates/myaccount/form-login.php:36
 #: templates/myaccount/form-login.php:84
 msgid "Password"
-msgstr "סיסמה"
+msgstr "סיסמא"
 
 #: templates/global/form-login.php:38 templates/myaccount/form-login.php:46
 msgid "Remember me"
@@ -7773,7 +8038,7 @@ msgstr "זכור אותי"
 
 #: templates/global/form-login.php:42 templates/myaccount/form-login.php:50
 msgid "Lost your password?"
-msgstr "שכחת סיסמה?"
+msgstr "שכחת סיסמא?"
 
 #: templates/global/quantity-input.php:12
 msgctxt "Product quantity input tooltip"
@@ -7830,11 +8095,11 @@ msgid ""
 "Sorry, it seems that there are no payment methods which support adding a new"
 " payment method. Please contact us if you require assistance or wish to make"
 " alternate arrangements."
-msgstr ""
+msgstr "מצטערים, מסתבר כי אין שיטות תשלום אשר תומכות בהוספת שיטת תשלום חדשה. אנא צור עמנו קשר אם אתה זקוק לעזרה או מבקש ליצור סידורים חלופיים."
 
 #: templates/myaccount/form-add-payment-method.php:48
 msgid "Add Payment Method"
-msgstr ""
+msgstr "הוספת אמצעי תשלום"
 
 #: templates/myaccount/form-edit-account.php:20
 msgid "First name"
@@ -7851,15 +8116,21 @@ msgstr "כתובת אימייל"
 
 #: templates/myaccount/form-edit-account.php:32
 msgid "Password (leave blank to leave unchanged)"
-msgstr "סיסמה (השאר ריק כדי להשאיר ללא שינוי)"
+msgstr "סיסמא (השאר ריק כדי להשאיר ללא שינוי)"
 
 #: templates/myaccount/form-edit-account.php:36
 msgid "Confirm new password"
-msgstr "ווידוא סיסמה חדשה"
+msgstr "וידוא סיסמא חדשה"
 
 #: templates/myaccount/form-edit-account.php:41
 msgid "Save changes"
 msgstr "שמור שינויים"
+
+#: templates/myaccount/form-edit-address.php:14
+#: templates/myaccount/my-address.php:19 templates/myaccount/my-address.php:25
+#: templates/order/order-details.php:118
+msgid "Billing Address"
+msgstr "כתובת חיוב"
 
 #: templates/myaccount/form-edit-address.php:14
 #: templates/myaccount/my-address.php:20 templates/order/order-details.php:133
@@ -7890,23 +8161,23 @@ msgstr "אנטי-ספאם"
 msgid ""
 "Lost your password? Please enter your username or email address. You will "
 "receive a link to create a new password via email."
-msgstr "שכח את הסיסמה שלך? הזן את שם המשתמש שלך או כתובת הדואר אלקטרוני. אתה תקבל קישור ליצירת סיסמא חדשה באמצעות דואר אלקטרוני."
+msgstr "שכח את הסיסמא שלך? הזן את שם המשתמש שלך או כתובת הדואר אלקטרוני. אתה תקבל קישור ליצירת סיסמא חדשה באמצעות דואר אלקטרוני."
 
 #: templates/myaccount/form-lost-password.php:28
 msgid "Enter a new password below."
-msgstr "כתוב סיסמה חדשה למטה."
+msgstr "כתוב סיסמא חדשה למטה."
 
 #: templates/myaccount/form-lost-password.php:31
 msgid "New password"
-msgstr "סיסמה חדשה"
+msgstr "סיסמא חדשה"
 
 #: templates/myaccount/form-lost-password.php:35
 msgid "Re-enter new password"
-msgstr "הכנס מחדש את הסיסמה החדשה"
+msgstr "הכנס מחדש את הסיסמא החדשה"
 
 #: templates/myaccount/form-lost-password.php:46
 msgid "Reset Password"
-msgstr "איפוס סיסמה"
+msgstr "איפוס סיסמא"
 
 #: templates/myaccount/form-lost-password.php:46
 msgid "Save"
@@ -7914,14 +8185,14 @@ msgstr "שמור"
 
 #: templates/myaccount/my-account.php:19
 msgid "Hello <strong>%1$s</strong> (not %1$s? <a href=\"%2$s\">Sign out</a>)."
-msgstr ""
+msgstr "שלום <strong>%1$s</strong> (לא %1$s? <a href=\"%2$s\">התנתק</a>)."
 
 #: templates/myaccount/my-account.php:24
 msgid ""
 "From your account dashboard you can view your recent orders, manage your "
 "shipping and billing addresses and <a href=\"%s\">edit your password and "
 "account details</a>."
-msgstr "מעמוד החשבון שלך אתה יכול לצפות בהזמנות אחרונות, לנהל את כתובת המשלוח והחיוב שלך <a href=\"%s\">ולערוך את הסיסמה ופרטי החשבון שלך</a>."
+msgstr "מעמוד החשבון שלך ניתן לצפות בהזמנות אחרונות, לנהל את כתובת המשלוח והחיוב שלך <a href=\"%s\">ולערוך את הסיסמא ופרטי החשבון שלך</a>."
 
 #: templates/myaccount/my-address.php:17
 msgid "My Addresses"
@@ -7984,7 +8255,7 @@ msgstr "עדכוני הזמנה"
 
 #: templates/myaccount/view-order.php:22 templates/order/tracking.php:37
 msgid "l jS \\o\\f F Y, h:ia"
-msgstr ""
+msgstr "l j \\בF Y, h:ia"
 
 #: templates/order/form-tracking.php:17
 msgid ""
@@ -7999,7 +8270,7 @@ msgstr "מזהה הזמנה"
 
 #: templates/order/form-tracking.php:19
 msgid "Found in your order confirmation email."
-msgstr ""
+msgstr "נמצא במייל אישור ההזמנה שלך."
 
 #: templates/order/form-tracking.php:20
 msgid "Billing Email"
@@ -8027,7 +8298,7 @@ msgstr "טלפון:"
 
 #: templates/order/tracking.php:18
 msgid "Order %s which was made %s has the status &ldquo;%s&rdquo;"
-msgstr ""
+msgstr "ההזמנה %s שבוצעה לפני %s נמצאת במצב &ldquo;%s&rdquo;"
 
 #: templates/order/tracking.php:18
 msgid "ago"
@@ -8059,7 +8330,7 @@ msgstr "מק&quot;ט:"
 
 #: templates/single-product/meta.php:23
 msgid "n/a"
-msgstr "טוקושימה"
+msgstr "לא זמין"
 
 #: templates/single-product/meta.php:27
 msgid "Category:"
@@ -8109,7 +8380,7 @@ msgstr "תיאור מוצר"
 
 #: templates/single-product/up-sells.php:39
 msgid "You may also like&hellip;"
-msgstr ""
+msgstr "ייתכן ותאהב גם&hellip;"
 
 #: templates/single-product-reviews.php:21
 msgid "%s review for %s"
@@ -8189,3 +8460,19 @@ msgstr "תיעוד"
 #: woocommerce.php:183
 msgid "Premium Support"
 msgstr "תמיכה בתשלום"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woothemes.com/woocommerce/"
+msgstr "http://www.woothemes.com/woocommerce/"
+
+#. Description of the plugin/theme
+msgid "An e-commerce toolkit that helps you sell anything. Beautifully."
+msgstr "ערכת מסחר אלקטרוני שעוזרת לכם למכור כל דבר. בצורה יפיפיה."
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr "WooThemes"
+
+#. Author URI of the plugin/theme
+msgid "http://woothemes.com"
+msgstr "http://woothemes.com"

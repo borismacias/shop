@@ -252,11 +252,12 @@ class WC_Shipping_Flat_Rate extends WC_Shipping_Method {
 
 				$extra_rate = $rate;
 
-				$extra_rate['id']		= $this->id . ':' . sanitize_title( $this_option[0] );
-				$extra_rate['label']	= $this_option[0];
-				$this_cost				= $this_option[1];
+				$extra_rate['id']    = $this->id . ':' . $this_option[0];
+				$extra_rate['label'] = $this_option[0];
+				$this_cost           = $this_option[1];
+				$this_cost_percents  = '';
 
-				$pattern = 
+				$pattern =
 					'/' .           // start regex
 					'(\d+\.?\d*)' . // capture digits, optionally capture a `.` and more digits
 					'\s*' .         // match whitespace
@@ -542,7 +543,7 @@ class WC_Shipping_Flat_Rate extends WC_Shipping_Method {
 					</thead>
 					<tfoot>
 						<tr>
-							<th colspan="4"><a href="#" class="add button"><?php _e( '+ Add Cost', 'woocommerce' ); ?></a> <a href="#" class="remove button"><?php _e( 'Delete selected costs', 'woocommerce' ); ?></a></th>
+							<th colspan="4"><a href="#" class="add button"><?php _e( 'Add Cost', 'woocommerce' ); ?></a> <a href="#" class="remove button"><?php _e( 'Delete selected costs', 'woocommerce' ); ?></a></th>
 						</tr>
 					</tfoot>
 					<tbody class="flat_rates">
@@ -664,7 +665,7 @@ class WC_Shipping_Flat_Rate extends WC_Shipping_Method {
 				}
 
 				// Add to flat rates array
-				$flat_rates[ sanitize_title($flat_rate_class[$i]) ] = array(
+				$flat_rates[ $flat_rate_class[ $i ] ] = array(
 					'cost' => $flat_rate_cost[ $i ],
 					'fee'  => $flat_rate_fee[ $i ],
 				);

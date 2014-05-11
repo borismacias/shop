@@ -27,8 +27,9 @@ class WC_Admin_Menus {
 		add_action( 'admin_menu', array( $this, 'settings_menu' ), 50 );
 		add_action( 'admin_menu', array( $this, 'status_menu' ), 60 );
 
-		if ( apply_filters( 'woocommerce_show_addons_page', true ) )
+		if ( apply_filters( 'woocommerce_show_addons_page', true ) ) {
 			add_action( 'admin_menu', array( $this, 'addons_menu' ), 70 );
+		}
 
 		add_action( 'admin_head', array( $this, 'menu_highlight' ) );
 		add_filter( 'menu_order', array( $this, 'menu_order' ) );
@@ -188,8 +189,8 @@ class WC_Admin_Menus {
 	 * Init the reports page
 	 */
 	public function reports_page() {
-		$page = include( 'class-wc-admin-reports.php' );
-		$page->output();
+		include_once( 'class-wc-admin-reports.php' );
+		WC_Admin_Reports::output();
 	}
 
 	/**
