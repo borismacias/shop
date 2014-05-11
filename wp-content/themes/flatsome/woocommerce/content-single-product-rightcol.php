@@ -116,5 +116,7 @@
 
 
 <script type="text/javascript">
-    jQuery(".prod-dropdown a:even").css("background","none");
+    jQuery(document).ready(function(){
+        jQuery(".prod-dropdown a:even").css("background","none");
+    });
 </script>>
