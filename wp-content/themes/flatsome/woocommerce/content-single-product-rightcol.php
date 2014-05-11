@@ -8,8 +8,8 @@
  
 ?>
 <style type="text/css">
-.prod-dropdown a:first{
-    background: url()!important;
+.prod-dropdown a:even{
+    background: none!important;
 }
 </style>
 <div itemscope itemtype="http://schema.org/Product" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>	
