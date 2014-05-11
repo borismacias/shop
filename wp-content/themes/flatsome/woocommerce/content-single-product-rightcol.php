@@ -9,7 +9,7 @@
 ?>
 <style type="text/css">
 .prod-dropdown a:first{
-    background: none!important;
+    background: url()!important;
 }
 </style>
 <div itemscope itemtype="http://schema.org/Product" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>	
