@@ -7,7 +7,11 @@
 	$category_slug 	= empty( $permalinks['category_base'] ) ? _x( 'product-category', 'slug', 'woocommerce' ) : $permalinks['category_base'];
  
 ?>
-
+<style type="text/css">
+.prod-dropdown a:first{
+    background: none!important;
+}
+</style>
 <div itemscope itemtype="http://schema.org/Product" id="product-<?php the_ID(); ?>" <?php post_class(); ?>>	
     
 <div class="row">    
