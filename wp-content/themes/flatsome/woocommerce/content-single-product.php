@@ -123,7 +123,8 @@
             echo "</div></div>";
             $terms = get_the_terms($post->ID,'product_cat');
             $cat = end($terms);
-            $slug = $cat->slug;
+            $slug = $cat->slug
+            print_r($slug);
             echo do_shortcode('[ux_custom_products cat="'.$slug.'" products="5" columns="5" title="M&aacute;s de esta marca"]' );
 
         ?>
