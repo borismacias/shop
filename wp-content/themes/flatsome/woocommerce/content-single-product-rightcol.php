@@ -113,3 +113,8 @@
 </div><!-- #product-<?php the_ID(); ?> -->
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
+
+
+<script type="text/javascript">
+    jQuery(".prod-dropdown a:even").css("background","none");
+</script>>
