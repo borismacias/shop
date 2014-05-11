@@ -112,14 +112,14 @@
             do_action( 'woocommerce_after_single_product_summary' );
 
             $name = get_query_var('name');
-            echo "<div class='row'><h3 class='section-title'><span>&iquest;C&oacute;mo lo uso?</span></h3>";
+            echo "<div class='row'><div class='large-12 columns'><h3 class='section-title'><span>&iquest;C&oacute;mo lo uso?</span></h3>";
             // if($name == 'collar-sweet-flower'){
             //     echo do_shortcode('[supercarousel id=1808]');
             // }
             // else{
                 echo do_shortcode('[block id='.$name.'-look]');
             //}
-            echo "</div>";
+            echo "</div></div>";
             $terms = get_the_terms($post->ID,'product_cat');
             $cat = end($terms);
             $slug = $cat->slug;
