@@ -21,7 +21,7 @@ $cat = $wp_query->get_queried_object();
 <?php 
 // GET CUSTOM HEADER CONTENT FOR CATEGORY
 if($cat->post_title=='Lookbooks'){
-	echo do_shortcode('[ux_banner bg="http://107.170.252.164/shop//wp-content/uploads/2014/04/banner-lookbooks.jpg" height="250px" animation="flipInX" text_align="center" text_pos="center" text_color="light" text_width="80%" parallax="1"]
+	echo do_shortcode('[ux_banner bg="http://107.170.252.164/shop/wp-content/uploads/2014/04/banner-lookbooks.jpg" height="250px" animation="flipInX" text_align="center" text_pos="center" text_color="light" text_width="80%" parallax="1"]
 <h3>Lookbooks<h3>
 
 [/ux_banner]');
