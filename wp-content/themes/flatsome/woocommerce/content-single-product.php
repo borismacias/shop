@@ -113,7 +113,7 @@
 
             $name = get_query_var('name');
             echo "<div class='row'><h3 class='section-title'><span>&iquest;C&oacute;mo lo uso?</span></h3>";
-            echo do_shortcode('[block id='.$name.'-look]');
+            print_r(do_shortcode('[block id='.$name.'-look]'));
             echo "</div>";
             $terms = get_the_terms($post->ID,'product_cat');
             $cat = end($terms);
