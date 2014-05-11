@@ -8,7 +8,7 @@
  
 ?>
 <style type="text/css">
-.prod-dropdown a:even{
+.prod-dropdown a{
     background: none!important;
 }
 </style>
