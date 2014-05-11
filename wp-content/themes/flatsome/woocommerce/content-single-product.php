@@ -18,6 +18,12 @@
     $category_slug  = empty( $permalinks['category_base'] ) ? _x( 'product-category', 'slug', 'woocommerce' ) : $permalinks['category_base'];
 ?>
 
+<style type="text/css">
+.prod-dropdown a:even{
+    background: none!important;
+}
+</style>
+
 <div itemscope itemtype="http://schema.org/Product" id="product-<?php the_ID(); ?>" <?php post_class(); ?>> 
     
 <div class="row">    
@@ -136,3 +142,14 @@
 </div><!-- #product-<?php the_ID(); ?> -->
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>
+
+
+// <script type="text/javascript">
+//     jQuery(document).ready(function(){
+//         window.setTimeout(function(){
+//             jQuery(".prod-dropdown a:even").css("background","none");
+//             console.log("en timeout");
+//         },500)
+        
+//     });
+// </script>
