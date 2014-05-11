@@ -117,6 +117,7 @@
             //     echo do_shortcode('[supercarousel id=1808]');
             // }
             // else{
+            print_r($name);
                 echo do_shortcode('[block id='.$name.'-look]');
             //}
             echo "</div></div>";
