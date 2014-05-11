@@ -117,6 +117,10 @@
 
 <script type="text/javascript">
     jQuery(document).ready(function(){
-        jQuery(".prod-dropdown a:even").css("background","none");
+        window.setTimeout(function(){
+            jQuery(".prod-dropdown a:even").css("background","none");
+            console.log("en timeout");
+        },500)
+        
     });
-</script>>
+</script>
