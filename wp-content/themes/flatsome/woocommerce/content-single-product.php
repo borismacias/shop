@@ -113,7 +113,7 @@
 
             $name = get_query_var('name');
             echo "<div class='row'><h3 class='section-title'><span>&iquest;C&oacute;mo lo uso?</span></h3>";
-            if($name = 'collar-sweet-flower'){
+            if($name == 'collar-sweet-flower'){
                 echo do_shortcode('[supercarousel id=1808]');
             }
             else{
