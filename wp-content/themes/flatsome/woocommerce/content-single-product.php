@@ -148,8 +148,7 @@
     jQuery(document).ready(function(){
          window.setTimeout(function(){
              jQuery(".prod-dropdown a:even").css("background","none");
-             console.log("en timeout");
-         },500)
+         },300)
         
      });
 </script>
