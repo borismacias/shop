@@ -1,0 +1,58 @@
+/* 
+    Alert Classes Pulled from Twitter Bootstrap
+*/
+
+.SGML_form_container .SGML_response {
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 20px;
+    margin-top:20px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.SGML_form_container .SGML_response-success {
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.SGML_form_container .SGML_response-error {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+
+.SGML_form_container .SGML_form input[type="text"], 
+.SGML_form_container .SGML_form select, 
+.SGML_form_container .SGML_form textarea, 
+.SGML_form_container .SGML_form input[type="email"] {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #ddd inset;
+    padding: 16px;
+    padding: 1rem;
+    width: 50%;
+}
+
+.SGML_form_container .SGML_form button, 
+.SGML_form_container .SGML_form input[type="button"], 
+.SGML_form_container .SGML_form input[type="submit"] {
+    background-color: #1e1e1e;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 16px 24px;
+    padding: 1rem 1.5rem;
+    width: auto;
+    color:#fff;
+    margin-top:-10px;
+}
+.SGML_form_container .SGML_form button[disabled]{background:#666}
+.SGML_form_container .SGML_form button .SGML_spinner {display:none;}
+.SGML_form_container .SGML_form button[disabled] .SGML_spinner {display:inline;}
+.SGML_form_container .SGML_lists li {list-style: none;}
